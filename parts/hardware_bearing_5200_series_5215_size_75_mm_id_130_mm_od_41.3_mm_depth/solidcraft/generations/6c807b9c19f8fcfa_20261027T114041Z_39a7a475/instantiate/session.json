@@ -1,0 +1,36 @@
+{
+  "pid": 9248,
+  "arguments": [
+    "C:\\Program Files\\SolidCraft\\solidcraft-cli.exe",
+    "mcp",
+    "--headless",
+    "--param-check",
+    "strict",
+    "--in",
+    "C:\\od\\OneDrive\\docs\\oomp_bearing\\solidcraft_library\\masters\\3658905e524f2ed14e95\\20261027T113752Z_933400b9\\parametric.solidcraft",
+    "--allow-path",
+    "C:\\od\\OneDrive\\docs\\oomp_bearing"
+  ],
+  "scoped_environment": {
+    "SOLIDCRAFT_RECOVERY_DIR": "C:\\od\\OneDrive\\docs\\oomp_bearing\\parts\\hardware_bearing_5200_series_5215_size_75_mm_id_130_mm_od_41.3_mm_depth\\solidcraft\\generations\\6c807b9c19f8fcfa_20261027T114041Z_39a7a475\\instantiate\\recovery",
+    "TEMP": "C:\\od\\OneDrive\\docs\\oomp_bearing\\parts\\hardware_bearing_5200_series_5215_size_75_mm_id_130_mm_od_41.3_mm_depth\\solidcraft\\generations\\6c807b9c19f8fcfa_20261027T114041Z_39a7a475\\instantiate\\temp",
+    "TMP": "C:\\od\\OneDrive\\docs\\oomp_bearing\\parts\\hardware_bearing_5200_series_5215_size_75_mm_id_130_mm_od_41.3_mm_depth\\solidcraft\\generations\\6c807b9c19f8fcfa_20261027T114041Z_39a7a475\\instantiate\\temp"
+  },
+  "initialize": {
+    "capabilities": {
+      "resources": {
+        "listChanged": false
+      },
+      "tools": {
+        "listChanged": false
+      }
+    },
+    "instructions": "SolidCraft is an independent parametric 3D CAD app. Units are millimetres and degrees in expressions (internally radians), Z is up. Model like this: `sketch.create {plane: XY}`, draw (`sketch.rectangle.two_point {p0, p1}`, `sketch.circle.center {center, radius}`, `sketch.line {points, closed}`), constrain and dimension (`sketch.dimension {entities, value}`; values may name parameters), `sketch.finish`, then features (`solid.extrude {distance, operation?: new|join|cut|intersect}`, `solid.revolve`, `solid.fillet {edges: [[x,y,z] point on edge], radius}`, `solid.chamfer`, patterns, mirror, primitives). Use `batch` for several steps at once, `list_commands` for ids and parameter docs, `describe_command` for a command's schemas, `inspect_design` / `measure` to verify, `body_topology` to find edge points, `set_parameter` to drive the design and `screenshot` to look at it. A call whose error starts `still running:` was not cancelled: don't send it again; `pending` waits for its result. Backend: headless in-process SolidCraft session.",
+    "protocolVersion": "2025-06-18",
+    "serverInfo": {
+      "name": "solidcraft",
+      "title": "SolidCraft",
+      "version": "0.22.0"
+    }
+  }
+}

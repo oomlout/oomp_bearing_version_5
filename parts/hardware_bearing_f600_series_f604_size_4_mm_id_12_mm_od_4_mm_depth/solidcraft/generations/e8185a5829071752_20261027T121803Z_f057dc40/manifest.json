@@ -1,0 +1,165 @@
+{
+  "status": "passed",
+  "schema_version": 1,
+  "fingerprint": "e8185a5829071752ec974c681bab963739ad85dca09fee67f04c6be95715a92d",
+  "part_id": "hardware_bearing_f600_series_f604_size_4_mm_id_12_mm_od_4_mm_depth",
+  "spec": {
+    "family": "flanged_deep_groove",
+    "closure": "open",
+    "ball_count": 8,
+    "balls_per_row": 8,
+    "row_count": 1,
+    "parameters": {
+      "bore": 4.0,
+      "outside": 12.0,
+      "width": 4.0,
+      "edge": 0.24,
+      "pitch_radius": 4.0,
+      "ball_radius": 1.12,
+      "groove_radius": 1.1480000000000001,
+      "inner_shoulder": 3.3056,
+      "outer_shoulder": 4.6944,
+      "cage_half_width": 0.6160000000000001,
+      "cage_low": 1.064,
+      "cage_high": 1.288,
+      "window_radius": 0.5376000000000001,
+      "flange_diameter": 13.5,
+      "flange_thickness": 1.0,
+      "flange_edge": 0.15
+    },
+    "contact_angle_authority": "not_applicable",
+    "ball_specification": "illustrative"
+  },
+  "units": "mm",
+  "anchor": "axis Z, center at origin",
+  "sources": [
+    "https://koyo.jtekt.co.jp/en/products/detail/print.php?pno=F604"
+  ],
+  "dimension_authority": "manufacturer_checked",
+  "limitation": "Nominal presentation model. Raceways, pitch circle, chamfers and retainer geometry are illustrative; ball count/diameter are illustrative unless individually sourced. Not a manufacturer reconstruction, load-rating model or manufacturing/tolerance certification. Unspecified closure is presented open.",
+  "backend": "solidcraft-cli 0.22.0",
+  "generator": {
+    "working.py": "baba87babd5b5ab6dcdd1db9c1c16c3ae2f74eb48874004713e9868fa6eb8c70",
+    "catalogue.py": "a13d5ce416b24256b7a25a573bd1e89585fd6f639ba249e189e36e8e43cbba6a",
+    "native.py": "fdac81b535f7aa45313fb52743269616ba230eb7d01fd69fab142f636894d933",
+    "batch.py": "b7a110c0a8500f7d87fb5cf5878aa94dea2969a79c8a255e671d4e88831043eb"
+  },
+  "input_hashes": {
+    "parts_source\\hardware_bearing_F600_series_F604_size_4_mm_id_12_mm_od_4_mm_depth\\working.yaml": "fde0d1ac0bbbaef1da49b785fead487f79bd1fc06da7be224388c1f18ccf8bb6",
+    "parts\\hardware_bearing_f600_series_f604_size_4_mm_id_12_mm_od_4_mm_depth\\working.yaml": "4ac320583f0611a8e9bea179886ff2d51f893f35391746ea9b942235ce204e22",
+    "source_file\\dimension\\oomp_bearing_sizes.csv": "c9c084d7b6e869f912770cbdebd232eb92f43813e80344152dfd366067ccf767",
+    "source_file\\solidcraft\\bearing_facts.json": "231259bb30e68adf6c82d1ed7928695ec22dcbff2795607a3406ecc8be13f061",
+    "source_file/solidcraft/references/jtekt_F604.html": "e5cd0e00b6ea731df3a8015dabb897ca27933f5dbccf286afcd5a58fc2f5dc19"
+  },
+  "delivery_format": "SolidCraft native",
+  "template": "solidcraft_library\\masters\\1cac768a730d15e0e4c1\\20261027T121742Z_58050995\\parametric.solidcraft",
+  "template_sha256": "f144e7b98c8cfbb180cc36149549d53f4ec3b4e901327970b8b44ae94600c559",
+  "master_validation": {
+    "original": {
+      "status": "passed",
+      "scope": "native SolidCraft B-rep",
+      "body_count": 12,
+      "ball_count": 8,
+      "row_count": 1,
+      "bounds_mm": {
+        "outside": 12.0,
+        "envelope": 13.5,
+        "width": 4.0
+      },
+      "bore_mm": 4.0,
+      "ball_diameter_mm": 2.24,
+      "pitch_radius_mm": 4.0,
+      "volume_mm3": 315.4602232504643,
+      "checks": [
+        "healthy timeline and constrained sketches",
+        "separate positive-volume closed bodies",
+        "bearing envelope and width",
+        "bore and outside cylindrical surfaces",
+        "ball sizes, pitch circle and angular spacing",
+        "retainer separation and width"
+      ]
+    },
+    "width_edit": {
+      "before_mm": 4.0,
+      "after_mm": 4.04,
+      "saved_and_reopened": true,
+      "measurements": {
+        "status": "passed",
+        "scope": "native SolidCraft B-rep",
+        "body_count": 12,
+        "ball_count": 8,
+        "row_count": 1,
+        "bounds_mm": {
+          "outside": 12.0,
+          "envelope": 13.5,
+          "width": 4.04
+        },
+        "bore_mm": 4.0,
+        "ball_diameter_mm": 2.24,
+        "pitch_radius_mm": 4.0,
+        "volume_mm3": 318.0851827541389,
+        "checks": [
+          "healthy timeline and constrained sketches",
+          "separate positive-volume closed bodies",
+          "bearing envelope and width",
+          "bore and outside cylindrical surfaces",
+          "ball sizes, pitch circle and angular spacing",
+          "retainer separation and width"
+        ]
+      }
+    }
+  },
+  "validation": {
+    "generated": {
+      "status": "passed",
+      "scope": "native SolidCraft B-rep",
+      "body_count": 12,
+      "ball_count": 8,
+      "row_count": 1,
+      "bounds_mm": {
+        "outside": 12.0,
+        "envelope": 13.5,
+        "width": 4.0
+      },
+      "bore_mm": 4.0,
+      "ball_diameter_mm": 2.24,
+      "pitch_radius_mm": 4.0,
+      "volume_mm3": 315.4602232504643,
+      "checks": [
+        "healthy timeline and constrained sketches",
+        "separate positive-volume closed bodies",
+        "bearing envelope and width",
+        "bore and outside cylindrical surfaces",
+        "ball sizes, pitch circle and angular spacing",
+        "retainer separation and width"
+      ]
+    },
+    "reopened": {
+      "status": "passed",
+      "scope": "native SolidCraft B-rep",
+      "body_count": 12,
+      "ball_count": 8,
+      "row_count": 1,
+      "bounds_mm": {
+        "outside": 12.0,
+        "envelope": 13.5,
+        "width": 4.0
+      },
+      "bore_mm": 4.0,
+      "ball_diameter_mm": 2.24,
+      "pitch_radius_mm": 4.0,
+      "volume_mm3": 315.4602232504643,
+      "checks": [
+        "healthy timeline and constrained sketches",
+        "separate positive-volume closed bodies",
+        "bearing envelope and width",
+        "bore and outside cylindrical surfaces",
+        "ball sizes, pitch circle and angular spacing",
+        "retainer separation and width"
+      ]
+    }
+  },
+  "artifacts": {
+    "bearing_f604_open.solidcraft": "0e8406fc0a0a845b3312e9aee6c1aaf8ff5bcbd31087aaedbcf8878dac95020b"
+  }
+}

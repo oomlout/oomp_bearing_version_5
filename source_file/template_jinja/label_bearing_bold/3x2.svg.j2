@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+{% set widths = {" ": 0.228031, "!": 0.272953, "\"": 0.389156, "#": 0.456062, "$": 0.456062, "%": 0.729, "&": 0.591797, "'": 0.194828, "(": 0.272953, ")": 0.272953, "*": 0.318844, "+": 0.479, ",": 0.228031, "-": 0.272953, ".": 0.228031, "/": 0.228031, "0": 0.456062, "1": 0.456062, "2": 0.456062, "3": 0.456062, "4": 0.456062, "5": 0.456062, "6": 0.456062, "7": 0.456062, "8": 0.456062, "9": 0.456062, ":": 0.272953, ";": 0.272953, "<": 0.479, "=": 0.479, ">": 0.479, "?": 0.500984, "@": 0.799813, "A": 0.591797, "B": 0.591797, "C": 0.591797, "D": 0.591797, "E": 0.546875, "F": 0.500984, "G": 0.638188, "H": 0.591797, "I": 0.228031, "J": 0.456062, "K": 0.591797, "L": 0.500984, "M": 0.683109, "N": 0.591797, "O": 0.638188, "P": 0.546875, "Q": 0.638188, "R": 0.591797, "S": 0.546875, "T": 0.500984, "U": 0.591797, "V": 0.546875, "W": 0.773922, "X": 0.546875, "Y": 0.546875, "Z": 0.500984, "[": 0.272953, "\\": 0.228031, "]": 0.272953, "^": 0.479, "_": 0.456062, "`": 0.272953, "a": 0.456062, "b": 0.500984, "c": 0.456062, "d": 0.500984, "e": 0.456062, "f": 0.272953, "g": 0.500984, "h": 0.500984, "i": 0.228031, "j": 0.228031, "k": 0.456062, "l": 0.228031, "m": 0.729, "n": 0.500984, "o": 0.500984, "p": 0.500984, "q": 0.500984, "r": 0.318844, "s": 0.456062, "t": 0.272953, "u": 0.500984, "v": 0.456062, "w": 0.638188, "x": 0.456062, "y": 0.456062, "z": 0.410156, "{": 0.318844, "|": 0.229984, "}": 0.318844, "~": 0.479} %}
+{% macro fit(text, maximum, available) -%}
+  {%- set n = namespace(width=0) -%}
+  {%- for c in text|string -%}{%- set n.width = n.width + widths.get(c, 0.8) -%}{%- endfor -%}
+  {{- [maximum, available / ([n.width, 0.01]|max)]|min -}}
+{%- endmacro %}
+{% macro number(value) -%}{{ '%.10g'|format(value|string|replace('_', '.')|float) }}{%- endmacro %}
+{% set d = dict(p) %}
+{% set _ = d.update(p.get('label_source', {})) %}
+{% set _ = d.update(p.get('label_manual', {})) %}
+{% set code = (d.get('size') or d.get('taxonomy_4', '')|replace('_size', ''))|string %}
+{% set family = (d.get('family') or d.get('series') or d.get('taxonomy_3', '')|replace('_series', ''))|string %}
+{% set raw_id = d.get('id_mm', d.get('inner_diameter', d.get('id', '')))|string %}
+{% if raw_id|replace('_', '.')|float(none) is none %}{% set raw_id = d.get('taxonomy_5', '')|replace('_mm_id', '') %}{% endif %}
+{% set inner = number(raw_id) %}
+{% set outer = number(d.get('od_mm', d.get('od', d.get('taxonomy_6', '')|replace('_mm_od', '')))) %}
+{% set width = number(d.get('width_mm', d.get('width', d.get('depth', d.get('taxonomy_7', '')|replace('_mm_depth', ''))))) %}
+{% set mnemonic = d.get('bip_39_3_word_space') or d.get('bip_39_3_word_array', [])|join(' ') %}
+<svg xmlns="http://www.w3.org/2000/svg" width="76.2mm" height="50.8mm" viewBox="0 0 76.2 50.8" role="img" aria-labelledby="title">
+  <title id="title">Bearing {{ code|e }}; family {{ family|e }}; ID {{ inner }} mm; OD {{ outer }} mm; width {{ width }} mm; {{ mnemonic|e }}</title>
+  <desc>Print at actual size. Dimensions in millimetres. Current bearing source and manual overrides are read at render time.</desc>
+  <g transform="scale(2)" font-family="Arial Narrow, Liberation Sans Narrow, sans-serif" font-weight="700" fill="#000000">
+    <rect width="38.1" height="25.4" fill="#ffffff"/>
+    <rect x="0.8" y="0.8" width="36.5" height="7.1" rx="0.5" fill="#000000"/>
+    <text id="bearing-code" x="1.8" y="6.5" font-size="{{ fit(code, 6.5, 22) }}" fill="#ffffff">{{ code|e }}</text>
+    <text x="35.9" y="5.5" text-anchor="end" font-size="2.5" fill="#ffffff">BEARING</text>
+    <text x="1.8" y="11.4" font-size="2.25">FAMILY</text>
+    <text id="bearing-family" x="10.1" y="11.4" font-size="{{ fit(family, 3.4, 25.5) }}">{{ family|e }}</text>
+    <g text-anchor="middle">
+      <text x="7.1" y="14.4" font-size="1.85">ID mm</text>
+      <text x="19.05" y="14.4" font-size="1.85">OD mm</text>
+      <text x="31" y="14.4" font-size="1.85">WIDTH mm</text>
+      <text id="bearing-id" x="7.1" y="19.6" font-size="{{ fit(inner, 5.8, 10.4) }}">{{ inner }}</text>
+      <text id="bearing-od" x="19.05" y="19.6" font-size="{{ fit(outer, 5.8, 10.4) }}">{{ outer }}</text>
+      <text id="bearing-width" x="31" y="19.6" font-size="{{ fit(width, 5.8, 10.4) }}">{{ width }}</text>
+    </g>
+    <path d="M13.05 14.8V20.2 M25.05 14.8V20.2" stroke="#000000" stroke-width="0.2"/>
+    <path d="M1.8 21.8H36.3" stroke="#000000" stroke-width="0.22"/>
+    <text id="bip39" x="1.8" y="24.2" font-size="{{ fit(mnemonic, 2.85, 34.5) }}">{{ mnemonic|e }}</text>
+  </g>
+</svg>

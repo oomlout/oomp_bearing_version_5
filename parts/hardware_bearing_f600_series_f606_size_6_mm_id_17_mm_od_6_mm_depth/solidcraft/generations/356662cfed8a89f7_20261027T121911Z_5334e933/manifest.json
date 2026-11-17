@@ -1,0 +1,165 @@
+{
+  "status": "passed",
+  "schema_version": 1,
+  "fingerprint": "356662cfed8a89f71f490ace9d9faf902168fcfceb8cd14b4cd5fb517b1c3d46",
+  "part_id": "hardware_bearing_f600_series_f606_size_6_mm_id_17_mm_od_6_mm_depth",
+  "spec": {
+    "family": "flanged_deep_groove",
+    "closure": "open",
+    "ball_count": 8,
+    "balls_per_row": 8,
+    "row_count": 1,
+    "parameters": {
+      "bore": 6.0,
+      "outside": 17.0,
+      "width": 6.0,
+      "edge": 0.32999999999999996,
+      "pitch_radius": 5.75,
+      "ball_radius": 1.54,
+      "groove_radius": 1.5785,
+      "inner_shoulder": 4.7952,
+      "outer_shoulder": 6.7048,
+      "cage_half_width": 0.8470000000000001,
+      "cage_low": 1.4629999999999999,
+      "cage_high": 1.771,
+      "window_radius": 0.7392,
+      "flange_diameter": 19.0,
+      "flange_thickness": 1.2,
+      "flange_edge": 0.18
+    },
+    "contact_angle_authority": "not_applicable",
+    "ball_specification": "illustrative"
+  },
+  "units": "mm",
+  "anchor": "axis Z, center at origin",
+  "sources": [
+    "https://koyo.jtekt.co.jp/en/products/detail/print.php?pno=F606"
+  ],
+  "dimension_authority": "manufacturer_checked",
+  "limitation": "Nominal presentation model. Raceways, pitch circle, chamfers and retainer geometry are illustrative; ball count/diameter are illustrative unless individually sourced. Not a manufacturer reconstruction, load-rating model or manufacturing/tolerance certification. Unspecified closure is presented open.",
+  "backend": "solidcraft-cli 0.22.0",
+  "generator": {
+    "working.py": "baba87babd5b5ab6dcdd1db9c1c16c3ae2f74eb48874004713e9868fa6eb8c70",
+    "catalogue.py": "a13d5ce416b24256b7a25a573bd1e89585fd6f639ba249e189e36e8e43cbba6a",
+    "native.py": "fdac81b535f7aa45313fb52743269616ba230eb7d01fd69fab142f636894d933",
+    "batch.py": "b7a110c0a8500f7d87fb5cf5878aa94dea2969a79c8a255e671d4e88831043eb"
+  },
+  "input_hashes": {
+    "parts_source\\hardware_bearing_F600_series_F606_size_6_mm_id_17_mm_od_6_mm_depth\\working.yaml": "946855889c0254c59924e457ced11124f2c37e03a08dfdf69e657c826c8e8c8e",
+    "parts\\hardware_bearing_f600_series_f606_size_6_mm_id_17_mm_od_6_mm_depth\\working.yaml": "3839ed021b0229aaa5b329aa14763daf525658830a1235ca51a3aaf1edf2fbe4",
+    "source_file\\dimension\\oomp_bearing_sizes.csv": "c9c084d7b6e869f912770cbdebd232eb92f43813e80344152dfd366067ccf767",
+    "source_file\\solidcraft\\bearing_facts.json": "231259bb30e68adf6c82d1ed7928695ec22dcbff2795607a3406ecc8be13f061",
+    "source_file/solidcraft/references/jtekt_F606.html": "e17b061a0c08aea100d4c3ab11e2a3f2cf0be9a988f46208b2366ab7facd107f"
+  },
+  "delivery_format": "SolidCraft native",
+  "template": "solidcraft_library\\masters\\f882f961c20a87742f0e\\20261027T121850Z_dc169719\\parametric.solidcraft",
+  "template_sha256": "78fafe146f10d08610b8b3f2d3d4274929ff256f860e49899fc78c71320d85ba",
+  "master_validation": {
+    "original": {
+      "status": "passed",
+      "scope": "native SolidCraft B-rep",
+      "body_count": 12,
+      "ball_count": 8,
+      "row_count": 1,
+      "bounds_mm": {
+        "outside": 17.0,
+        "envelope": 19.0,
+        "width": 6.0
+      },
+      "bore_mm": 6.0,
+      "ball_diameter_mm": 3.08,
+      "pitch_radius_mm": 5.75,
+      "volume_mm3": 903.8533301323556,
+      "checks": [
+        "healthy timeline and constrained sketches",
+        "separate positive-volume closed bodies",
+        "bearing envelope and width",
+        "bore and outside cylindrical surfaces",
+        "ball sizes, pitch circle and angular spacing",
+        "retainer separation and width"
+      ]
+    },
+    "width_edit": {
+      "before_mm": 6.0,
+      "after_mm": 6.0600000000000005,
+      "saved_and_reopened": true,
+      "measurements": {
+        "status": "passed",
+        "scope": "native SolidCraft B-rep",
+        "body_count": 12,
+        "ball_count": 8,
+        "row_count": 1,
+        "bounds_mm": {
+          "outside": 17.0,
+          "envelope": 19.0,
+          "width": 6.0600000000000005
+        },
+        "bore_mm": 6.0,
+        "ball_diameter_mm": 3.08,
+        "pitch_radius_mm": 5.75,
+        "volume_mm3": 911.6361074371401,
+        "checks": [
+          "healthy timeline and constrained sketches",
+          "separate positive-volume closed bodies",
+          "bearing envelope and width",
+          "bore and outside cylindrical surfaces",
+          "ball sizes, pitch circle and angular spacing",
+          "retainer separation and width"
+        ]
+      }
+    }
+  },
+  "validation": {
+    "generated": {
+      "status": "passed",
+      "scope": "native SolidCraft B-rep",
+      "body_count": 12,
+      "ball_count": 8,
+      "row_count": 1,
+      "bounds_mm": {
+        "outside": 17.0,
+        "envelope": 19.0,
+        "width": 6.0
+      },
+      "bore_mm": 6.0,
+      "ball_diameter_mm": 3.08,
+      "pitch_radius_mm": 5.75,
+      "volume_mm3": 903.8533301323556,
+      "checks": [
+        "healthy timeline and constrained sketches",
+        "separate positive-volume closed bodies",
+        "bearing envelope and width",
+        "bore and outside cylindrical surfaces",
+        "ball sizes, pitch circle and angular spacing",
+        "retainer separation and width"
+      ]
+    },
+    "reopened": {
+      "status": "passed",
+      "scope": "native SolidCraft B-rep",
+      "body_count": 12,
+      "ball_count": 8,
+      "row_count": 1,
+      "bounds_mm": {
+        "outside": 17.0,
+        "envelope": 19.0,
+        "width": 6.0
+      },
+      "bore_mm": 6.0,
+      "ball_diameter_mm": 3.08,
+      "pitch_radius_mm": 5.75,
+      "volume_mm3": 903.8533301323556,
+      "checks": [
+        "healthy timeline and constrained sketches",
+        "separate positive-volume closed bodies",
+        "bearing envelope and width",
+        "bore and outside cylindrical surfaces",
+        "ball sizes, pitch circle and angular spacing",
+        "retainer separation and width"
+      ]
+    }
+  },
+  "artifacts": {
+    "bearing_f606_open.solidcraft": "a6aaba245d9059824a80a979a98b8f32421c149abeee0c7ac9ef0821e1ba76f0"
+  }
+}

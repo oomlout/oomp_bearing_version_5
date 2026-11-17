@@ -1,0 +1,18 @@
+Run the corrected bearing extension batch using the existing deterministic generator.
+
+Workspace: C:\od\OneDrive\docs\software_cad_mcp_helper
+Bearing library: C:\od\OneDrive\docs\oomp_bearing
+
+Read components/bearing_catalogue/notes.md, solidcraft_dimension_migration.json and solidcraft_extension_review.json in the library. The user authorized resolving dimension reviews using established catalogue variants. All 61 extension entries now pass preflight; the separate 6208 correction also passes. Full catalogue: 339 ready, zero reviews. CSV, source records, materialized IDs and folders are corrected. Old folders/drawings are preserved in the recorded migration archive; do not restore them into active parts.
+
+For 5300, 5301, 5315 and 5316, the generic model deliberately uses NSK's documented 25-degree 5xxx family convention. Their envelope dimensions are RBI-sourced. The contact angle is explicitly labelled selected_catalogue_convention, not an RBI-specific specification. Preserve that provenance. No sales-ranking claim is made.
+
+From the helper workspace in PowerShell run these commands sequentially:
+& .\.venv\Scripts\python.exe .\action_build_bearing_catalogue.py --root C:\od\OneDrive\docs\oomp_bearing --build --series F600 --series 5200 --series 5300 --manufacturer-only
+& .\.venv\Scripts\python.exe .\action_build_bearing_catalogue.py --root C:\od\OneDrive\docs\oomp_bearing --build --size 6208 --manufacturer-only
+
+Monitor solidcraft_progress.json and report current size, completed/total and status counts periodically. Retain each run path, because the second run replaces the latest progress file. Keep generation serial. Reuse hash-verified successes. Models belong in existing library part folders; consuming projects use the established complete-folder importer. Generation must remain algorithmic, with no AI-created per-part geometry.
+
+Do not run other catalogue series, legacy make-all/actions, or a source refresh. Do not overwrite the approved facts or undo the dimension migration. If a CAD failure occurs, inspect its run trace, fix the shared deterministic code where appropriate and retry only affected sizes. Preserve old success pointers and failure evidence. Do not remove a lock belonging to a live process.
+
+Report aggregate succeeded/reused/needs_review/failed counts for both runs, link their progress reports, and stop. New review entries would be unexpected and should be investigated without silently relaxing checks.

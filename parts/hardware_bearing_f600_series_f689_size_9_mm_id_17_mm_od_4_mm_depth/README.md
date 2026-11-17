@@ -1,0 +1,1205 @@
+<!-- bearing-catalogue:start -->
+# F689 bearing - 9 x 17 x 4 mm
+
+## Summary
+
+Flanged deep groove bearing: 9 mm bore, 17 mm outside diameter and 4 mm width.
+
+| Product view | Isometric view |
+| --- | --- |
+| ![Open bearing product render](three_d_model/render_product_low.png) | ![Open bearing isometric render](three_d_model/render_low.png) |
+
+Generated catalogue illustrations; the open internal geometry is illustrative.
+
+## Details
+
+**OOMP ID:** `hardware_bearing_f600_series_f689_size_9_mm_id_17_mm_od_4_mm_depth`
+
+| Dimension | Nominal value |
+| --- | --- |
+| Bore / ID | 9 mm |
+| Outside diameter / OD | 17 mm |
+| Width / B | 4 mm |
+| Flange outside diameter | 19 mm |
+| Flange thickness | 1 mm |
+
+**Dimension evidence:** manufacturer checked (review retained from 2026-10-27).
+
+Nominal presentation model. Raceways, pitch circle, chamfers and retainer geometry are illustrative; ball count/diameter are illustrative unless individually sourced. Not a manufacturer reconstruction, load-rating model or manufacturing/tolerance certification. Unspecified closure is presented open. The mesh shows open races and balls; retainers, seals and exact contact surfaces are omitted.
+
+![Dimensioned front and side views](working_dimension.svg)
+
+[Printable A4 dimension sheet](working_dimension_a4.pdf) · [1:1 outline](working_svg.svg)
+
+### Source evidence
+
+- [https://koyo.jtekt.co.jp/en/products/detail/print.php?pno=F689](https://koyo.jtekt.co.jp/en/products/detail/print.php?pno=F689)
+
+[Retained research and corrected dimensions](../../source_file/solidcraft/) · [Editable declaration](../../working_oomp_declarations_bearing.py)
+
+## Parts
+
+[Canonical part folder](.) · [Metadata](working.yaml) · [Browse this series](../../navigation/F600/README.md)
+
+### Files
+
+- [Editable OpenSCAD geometry](3dpr.scad)
+- [Full model / GLB / metres, Y-up](three_d_model/model_full.glb)
+- [Lightweight model / GLB / metres, Y-up](three_d_model/model_display.glb)
+- [Editable Blender studio](three_d_model/studio.blend)
+- [Product render / 2048 px](three_d_model/render_product_high.png)
+- [Isometric render / 2048 px](three_d_model/render_high.png)
+- [Populated model and render recipe](three_d_model/parameters.json)
+- [Mesh measurements and artifact hashes](three_d_model/manifest.json)
+- [Retained native CAD success manifest](solidcraft/latest_success.json)
+- [76.2 x 50.8 mm label](label_bearing_3x2.pdf)
+- [38.1 x 25.4 mm label](label_bearing_1_5x1.pdf)
+- [Retained editable native bearing / SolidCraft](solidcraft/generations/e0619a3ca087f5e9_20261027T122848Z_cb052f2c/bearing_f689_open.solidcraft)
+
+### Orthographic views
+
+| Quality | Isometric | Front | Back | Left | Right | Top | Bottom |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Full | [Isometric](three_d_model/full/isometric.svg) | [Front](three_d_model/full/front.svg) | [Back](three_d_model/full/back.svg) | [Left](three_d_model/full/left.svg) | [Right](three_d_model/full/right.svg) | [Top](three_d_model/full/top.svg) | [Bottom](three_d_model/full/bottom.svg) |
+| Display | [Isometric](three_d_model/display/isometric.svg) | [Front](three_d_model/display/front.svg) | [Back](three_d_model/display/back.svg) | [Left](three_d_model/display/left.svg) | [Right](three_d_model/display/right.svg) | [Top](three_d_model/display/top.svg) | [Bottom](three_d_model/display/bottom.svg) |
+
+## Assembly
+
+No installation procedure is established for this generic size record. Select the required closure, clearance, tolerance and load rating from the actual purchased bearing specification.
+
+<details>
+<summary>Complete OOMP metadata</summary>
+
+```yaml
+depth: 4.0
+id: hardware_bearing_f600_series_f689_size_9_mm_id_17_mm_od_4_mm_depth
+od: 17.0
+series: F600
+size: F689
+svg_details:
+  svg_name: bearing_dimension
+  title: F689 / OPEN BEARING
+  family: FLANGED DEEP GROOVE
+  dimensions_mm:
+    bore: 9.0
+    outside: 17.0
+    width: 4.0
+    flange_diameter: 19.0
+    flange_thickness: 1.0
+  sheet_width_mm: 297
+  sheet_height_mm: 210
+  ink: '#183336'
+  accent: '#147d83'
+  muted: '#61767a'
+  paper: '#ffffff'
+  race_face_fill: '#edf3f3'
+  inner_race_face_outside_mm: 11.6112
+  outer_race_face_inside_mm: 14.3888
+  line_width_mm: 0.45
+  font_family: Helvetica
+  dimension_font_mm: 4
+  title_font_mm: 9
+  front_centre_mm:
+  - 79
+  - 103
+  side_centre_mm:
+  - 211
+  - 103
+  max_view_width_mm: 78
+  max_side_width_mm: 55
+  dimension_offset_mm: 12
+  arrow_size_mm: 2
+  note: Nominal dimensions in mm. Illustration only; no tolerances or fit allowances.
+  authority: manufacturer checked
+  internal_note: Open presentation; internal races and balls are illustrative. Retainers
+    omitted.
+  layout:
+    left_margin_mm: 14
+    right_margin_mm: 283
+    title_y_mm: 22
+    family_y_mm: 33
+    family_font_mm: 3.5
+    brand: OOMP / BEARINGS
+    brand_font_mm: 3.5
+    header_rule_y_mm: 40
+    view_caption_y_mm: 173
+    view_caption_font_mm: 3
+    front_caption: FRONT VIEW
+    side_caption: SIDE VIEW
+    footer_rule_y_mm: 180
+    note_y_mm: 187
+    internal_note_y_mm: 194
+    note_font_mm: 3.2
+    source_y_mm: 202
+    source_font_mm: 3
+    source_prefix: 'SOURCE: '
+    scale_prefix: A4 / scale
+  dimension_style:
+    line_width_mm: 0.25
+    arrow_half_width_ratio: 0.3
+    text_gap_mm: 2
+    extension_mm: 2
+    width_extension_mm: 3
+    centre_extension_mm: 5
+    dash_pattern_mm:
+    - 2
+    - 1
+    flange_leader_offset_mm:
+    - -13
+    - 11
+    flange_text_offset_mm:
+    - -13
+    - 16
+    flange_font_mm: 3.5
+  outline:
+    ink: black
+    line_width_mm: 0.1
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: bearing
+taxonomy_3: F600_series
+taxonomy_4: F689_size
+taxonomy_5: 9_mm_id
+taxonomy_6: 17_mm_od
+taxonomy_7: 4_mm_depth
+taxonomy_8: ''
+taxonomy_9: ''
+weight: '4'
+width: 4.0
+dimension_selection:
+  policy: standard_metric_open_catalogue
+  previous_id: hardware_bearing_f600_series_f689_size_9_mm_id_17_mm_od_5_mm_depth
+  sources:
+  - https://koyo.jtekt.co.jp/en/products/detail/print.php?pno=F689
+  note: User selected standard catalogue variants on 2026-10-27; no sales ranking
+    asserted.
+url_chat: https://chatgpt.com/c/6abe506b-bcc8-83eb-b27f-a6c332b32416
+run_action: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: false
+generate_stl: false
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_2_upper: BEARING
+taxonomy_2_upper_length_1: B
+taxonomy_2_upper_length_2: BE
+taxonomy_2_upper_length_3: BEA
+taxonomy_2_upper_length_4: BEAR
+taxonomy_2_upper_length_5: BEARI
+taxonomy_2_length_1: b
+taxonomy_2_length_2: be
+taxonomy_2_length_3: bea
+taxonomy_2_length_4: bear
+taxonomy_2_length_5: beari
+taxonomy_2_capital: Bearing
+taxonomy_2_first_letter: b
+taxonomy_2_first_letter_upper: B
+taxonomy_3_upper: F600_SERIES
+taxonomy_3_upper_length_1: F
+taxonomy_3_upper_length_2: F6
+taxonomy_3_upper_length_3: F60
+taxonomy_3_upper_length_4: F600
+taxonomy_3_upper_length_5: F600_
+taxonomy_3_length_1: F
+taxonomy_3_length_2: F6
+taxonomy_3_length_3: F60
+taxonomy_3_length_4: F600
+taxonomy_3_length_5: F600_
+taxonomy_3_capital: F600 Series
+taxonomy_3_first_letter: F
+taxonomy_3_first_letter_upper: F
+taxonomy_4_upper: F689_SIZE
+taxonomy_4_upper_length_1: F
+taxonomy_4_upper_length_2: F6
+taxonomy_4_upper_length_3: F68
+taxonomy_4_upper_length_4: F689
+taxonomy_4_upper_length_5: F689_
+taxonomy_4_length_1: F
+taxonomy_4_length_2: F6
+taxonomy_4_length_3: F68
+taxonomy_4_length_4: F689
+taxonomy_4_length_5: F689_
+taxonomy_4_capital: F689 Size
+taxonomy_4_first_letter: F
+taxonomy_4_first_letter_upper: F
+taxonomy_5_upper: 9_MM_ID
+taxonomy_5_upper_length_1: '9'
+taxonomy_5_upper_length_2: '9_'
+taxonomy_5_upper_length_3: 9_M
+taxonomy_5_upper_length_4: 9_MM
+taxonomy_5_upper_length_5: 9_MM_
+taxonomy_5_length_1: '9'
+taxonomy_5_length_2: '9_'
+taxonomy_5_length_3: 9_m
+taxonomy_5_length_4: 9_mm
+taxonomy_5_length_5: 9_mm_
+taxonomy_5_capital: 9 mm Id
+taxonomy_5_first_letter: '9'
+taxonomy_5_first_letter_upper: '9'
+taxonomy_6_upper: 17_MM_OD
+taxonomy_6_upper_length_1: '1'
+taxonomy_6_upper_length_2: '17'
+taxonomy_6_upper_length_3: '17_'
+taxonomy_6_upper_length_4: 17_M
+taxonomy_6_upper_length_5: 17_MM
+taxonomy_6_length_1: '1'
+taxonomy_6_length_2: '17'
+taxonomy_6_length_3: '17_'
+taxonomy_6_length_4: 17_m
+taxonomy_6_length_5: 17_mm
+taxonomy_6_capital: 17 mm Od
+taxonomy_6_first_letter: '1'
+taxonomy_6_first_letter_upper: '1'
+taxonomy_7_upper: 4_MM_DEPTH
+taxonomy_7_upper_length_1: '4'
+taxonomy_7_upper_length_2: '4_'
+taxonomy_7_upper_length_3: 4_M
+taxonomy_7_upper_length_4: 4_MM
+taxonomy_7_upper_length_5: 4_MM_
+taxonomy_7_length_1: '4'
+taxonomy_7_length_2: '4_'
+taxonomy_7_length_3: 4_m
+taxonomy_7_length_4: 4_mm
+taxonomy_7_length_5: 4_mm_
+taxonomy_7_capital: 4 mm Depth
+taxonomy_7_first_letter: '4'
+taxonomy_7_first_letter_upper: '4'
+id_no_class: hardware_bearing_F600_series_F689_size_9_mm_id_17_mm_od_4_mm_depth
+id_no_type: hardware_bearing_F600_series_F689_size_9_mm_id_17_mm_od_4_mm_depth
+id_no_size: hardware_bearing_F600_series_size_9_mm_id_17_mm_od_4_mm_depth
+oomp_key: oomp_hardware_bearing_F600_series_F689_size_9_mm_id_17_mm_od_4_mm_depth
+link_github: https://github.com/oomlout/oomp_bearing_version_5/tree/main/parts/hardware_bearing_f600_series_f689_size_9_mm_id_17_mm_od_4_mm_depth
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_bearing_F600_series_F689_size_9_mm_id_17_mm_od_4_mm_depth
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_bearing_F600_series_F689_size_9_mm_id_17_mm_od_4_mm_depth
+directory: parts/hardware_bearing_f600_series_f689_size_9_mm_id_17_mm_od_4_mm_depth
+name: F689 bearing
+name_no_class: Hardware Bearing F600 Series F689 Size 9 Mm Id 17 Mm Od 4 Mm Depth
+name_no_type: Hardware Bearing F600 Series F689 Size 9 Mm Id 17 Mm Od 4 Mm Depth
+name_no_size: Hardware Bearing F600 Series Size 9 Mm Id 17 Mm Od 4 Mm Depth
+md5: 8d2150e2528ce31ba5a3eb585c00a7d8
+md5_5: 8d215
+md5_5_upper: 8D215
+md5_6: 8d2150
+md5_6_upper: 8D2150
+md5_6_alpha: 5i8nk
+md5_6_alpha_upper: 5I8NK
+md5_10: 8d2150e252
+md5_10_upper: 8D2150E252
+bip_39_full_array:
+- minor
+- appear
+- decade
+- pink
+- soda
+- miss
+- notable
+- latin
+- flame
+- theme
+- clarify
+- rapid
+bip_39_full_space: minor appear decade pink soda miss notable latin flame theme clarify
+  rapid
+bip_39_full_no_space: minorappeardecadepinksodamissnotablelatinflamethemeclarifyrapid
+bip_39_full_underscore: minor_appear_decade_pink_soda_miss_notable_latin_flame_theme_clarify_rapid
+bip_39_2_word_array:
+- minor
+- appear
+bip_39_2_word_space: minor appear
+bip_39_2_word_no_space: minorappear
+bip_39_2_word_underscore: minor_appear
+bip_39_3_word_array:
+- minor
+- appear
+- decade
+bip_39_3_word_space: minor appear decade
+bip_39_3_word_no_space: minorappeardecade
+bip_39_3_word_underscore: minor_appear_decade
+name_space: hardware bearing F600 series F689 size 9 mm id 17 mm od 4 mm depth
+name_proper: F689 bearing
+name_upper: HARDWARE BEARING F600 SERIES F689 SIZE 9 MM ID 17 MM OD 4 MM DEPTH
+oomlout_ai_roboclick_1:
+  file_test: ''
+  actions:
+  - command: text_jinja_template
+    description: Bold bearing label 3x2
+    file_template: C:\od\OneDrive\docs\oomp_bearing\source_file\template_jinja\label_bearing_bold\3x2.svg.j2
+    file_output: label_bearing_bold_3x2.svg
+    dict_data_yaml_files:
+      label_source: C:\od\OneDrive\docs\oomp_bearing\parts_source\hardware_bearing_f600_series_f689_size_9_mm_id_17_mm_od_4_mm_depth\working.yaml
+      label_manual: C:\od\OneDrive\docs\oomp_bearing\parts\hardware_bearing_f600_series_f689_size_9_mm_id_17_mm_od_4_mm_depth\working_manual.yaml
+    convert_to_pdf: false
+    convert_to_png: false
+oomlout_ai_roboclick_2:
+  file_test: ''
+  actions:
+  - command: text_jinja_template
+    description: Bold bearing label 1_5x1
+    file_template: C:\od\OneDrive\docs\oomp_bearing\source_file\template_jinja\label_bearing_bold\1_5x1.svg.j2
+    file_output: label_bearing_bold_1_5x1.svg
+    dict_data_yaml_files:
+      label_source: C:\od\OneDrive\docs\oomp_bearing\parts_source\hardware_bearing_f600_series_f689_size_9_mm_id_17_mm_od_4_mm_depth\working.yaml
+      label_manual: C:\od\OneDrive\docs\oomp_bearing\parts\hardware_bearing_f600_series_f689_size_9_mm_id_17_mm_od_4_mm_depth\working_manual.yaml
+    convert_to_pdf: false
+    convert_to_png: false
+catalogue_schema: oomp_bearing_v5
+oomp_id: hardware_bearing_f600_series_f689_size_9_mm_id_17_mm_od_4_mm_depth
+family: flanged_deep_groove
+dimensions_mm:
+  bore: 9.0
+  outside: 17.0
+  width: 4.0
+  flange_diameter: 19.0
+  flange_thickness: 1.0
+bore: 9.0
+dimension_authority: manufacturer_checked
+source_checked: '2026-10-27'
+sources:
+- https://koyo.jtekt.co.jp/en/products/detail/print.php?pno=F689
+model_note: Nominal presentation model. Raceways, pitch circle, chamfers and retainer
+  geometry are illustrative; ball count/diameter are illustrative unless individually
+  sourced. Not a manufacturer reconstruction, load-rating model or manufacturing/tolerance
+  certification. Unspecified closure is presented open. The mesh shows open races
+  and balls; retainers, seals and exact contact surfaces are omitted.
+closure: open
+three_d_model_details:
+  schema_version: 1
+  generator: bearing_open
+  output_folder: three_d_model
+  parameters:
+    bore: 9.0
+    outside: 17.0
+    width: 4.0
+    edge: 0.24
+    pitch_radius: 6.5
+    ball_radius: 1.12
+    groove_radius: 1.1480000000000001
+    inner_shoulder: 5.8056
+    outer_shoulder: 7.1944
+    cage_half_width: 0.6160000000000001
+    cage_low: 1.064
+    cage_high: 1.288
+    window_radius: 0.5376000000000001
+    flange_diameter: 19.0
+    flange_thickness: 1.0
+    flange_edge: 0.15
+    identity: hardware_bearing_f600_series_f689_size_9_mm_id_17_mm_od_4_mm_depth
+    specification: F689 / 9 x 17 x 4 mm
+    characteristic_dimension_mm: 19.0
+    characteristic_dimension_basis: maximum nominal envelope dimension
+    ball_count: 13
+    balls_per_row: 13
+    row_count: 1
+    ball_specification: illustrative
+    contact_angle_authority: not_applicable
+    row_centres_z:
+    - 2.0
+    components:
+    - name: outer_race
+      shape: revolved_profile
+      profile_mm:
+      - - 9.35
+        - 0
+      - - 9.5
+        - 0.15
+      - - 9.5
+        - 0.85
+      - - 9.35
+        - 1.0
+      - - 8.5
+        - 1.0
+      - - 8.5
+        - 3.76
+      - - 8.26
+        - 4.0
+      - - 7.1944
+        - 4.0
+      - - 7.1944
+        - 3.76
+      - - 7.1944
+        - 3.148
+      - - 7.1944
+        - 3.0906000000000002
+      - - 7.1944
+        - 3.0332
+      - - 7.1944
+        - 2.9758
+      - - 7.1944
+        - 2.9184
+      - - 7.2593306262755375
+        - 2.861
+      - - 7.319835983596719
+        - 2.8036000000000003
+      - - 7.372404470414956
+        - 2.7462
+      - - 7.4184
+        - 2.6888
+      - - 7.45876902327933
+        - 2.6314
+      - - 7.494197163544536
+        - 2.574
+      - - 7.525196781110827
+        - 2.5166
+      - - 7.552159379561861
+        - 2.4592
+      - - 7.575388655324204
+        - 2.4017999999999997
+      - - 7.595122203226653
+        - 2.3444000000000003
+      - - 7.611546220361529
+        - 2.287
+      - - 7.624805689886036
+        - 2.2296
+      - - 7.6350115241705705
+        - 2.1722
+      - - 7.6422455777984
+        - 2.1148
+      - - 7.646564102002152
+        - 2.0574000000000003
+      - - 7.648
+        - 2.0
+      - - 7.646564102002152
+        - 1.9425999999999999
+      - - 7.6422455777984
+        - 1.8852
+      - - 7.6350115241705705
+        - 1.8277999999999999
+      - - 7.624805689886036
+        - 1.7704
+      - - 7.611546220361529
+        - 1.713
+      - - 7.595122203226653
+        - 1.6556
+      - - 7.575388655324204
+        - 1.5981999999999998
+      - - 7.552159379561861
+        - 1.5408
+      - - 7.525196781110827
+        - 1.4834
+      - - 7.494197163544536
+        - 1.426
+      - - 7.45876902327933
+        - 1.3685999999999998
+      - - 7.4184
+        - 1.3112
+      - - 7.372404470414956
+        - 1.2538
+      - - 7.319835983596719
+        - 1.1964
+      - - 7.2593306262755375
+        - 1.1389999999999998
+      - - 7.1944
+        - 1.0816
+      - - 7.1944
+        - 1.0242
+      - - 7.1944
+        - 0.9667999999999999
+      - - 7.1944
+        - 0.9093999999999999
+      - - 7.1944
+        - 0.8519999999999999
+      - - 7.1944
+        - 0.24
+      - - 7.1944
+        - 0.0
+      - - 9.35
+        - 0
+    - name: inner_race
+      shape: revolved_profile
+      profile_mm:
+      - - 5.8056
+        - 0.0
+      - - 5.8056
+        - 0.24
+      - - 5.8056
+        - 0.8519999999999999
+      - - 5.8056
+        - 0.9093999999999999
+      - - 5.8056
+        - 0.9667999999999999
+      - - 5.8056
+        - 1.0242
+      - - 5.8056
+        - 1.0816
+      - - 5.7406693737244625
+        - 1.1389999999999998
+      - - 5.680164016403281
+        - 1.1964
+      - - 5.627595529585044
+        - 1.2538
+      - - 5.5816
+        - 1.3112
+      - - 5.54123097672067
+        - 1.3685999999999998
+      - - 5.505802836455464
+        - 1.426
+      - - 5.474803218889173
+        - 1.4834
+      - - 5.447840620438139
+        - 1.5408
+      - - 5.424611344675796
+        - 1.5981999999999998
+      - - 5.404877796773347
+        - 1.6556
+      - - 5.388453779638471
+        - 1.713
+      - - 5.375194310113964
+        - 1.7704
+      - - 5.3649884758294295
+        - 1.8277999999999999
+      - - 5.3577544222016
+        - 1.8852
+      - - 5.353435897997848
+        - 1.9425999999999999
+      - - 5.352
+        - 2.0
+      - - 5.353435897997848
+        - 2.0574000000000003
+      - - 5.3577544222016
+        - 2.1148
+      - - 5.3649884758294295
+        - 2.1722
+      - - 5.375194310113964
+        - 2.2296
+      - - 5.388453779638471
+        - 2.287
+      - - 5.404877796773347
+        - 2.3444000000000003
+      - - 5.424611344675796
+        - 2.4017999999999997
+      - - 5.447840620438139
+        - 2.4592
+      - - 5.474803218889173
+        - 2.5166
+      - - 5.505802836455464
+        - 2.574
+      - - 5.54123097672067
+        - 2.6314
+      - - 5.5816
+        - 2.6888
+      - - 5.627595529585044
+        - 2.7462
+      - - 5.680164016403281
+        - 2.8036000000000003
+      - - 5.7406693737244625
+        - 2.861
+      - - 5.8056
+        - 2.9184
+      - - 5.8056
+        - 2.9758
+      - - 5.8056
+        - 3.0332
+      - - 5.8056
+        - 3.0906000000000002
+      - - 5.8056
+        - 3.148
+      - - 5.8056
+        - 3.76
+      - - 5.8056
+        - 4.0
+      - - 4.74
+        - 4.0
+      - - 4.5
+        - 3.76
+      - - 4.5
+        - 0.24
+      - - 4.74
+        - 0
+      - - 5.8056
+        - 0.0
+    - name: ball_row_1_1
+      shape: sphere
+      radius_mm: 1.12
+      centre_mm:
+      - 6.5
+      - 0.0
+      - 2.0
+    - name: ball_row_1_2
+      shape: sphere
+      radius_mm: 1.12
+      centre_mm:
+      - 5.755464166745864
+      - 3.0207006182844953
+      - 2.0
+    - name: ball_row_1_3
+      shape: sphere
+      radius_mm: 1.12
+      centre_mm:
+      - 3.6924208537525134
+      - 5.349395128308767
+      - 2.0
+    - name: ball_row_1_4
+      shape: sphere
+      radius_mm: 1.12
+      centre_mm:
+      - 0.7834884216595995
+      - 6.4526076816373505
+      - 2.0
+    - name: ball_row_1_5
+      shape: sphere
+      radius_mm: 1.12
+      centre_mm:
+      - -2.3049317657764803
+      - 6.077605577455197
+      - 2.0
+    - name: ball_row_1_6
+      shape: sphere
+      radius_mm: 1.12
+      centre_mm:
+      - -4.865319863112158
+      - 4.3102972785651685
+      - 2.0
+    - name: ball_row_1_7
+      shape: sphere
+      radius_mm: 1.12
+      centre_mm:
+      - -6.311121813269338
+      - 1.555551817869125
+      - 2.0
+    - name: ball_row_1_8
+      shape: sphere
+      radius_mm: 1.12
+      centre_mm:
+      - -6.311121813269339
+      - -1.5555518178691232
+      - 2.0
+    - name: ball_row_1_9
+      shape: sphere
+      radius_mm: 1.12
+      centre_mm:
+      - -4.865319863112158
+      - -4.310297278565168
+      - 2.0
+    - name: ball_row_1_10
+      shape: sphere
+      radius_mm: 1.12
+      centre_mm:
+      - -2.3049317657764834
+      - -6.077605577455196
+      - 2.0
+    - name: ball_row_1_11
+      shape: sphere
+      radius_mm: 1.12
+      centre_mm:
+      - 0.7834884216596008
+      - -6.4526076816373505
+      - 2.0
+    - name: ball_row_1_12
+      shape: sphere
+      radius_mm: 1.12
+      centre_mm:
+      - 3.6924208537525063
+      - -5.349395128308771
+      - 2.0
+    - name: ball_row_1_13
+      shape: sphere
+      radius_mm: 1.12
+      centre_mm:
+      - 5.755464166745865
+      - -3.0207006182844944
+      - 2.0
+  modelling_note: Nominal presentation model. Raceways, pitch circle, chamfers and
+    retainer geometry are illustrative; ball count/diameter are illustrative unless
+    individually sourced. Not a manufacturer reconstruction, load-rating model or
+    manufacturing/tolerance certification. Unspecified closure is presented open.
+    The mesh shows open races and balls; retainers, seals and exact contact surfaces
+    are omitted.
+  dimension_authority: manufacturer_checked
+  model_formats:
+  - glb
+  variants:
+    full:
+      angular_segments: 128
+      sphere_subdivisions: 3
+    display:
+      angular_segments: 32
+      sphere_subdivisions: 2
+  views:
+  - isometric
+  - front
+  - back
+  - left
+  - right
+  - top
+  - bottom
+  material:
+    name: Illustrative polished bearing steel
+    base_colour_srgb:
+    - 0.62
+    - 0.65
+    - 0.69
+    metallic: 1.0
+    roughness: 0.22
+    roughness_variation: 0.045
+    coat_weight: 0.02
+    coat_roughness: 0.28
+    microtexture_spacing_mm: 0.025
+    microtexture_height_um: 0.8
+    note: Illustrative bearing steel; material grade and finish are not specified.
+  studio:
+    engine: cycles
+    device: auto
+    seed: 7991
+    low_samples: 24
+    high_samples: 48
+    adaptive_threshold: 0.015
+    denoise: true
+    view_transform: AgX
+    look: AgX - Medium High Contrast
+    exposure: 0.0
+    world_colour:
+    - 0.78
+    - 0.82
+    - 0.9
+    world_strength: 0.35
+    floor_colour_srgb:
+    - 0.93
+    - 0.935
+    - 0.94
+    floor_roughness: 0.55
+    framing_margin: 0.13
+    lights:
+    - name: Key softbox
+      position:
+      - -3
+      - -4
+      - 6
+      power: 650.0
+      width: 4.0
+      height: 5.0
+      colour:
+      - 1.0
+      - 0.96
+      - 0.9
+    - name: Fill softbox
+      position:
+      - 4
+      - -1
+      - 3
+      power: 330.0
+      width: 3.0
+      height: 4.0
+      colour:
+      - 0.9
+      - 0.95
+      - 1.0
+    - name: Rim strip
+      position:
+      - 1
+      - 4
+      - 4
+      power: 850.0
+      width: 1.2
+      height: 5.0
+      colour:
+      - 1.0
+      - 1.0
+      - 1.0
+    poses:
+      isometric:
+        camera_eye:
+        - 1
+        - -1
+        - 1
+        projection: orthographic
+        orientation: principal axis Z up
+      product:
+        camera_eye:
+        - -6
+        - -10
+        - 6
+        projection: orthographic
+        orientation: resting on lower face
+        yaw_degrees: -12.0
+        support: Stable convex-hull support using actual mesh centre of mass.
+        resting_axis: face
+  renders:
+    low:
+      file: render_low.png
+      variant: display
+      pixels: 512
+      view: isometric
+    high:
+      file: render_high.png
+      variant: full
+      pixels: 2048
+      view: isometric
+    product_low:
+      file: render_product_low.png
+      variant: display
+      pixels: 512
+      view: product
+    product_high:
+      file: render_product_high.png
+      variant: full
+      pixels: 2048
+      view: product
+oobb_type: bearing_open
+oobb_details:
+  oobb_type: bearing_open
+  run_scad: true
+  run_solidcraft: false
+  angular_segments: 128
+  components:
+  - name: outer_race
+    shape: revolved_profile
+    profile_mm:
+    - - 9.35
+      - 0
+    - - 9.5
+      - 0.15
+    - - 9.5
+      - 0.85
+    - - 9.35
+      - 1.0
+    - - 8.5
+      - 1.0
+    - - 8.5
+      - 3.76
+    - - 8.26
+      - 4.0
+    - - 7.1944
+      - 4.0
+    - - 7.1944
+      - 3.76
+    - - 7.1944
+      - 3.148
+    - - 7.1944
+      - 3.0906000000000002
+    - - 7.1944
+      - 3.0332
+    - - 7.1944
+      - 2.9758
+    - - 7.1944
+      - 2.9184
+    - - 7.2593306262755375
+      - 2.861
+    - - 7.319835983596719
+      - 2.8036000000000003
+    - - 7.372404470414956
+      - 2.7462
+    - - 7.4184
+      - 2.6888
+    - - 7.45876902327933
+      - 2.6314
+    - - 7.494197163544536
+      - 2.574
+    - - 7.525196781110827
+      - 2.5166
+    - - 7.552159379561861
+      - 2.4592
+    - - 7.575388655324204
+      - 2.4017999999999997
+    - - 7.595122203226653
+      - 2.3444000000000003
+    - - 7.611546220361529
+      - 2.287
+    - - 7.624805689886036
+      - 2.2296
+    - - 7.6350115241705705
+      - 2.1722
+    - - 7.6422455777984
+      - 2.1148
+    - - 7.646564102002152
+      - 2.0574000000000003
+    - - 7.648
+      - 2.0
+    - - 7.646564102002152
+      - 1.9425999999999999
+    - - 7.6422455777984
+      - 1.8852
+    - - 7.6350115241705705
+      - 1.8277999999999999
+    - - 7.624805689886036
+      - 1.7704
+    - - 7.611546220361529
+      - 1.713
+    - - 7.595122203226653
+      - 1.6556
+    - - 7.575388655324204
+      - 1.5981999999999998
+    - - 7.552159379561861
+      - 1.5408
+    - - 7.525196781110827
+      - 1.4834
+    - - 7.494197163544536
+      - 1.426
+    - - 7.45876902327933
+      - 1.3685999999999998
+    - - 7.4184
+      - 1.3112
+    - - 7.372404470414956
+      - 1.2538
+    - - 7.319835983596719
+      - 1.1964
+    - - 7.2593306262755375
+      - 1.1389999999999998
+    - - 7.1944
+      - 1.0816
+    - - 7.1944
+      - 1.0242
+    - - 7.1944
+      - 0.9667999999999999
+    - - 7.1944
+      - 0.9093999999999999
+    - - 7.1944
+      - 0.8519999999999999
+    - - 7.1944
+      - 0.24
+    - - 7.1944
+      - 0.0
+    - - 9.35
+      - 0
+  - name: inner_race
+    shape: revolved_profile
+    profile_mm:
+    - - 5.8056
+      - 0.0
+    - - 5.8056
+      - 0.24
+    - - 5.8056
+      - 0.8519999999999999
+    - - 5.8056
+      - 0.9093999999999999
+    - - 5.8056
+      - 0.9667999999999999
+    - - 5.8056
+      - 1.0242
+    - - 5.8056
+      - 1.0816
+    - - 5.7406693737244625
+      - 1.1389999999999998
+    - - 5.680164016403281
+      - 1.1964
+    - - 5.627595529585044
+      - 1.2538
+    - - 5.5816
+      - 1.3112
+    - - 5.54123097672067
+      - 1.3685999999999998
+    - - 5.505802836455464
+      - 1.426
+    - - 5.474803218889173
+      - 1.4834
+    - - 5.447840620438139
+      - 1.5408
+    - - 5.424611344675796
+      - 1.5981999999999998
+    - - 5.404877796773347
+      - 1.6556
+    - - 5.388453779638471
+      - 1.713
+    - - 5.375194310113964
+      - 1.7704
+    - - 5.3649884758294295
+      - 1.8277999999999999
+    - - 5.3577544222016
+      - 1.8852
+    - - 5.353435897997848
+      - 1.9425999999999999
+    - - 5.352
+      - 2.0
+    - - 5.353435897997848
+      - 2.0574000000000003
+    - - 5.3577544222016
+      - 2.1148
+    - - 5.3649884758294295
+      - 2.1722
+    - - 5.375194310113964
+      - 2.2296
+    - - 5.388453779638471
+      - 2.287
+    - - 5.404877796773347
+      - 2.3444000000000003
+    - - 5.424611344675796
+      - 2.4017999999999997
+    - - 5.447840620438139
+      - 2.4592
+    - - 5.474803218889173
+      - 2.5166
+    - - 5.505802836455464
+      - 2.574
+    - - 5.54123097672067
+      - 2.6314
+    - - 5.5816
+      - 2.6888
+    - - 5.627595529585044
+      - 2.7462
+    - - 5.680164016403281
+      - 2.8036000000000003
+    - - 5.7406693737244625
+      - 2.861
+    - - 5.8056
+      - 2.9184
+    - - 5.8056
+      - 2.9758
+    - - 5.8056
+      - 3.0332
+    - - 5.8056
+      - 3.0906000000000002
+    - - 5.8056
+      - 3.148
+    - - 5.8056
+      - 3.76
+    - - 5.8056
+      - 4.0
+    - - 4.74
+      - 4.0
+    - - 4.5
+      - 3.76
+    - - 4.5
+      - 0.24
+    - - 4.74
+      - 0
+    - - 5.8056
+      - 0.0
+  - name: ball_row_1_1
+    shape: sphere
+    radius_mm: 1.12
+    centre_mm:
+    - 6.5
+    - 0.0
+    - 2.0
+  - name: ball_row_1_2
+    shape: sphere
+    radius_mm: 1.12
+    centre_mm:
+    - 5.755464166745864
+    - 3.0207006182844953
+    - 2.0
+  - name: ball_row_1_3
+    shape: sphere
+    radius_mm: 1.12
+    centre_mm:
+    - 3.6924208537525134
+    - 5.349395128308767
+    - 2.0
+  - name: ball_row_1_4
+    shape: sphere
+    radius_mm: 1.12
+    centre_mm:
+    - 0.7834884216595995
+    - 6.4526076816373505
+    - 2.0
+  - name: ball_row_1_5
+    shape: sphere
+    radius_mm: 1.12
+    centre_mm:
+    - -2.3049317657764803
+    - 6.077605577455197
+    - 2.0
+  - name: ball_row_1_6
+    shape: sphere
+    radius_mm: 1.12
+    centre_mm:
+    - -4.865319863112158
+    - 4.3102972785651685
+    - 2.0
+  - name: ball_row_1_7
+    shape: sphere
+    radius_mm: 1.12
+    centre_mm:
+    - -6.311121813269338
+    - 1.555551817869125
+    - 2.0
+  - name: ball_row_1_8
+    shape: sphere
+    radius_mm: 1.12
+    centre_mm:
+    - -6.311121813269339
+    - -1.5555518178691232
+    - 2.0
+  - name: ball_row_1_9
+    shape: sphere
+    radius_mm: 1.12
+    centre_mm:
+    - -4.865319863112158
+    - -4.310297278565168
+    - 2.0
+  - name: ball_row_1_10
+    shape: sphere
+    radius_mm: 1.12
+    centre_mm:
+    - -2.3049317657764834
+    - -6.077605577455196
+    - 2.0
+  - name: ball_row_1_11
+    shape: sphere
+    radius_mm: 1.12
+    centre_mm:
+    - 0.7834884216596008
+    - -6.4526076816373505
+    - 2.0
+  - name: ball_row_1_12
+    shape: sphere
+    radius_mm: 1.12
+    centre_mm:
+    - 3.6924208537525063
+    - -5.349395128308771
+    - 2.0
+  - name: ball_row_1_13
+    shape: sphere
+    radius_mm: 1.12
+    centre_mm:
+    - 5.755464166745865
+    - -3.0207006182844944
+    - 2.0
+label_details:
+  size: F689
+  dimensions: 9 x 17 x 4 mm
+  formats_mm:
+  - - 76.2
+    - 50.8
+  - - 38.1
+    - 25.4
+  ink: '#183336'
+  accent: '#147d83'
+  paper: '#ffffff'
+  font_family: Helvetica
+  view_box_mm:
+  - 0
+  - 0
+  - 76.2
+  - 50.8
+  file_stems:
+  - label_bearing_3x2
+  - label_bearing_1_5x1
+  brand: OOMP / BEARING
+  brand_position_mm:
+  - 5
+  - 10
+  brand_font_mm: 3
+  size_position_mm:
+  - 5
+  - 29
+  size_font_mm: 14
+  dimensions_position_mm:
+  - 5
+  - 42
+  dimensions_font_mm: 4
+readme_details:
+  title: F689 bearing - 9 x 17 x 4 mm
+  description: 'Flanged deep groove bearing: 9 mm bore, 17 mm outside diameter and
+    4 mm width.'
+```
+
+</details>
+<!-- bearing-catalogue:end -->

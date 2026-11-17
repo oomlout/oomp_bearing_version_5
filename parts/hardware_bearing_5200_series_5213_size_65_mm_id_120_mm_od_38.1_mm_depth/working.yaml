@@ -1,0 +1,2366 @@
+bip_39_2_word_array:
+- canoe
+- fury
+bip_39_2_word_no_space: canoefury
+bip_39_2_word_space: canoe fury
+bip_39_2_word_underscore: canoe_fury
+bip_39_3_word_array:
+- canoe
+- fury
+- wait
+bip_39_3_word_no_space: canoefurywait
+bip_39_3_word_space: canoe fury wait
+bip_39_3_word_underscore: canoe_fury_wait
+bip_39_full_array:
+- canoe
+- fury
+- wait
+- sleep
+- lift
+- method
+- ancient
+- tornado
+- few
+- pole
+- relief
+- old
+bip_39_full_no_space: canoefurywaitsleepliftmethodancienttornadofewpolereliefold
+bip_39_full_space: canoe fury wait sleep lift method ancient tornado few pole relief
+  old
+bip_39_full_underscore: canoe_fury_wait_sleep_lift_method_ancient_tornado_few_pole_relief_old
+depth: 38.1
+directory: parts/hardware_bearing_5200_series_5213_size_65_mm_id_120_mm_od_38.1_mm_depth
+generate_stl: false
+id: hardware_bearing_5200_series_5213_size_65_mm_id_120_mm_od_38.1_mm_depth
+id_no_class: hardware_bearing_5200_series_5213_size_65_mm_id_120_mm_od_38.1_mm_depth
+id_no_size: hardware_bearing_5200_series_size_65_mm_id_120_mm_od_38.1_mm_depth
+id_no_type: hardware_bearing_5200_series_5213_size_65_mm_id_120_mm_od_38.1_mm_depth
+link_github: https://github.com/oomlout/oomp_bearing_version_5/tree/main/parts/hardware_bearing_5200_series_5213_size_65_mm_id_120_mm_od_38.1_mm_depth
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_bearing_5200_series_5213_size_65_mm_id_120_mm_od_38.1_mm_depth
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_bearing_5200_series_5213_size_65_mm_id_120_mm_od_38.1_mm_depth
+md5: 218bcfd9e598171842272b5594f2d54d
+md5_10: 218bcfd9e5
+md5_10_upper: 218BCFD9E5
+md5_5: 218bc
+md5_5_upper: 218BC
+md5_6: 218bcf
+md5_6_alpha: 1b4cv
+md5_6_alpha_upper: 1B4CV
+md5_6_upper: 218BCF
+name: 5213 bearing
+name_no_class: Hardware Bearing 5200 Series 5213 Size 65 Mm Id 120 Mm Od 38.1 Mm Depth
+name_no_size: Hardware Bearing 5200 Series Size 65 Mm Id 120 Mm Od 38.1 Mm Depth
+name_no_type: Hardware Bearing 5200 Series 5213 Size 65 Mm Id 120 Mm Od 38.1 Mm Depth
+name_proper: 5213 bearing
+name_space: hardware bearing 5200 series 5213 size 65 mm id 120 mm od 38 1 mm depth
+name_upper: HARDWARE BEARING 5200 SERIES 5213 SIZE 65 MM ID 120 MM OD 38 1 MM DEPTH
+od: 120.0
+oomlout_ai_roboclick_1:
+  actions:
+  - command: new_chat
+    description: step_1_create_icon
+  - command: ai_query
+    delay: '240'
+    mode_ai_wait: slow
+    text: '## READ THIS FIRST — no theme is coming in this message, and that is correct
+
+
+      This is **step 1 of 2**. It is deliberately theme-free. You are building a reusable
+      house style, not designing a specific logo.
+
+
+      The theme arrives in step 2. Do **not** ask what the theme is. Do **not** ask
+      any clarifying questions. Do **not** write a final image-generation prompt yet
+      — you cannot, and attempting one is a failure of this step. Do **not** invent
+      a placeholder theme and design for it. If you feel information is missing, that
+      is expected: the missing information is the theme, it is coming next, and nothing
+      in this step requires it.
+
+
+      Your entire output for this step is a **house style guide** that will be applied
+      to whatever theme arrives next.
+
+
+      ---
+
+
+      ## The product this style serves
+
+
+      **Intended use:** a square, single-colour, pure-black-on-pure-white mascot logo,
+      generated as a raster image, then **auto-traced to vector and cut/engraved on
+      a laser cutter**. The trace step is unforgiving — it is the hardest constraint
+      in this brief and should shape most of your recommendations.
+
+
+      **Target feel:** charming, original, cute, polished, instantly readable at ~20
+      mm. A designed branded icon, not a doodle page and not generic kawaii clip art.
+
+
+      ---
+
+
+      ## What to produce
+
+
+      Write these six sections. **Budget: about 900 words total, 1,100 hard ceiling.**
+      That is roughly 100–150 words per section, with section 6 allowed the most.
+      This is a working reference, not an essay — every line should be a rule someone
+      could check a drawing against. Prefer tight bullets over prose paragraphs, and
+      cut any sentence that only restates the brief back at me.
+
+
+      **1. Line language menu**
+
+      Exactly three distinct black-on-white line-art approaches (e.g. uniform monoline,
+      weight-varied outline with sparse interior, chunky sticker-outline, geometric
+      constructed line). One or two lines each: what it does for charm, how it survives
+      auto-tracing, what it costs.
+
+
+      **2. Cuteness that isn''t generic**
+
+      The handful of levers that make a line mascot lovable — eye shape and spacing,
+      head-to-body ratio, pose energy, mouth simplicity, restraint on blush marks
+      — each as a one-line rule with a number where a number applies. Then a short
+      do-not list of the clichés that make an AI mascot look stock (dead-centre symmetrical
+      stare, sparkle confetti, floating hearts, blob bodies), each with its one-line
+      replacement.
+
+
+      **3. Trace-safety rules**
+
+      A flat list of concrete, checkable rules for the auto-trace-to-cut pipeline
+      — one line each, no explanatory paragraphs:
+
+      - minimum stroke thickness relative to the square''s width, stated as a fraction
+      (so it scales)
+
+      - minimum gap between two adjacent strokes before they blur into one traced
+      blob
+
+      - why every shape should read as a closed path, and how to spot one that won''t
+
+      - island/floating-part handling and where to add connective bridges
+
+      - what to do about interior detail that a tracer will turn into noise (crosshatching,
+      stippling, tapering hairlines, single stray dots)
+
+      - why large solid black fills are avoided here, and the acceptable exceptions
+      (small eyes, pupils, a tiny accent shape)
+
+
+      **4. Composition and hierarchy**
+
+      Bulleted rules only: square framing, margin as a fraction of the square, centre
+      of visual mass, minimum negative space, the mascot-leads / props-support / text-reinforces
+      hierarchy, and the shared traits that make it read as one illustrator''s hand
+      (same stroke weight, same corner radius, same eye style, same spacing rhythm).
+
+
+      **5. Text and badge treatments**
+
+      Text is allowed and okay to include. Briefly: when a word helps versus clutters,
+      a maximum letter count that stays cuttable, how to specify literal text so it
+      renders verbatim (quotes, exact casing), the letterform to ask for, and when
+      a badge ring earns its place versus just boxing the mark in. Six bullets is
+      plenty.
+
+
+      **6. Prompt architecture for step 2**
+
+      The most important section, so spend your words here. Specify the exact template
+      the step-2 final prompt must follow — and state that the finished prompt should
+      land at **180–250 words**, long enough to carry the spec, short enough that
+      no single instruction gets diluted. Order it to match how the image model weights
+      a prompt:
+
+
+      1. **Medium and style up front** — the first sentence states it is a square
+      black-and-white line-art mascot logo, because opening words set the mode for
+      everything after.
+
+      2. **Subject** — the mascot, its identity, expression, pose.
+
+      3. **Key details** — props, supporting motifs, any literal text in quotes.
+
+      4. **Layout** — centring, margins, hierarchy, where each element sits.
+
+      5. **Line and manufacturing spec** — stroke weight, closed paths, interior-detail
+      limits.
+
+      6. **Exclusions last** — negatives go at the very end, after every positive
+      descriptor, because a model reading them early tends to treat them as things
+      to compose rather than things to omit.
+
+
+      Give the canonical exclusion list to close with (no grey, no shading, no gradients,
+      no halftone, no dithering, no texture, no colour, no transparency, no background
+      scene, no drop shadow, no outer glow, no frame border unless specified, no watermark,
+      no signature, no extra text beyond what is quoted).
+
+
+      Also state the two facts the prompt must say in plain words no matter what:
+      the image is **square**, and it is **pure black on a pure white background**.
+
+
+      ---
+
+
+      ## Response style and length
+
+
+      **About 900 words, 1,100 absolute maximum.** Bullets over prose. Concrete and
+      checkable over abstract and aspirational — "stroke no thinner than 1/100 of
+      the square''s width" beats "confident lines". No preamble, no restating this
+      brief back at me, no summary of what you are about to do. Skip the caveats and
+      the reasoning behind each rule; just state the rule.
+
+
+      Close with a checklist of the rules, 12 lines at most, so step 2 can be graded
+      against it.
+
+
+      Then stop. No final image prompt, no questions, no theme.
+
+      '
+  - command: ai_query
+    delay: '240'
+    mode_ai_wait: slow
+    text: '## Step 2 of 2 — the theme
+
+
+      The theme is: **an image of hardware bearing 5200 series 5213 size 65 mm id
+      120 mm od 38 1 mm depth make Hardware Bearing 5200 Series 5213 Size 65 Mm Id
+      120 Mm Od 38 1 Mm Depth cute, bearing size 5213 65x120x38.1 mm, code hardware_bearing_5200_series_5213_size_65_mm_id_120_mm_od_38_1_mm_depth,
+      text is okay to include**
+
+
+      Apply the house style you just wrote to this theme. Everything you need is now
+      in hand. Generate the image during this step without asking questions or waiting
+      for another message.
+
+
+      ---
+
+
+      ## Part A — private exploration
+
+
+      Work through these choices privately before calling the image generation tool.
+      Do not send the exploration as a text response. Push past the theme''s first
+      obvious reading, but do it briskly.
+
+
+      - **Angles:** exactly four mascot interpretations, **one or two sentences each**.
+      Include at least one that anthropomorphises an object or concept from the theme
+      rather than reaching for the obvious animal, and at least one built on a visual
+      pun. Then name your pick in a single sentence saying why it beats the other
+      three — no full comparison table.
+
+      - **The chosen design:** one short paragraph fixing the pose, expression, props,
+      and line strategy. Prefer gesture or a moment of character over a static front-on
+      stare. Cut any prop that is decoration rather than signal.
+
+      - **Text:** one line — the exact string in quotes with exact casing, or "no
+      text". Text is allowed and okay to include when it improves identification.
+
+      - **Trace and small-size check:** a short bullet list of fixes only — every
+      stroke to thicken, gap to widen, island to bridge, detail to delete. Just the
+      fixes, not the reasoning, and not a description of what the design looks like
+      at size.
+
+
+      Skip anything not on that list: no tradeoff essays, no runner-up post-mortems,
+      no notes on your own process.
+
+
+      ## Part B — generate the image now
+
+
+      Write the final image-generation prompt for the chosen direction and pass it
+      directly to the image generation tool in this step. Invoke the tool exactly
+      once. Do not return a text-only prompt, a fenced code block, or a plan to generate
+      later. Finish with the generated image so it can be saved immediately from the
+      generation window.
+
+
+      Follow the six-part architecture from step 1 exactly, in order: medium and style
+      → subject → key details → layout → line and manufacturing spec → exclusions
+      last.
+
+
+      **Length: 180–250 words.** Long enough to carry the full spec, short enough
+      that no single instruction gets diluted. If you are over, cut adjectives and
+      repeated style words before you cut any manufacturing rule.
+
+
+      Hard requirements for that prompt:
+
+
+      - It opens by stating it is a **square black-and-white line-art mascot logo**.
+
+      - It says in plain words that the image is **square** and **pure black on a
+      pure white background**.
+
+      - It states stroke weight as a fraction of the image width, and requires every
+      shape to be a **closed path** with **no floating disconnected islands**.
+
+      - It caps interior detail explicitly and forbids crosshatching, stippling, and
+      hairline tapers.
+
+      - Any literal text appears in quotes with exact casing, spelled out character
+      by character if it is unusual.
+
+      - The exclusion list comes **last**, after every positive descriptor.
+
+      - It is self-contained: someone pasting it cold, with no memory of this conversation,
+      gets the same image. No "as discussed above", no "the mascot from earlier".
+
+      - One image-generation call only. No variants, no alternates, and no extra text
+      response after the image.
+
+      '
+  - command: save_image_generated
+    file_name: initial_generated.png
+    mode_ai_wait: slow
+  - command: close_tab
+  file_test: initial_generated.png
+  retries_until_complete: 0
+oomlout_ai_roboclick_2:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      depth: '38.1'
+      directory: parts\hardware_bearing_5200_series_5213_size_65_mm_id_120_mm_od_38.1_mm_depth
+      id: '65'
+      name: hardware_bearing_5200_series_5213_size_65_mm_id_120_mm_od_38_1_mm_depth
+      name_proper: Hardware Bearing 5200 Series 5213 Size 65 Mm Id 120 Mm Od 38 1
+        Mm Depth
+      name_space: hardware bearing 5200 series 5213 size 65 mm id 120 mm od 38 1 mm
+        depth
+      name_upper: HARDWARE BEARING 5200 SERIES 5213 SIZE 65 MM ID 120 MM OD 38 1 MM
+        DEPTH
+      od: '120'
+      oomlout_ai_roboclick_1:
+        actions:
+        - command: new_chat
+          description: step_1_create_icon
+        - command: ai_query
+          delay: '240'
+          mode_ai_wait: slow
+          text: '## READ THIS FIRST — no theme is coming in this message, and that
+            is correct
+
+
+            This is **step 1 of 2**. It is deliberately theme-free. You are building
+            a reusable house style, not designing a specific logo.
+
+
+            The theme arrives in step 2. Do **not** ask what the theme is. Do **not**
+            ask any clarifying questions. Do **not** write a final image-generation
+            prompt yet — you cannot, and attempting one is a failure of this step.
+            Do **not** invent a placeholder theme and design for it. If you feel information
+            is missing, that is expected: the missing information is the theme, it
+            is coming next, and nothing in this step requires it.
+
+
+            Your entire output for this step is a **house style guide** that will
+            be applied to whatever theme arrives next.
+
+
+            ---
+
+
+            ## The product this style serves
+
+
+            **Intended use:** a square, single-colour, pure-black-on-pure-white mascot
+            logo, generated as a raster image, then **auto-traced to vector and cut/engraved
+            on a laser cutter**. The trace step is unforgiving — it is the hardest
+            constraint in this brief and should shape most of your recommendations.
+
+
+            **Target feel:** charming, original, cute, polished, instantly readable
+            at ~20 mm. A designed branded icon, not a doodle page and not generic
+            kawaii clip art.
+
+
+            ---
+
+
+            ## What to produce
+
+
+            Write these six sections. **Budget: about 900 words total, 1,100 hard
+            ceiling.** That is roughly 100–150 words per section, with section 6 allowed
+            the most. This is a working reference, not an essay — every line should
+            be a rule someone could check a drawing against. Prefer tight bullets
+            over prose paragraphs, and cut any sentence that only restates the brief
+            back at me.
+
+
+            **1. Line language menu**
+
+            Exactly three distinct black-on-white line-art approaches (e.g. uniform
+            monoline, weight-varied outline with sparse interior, chunky sticker-outline,
+            geometric constructed line). One or two lines each: what it does for charm,
+            how it survives auto-tracing, what it costs.
+
+
+            **2. Cuteness that isn''t generic**
+
+            The handful of levers that make a line mascot lovable — eye shape and
+            spacing, head-to-body ratio, pose energy, mouth simplicity, restraint
+            on blush marks — each as a one-line rule with a number where a number
+            applies. Then a short do-not list of the clichés that make an AI mascot
+            look stock (dead-centre symmetrical stare, sparkle confetti, floating
+            hearts, blob bodies), each with its one-line replacement.
+
+
+            **3. Trace-safety rules**
+
+            A flat list of concrete, checkable rules for the auto-trace-to-cut pipeline
+            — one line each, no explanatory paragraphs:
+
+            - minimum stroke thickness relative to the square''s width, stated as
+            a fraction (so it scales)
+
+            - minimum gap between two adjacent strokes before they blur into one traced
+            blob
+
+            - why every shape should read as a closed path, and how to spot one that
+            won''t
+
+            - island/floating-part handling and where to add connective bridges
+
+            - what to do about interior detail that a tracer will turn into noise
+            (crosshatching, stippling, tapering hairlines, single stray dots)
+
+            - why large solid black fills are avoided here, and the acceptable exceptions
+            (small eyes, pupils, a tiny accent shape)
+
+
+            **4. Composition and hierarchy**
+
+            Bulleted rules only: square framing, margin as a fraction of the square,
+            centre of visual mass, minimum negative space, the mascot-leads / props-support
+            / text-reinforces hierarchy, and the shared traits that make it read as
+            one illustrator''s hand (same stroke weight, same corner radius, same
+            eye style, same spacing rhythm).
+
+
+            **5. Text and badge treatments**
+
+            Text is allowed and okay to include. Briefly: when a word helps versus
+            clutters, a maximum letter count that stays cuttable, how to specify literal
+            text so it renders verbatim (quotes, exact casing), the letterform to
+            ask for, and when a badge ring earns its place versus just boxing the
+            mark in. Six bullets is plenty.
+
+
+            **6. Prompt architecture for step 2**
+
+            The most important section, so spend your words here. Specify the exact
+            template the step-2 final prompt must follow — and state that the finished
+            prompt should land at **180–250 words**, long enough to carry the spec,
+            short enough that no single instruction gets diluted. Order it to match
+            how the image model weights a prompt:
+
+
+            1. **Medium and style up front** — the first sentence states it is a square
+            black-and-white line-art mascot logo, because opening words set the mode
+            for everything after.
+
+            2. **Subject** — the mascot, its identity, expression, pose.
+
+            3. **Key details** — props, supporting motifs, any literal text in quotes.
+
+            4. **Layout** — centring, margins, hierarchy, where each element sits.
+
+            5. **Line and manufacturing spec** — stroke weight, closed paths, interior-detail
+            limits.
+
+            6. **Exclusions last** — negatives go at the very end, after every positive
+            descriptor, because a model reading them early tends to treat them as
+            things to compose rather than things to omit.
+
+
+            Give the canonical exclusion list to close with (no grey, no shading,
+            no gradients, no halftone, no dithering, no texture, no colour, no transparency,
+            no background scene, no drop shadow, no outer glow, no frame border unless
+            specified, no watermark, no signature, no extra text beyond what is quoted).
+
+
+            Also state the two facts the prompt must say in plain words no matter
+            what: the image is **square**, and it is **pure black on a pure white
+            background**.
+
+
+            ---
+
+
+            ## Response style and length
+
+
+            **About 900 words, 1,100 absolute maximum.** Bullets over prose. Concrete
+            and checkable over abstract and aspirational — "stroke no thinner than
+            1/100 of the square''s width" beats "confident lines". No preamble, no
+            restating this brief back at me, no summary of what you are about to do.
+            Skip the caveats and the reasoning behind each rule; just state the rule.
+
+
+            Close with a checklist of the rules, 12 lines at most, so step 2 can be
+            graded against it.
+
+
+            Then stop. No final image prompt, no questions, no theme.
+
+            '
+        - command: ai_query
+          delay: '240'
+          mode_ai_wait: slow
+          text: '## Step 2 of 2 — the theme
+
+
+            The theme is: **an image of hardware bearing 5200 series 5213 size 65
+            mm id 120 mm od 38 1 mm depth make Hardware Bearing 5200 Series 5213 Size
+            65 Mm Id 120 Mm Od 38 1 Mm Depth cute, bearing size 5213 65x120x38.1 mm,
+            code hardware_bearing_5200_series_5213_size_65_mm_id_120_mm_od_38_1_mm_depth,
+            text is okay to include**
+
+
+            Apply the house style you just wrote to this theme. Everything you need
+            is now in hand. Generate the image during this step without asking questions
+            or waiting for another message.
+
+
+            ---
+
+
+            ## Part A — private exploration
+
+
+            Work through these choices privately before calling the image generation
+            tool. Do not send the exploration as a text response. Push past the theme''s
+            first obvious reading, but do it briskly.
+
+
+            - **Angles:** exactly four mascot interpretations, **one or two sentences
+            each**. Include at least one that anthropomorphises an object or concept
+            from the theme rather than reaching for the obvious animal, and at least
+            one built on a visual pun. Then name your pick in a single sentence saying
+            why it beats the other three — no full comparison table.
+
+            - **The chosen design:** one short paragraph fixing the pose, expression,
+            props, and line strategy. Prefer gesture or a moment of character over
+            a static front-on stare. Cut any prop that is decoration rather than signal.
+
+            - **Text:** one line — the exact string in quotes with exact casing, or
+            "no text". Text is allowed and okay to include when it improves identification.
+
+            - **Trace and small-size check:** a short bullet list of fixes only —
+            every stroke to thicken, gap to widen, island to bridge, detail to delete.
+            Just the fixes, not the reasoning, and not a description of what the design
+            looks like at size.
+
+
+            Skip anything not on that list: no tradeoff essays, no runner-up post-mortems,
+            no notes on your own process.
+
+
+            ## Part B — generate the image now
+
+
+            Write the final image-generation prompt for the chosen direction and pass
+            it directly to the image generation tool in this step. Invoke the tool
+            exactly once. Do not return a text-only prompt, a fenced code block, or
+            a plan to generate later. Finish with the generated image so it can be
+            saved immediately from the generation window.
+
+
+            Follow the six-part architecture from step 1 exactly, in order: medium
+            and style → subject → key details → layout → line and manufacturing spec
+            → exclusions last.
+
+
+            **Length: 180–250 words.** Long enough to carry the full spec, short enough
+            that no single instruction gets diluted. If you are over, cut adjectives
+            and repeated style words before you cut any manufacturing rule.
+
+
+            Hard requirements for that prompt:
+
+
+            - It opens by stating it is a **square black-and-white line-art mascot
+            logo**.
+
+            - It says in plain words that the image is **square** and **pure black
+            on a pure white background**.
+
+            - It states stroke weight as a fraction of the image width, and requires
+            every shape to be a **closed path** with **no floating disconnected islands**.
+
+            - It caps interior detail explicitly and forbids crosshatching, stippling,
+            and hairline tapers.
+
+            - Any literal text appears in quotes with exact casing, spelled out character
+            by character if it is unusual.
+
+            - The exclusion list comes **last**, after every positive descriptor.
+
+            - It is self-contained: someone pasting it cold, with no memory of this
+            conversation, gets the same image. No "as discussed above", no "the mascot
+            from earlier".
+
+            - One image-generation call only. No variants, no alternates, and no extra
+            text response after the image.
+
+            '
+        - command: save_image_generated
+          file_name: initial_generated.png
+          mode_ai_wait: slow
+        - command: close_tab
+        file_test: initial_generated.png
+        retries_until_complete: 0
+      series: '5200'
+      size: '5213'
+      svg_details:
+        filename: working_mechanical_drawing
+        hardware_type: bearing
+        id_mm: 65.0
+        od_mm: 120.0
+        part_category: HARDWARE / BEARING
+        part_code: ISO 15 / DIN 625
+        part_name: hardware_bearing_5200_series_5213_size_65_mm_id_120_mm_od_38_1_mm_depth
+        part_series: 5200 SERIES BALL BEARING
+        part_title: '5213'
+        svg_name: oomp_mech_drawing_hardware
+        width_mm: 38.1
+      taxonomy_1: hardware
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: bearing
+      taxonomy_3: 5200_series
+      taxonomy_4: 5213_size
+      taxonomy_5: 65_mm_id
+      taxonomy_6: 120_mm_od
+      taxonomy_7: 38.1_mm_depth
+      taxonomy_8: ''
+      taxonomy_9: ''
+      url_chat: https://chatgpt.com/c/6ab83793-9d70-83eb-9815-d2452119b41d
+      weight: 1,916
+      width: '38.1'
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_oomp.svg
+    file_template: C:\od\OneDrive\docs\oomp_bearing\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_oomp.pdf
+  retries_until_complete: 0
+oomlout_ai_roboclick_3:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    description: Bold bearing label 3x2
+    dict_data_yaml_files:
+      label_manual: C:\od\OneDrive\docs\oomp_bearing\parts\hardware_bearing_5200_series_5213_size_65_mm_id_120_mm_od_38.1_mm_depth\working_manual.yaml
+      label_source: C:\od\OneDrive\docs\oomp_bearing\parts_source\hardware_bearing_5200_series_5213_size_65_mm_id_120_mm_od_38_1_mm_depth\working.yaml
+    file_output: label_bearing_bold_3x2.svg
+    file_template: C:\od\OneDrive\docs\oomp_bearing\source_file\template_jinja\label_bearing_bold\3x2.svg.j2
+  file_test: ''
+oomlout_ai_roboclick_4:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    description: Bold bearing label 1_5x1
+    dict_data_yaml_files:
+      label_manual: C:\od\OneDrive\docs\oomp_bearing\parts\hardware_bearing_5200_series_5213_size_65_mm_id_120_mm_od_38.1_mm_depth\working_manual.yaml
+      label_source: C:\od\OneDrive\docs\oomp_bearing\parts_source\hardware_bearing_5200_series_5213_size_65_mm_id_120_mm_od_38_1_mm_depth\working.yaml
+    file_output: label_bearing_bold_1_5x1.svg
+    file_template: C:\od\OneDrive\docs\oomp_bearing\source_file\template_jinja\label_bearing_bold\1_5x1.svg.j2
+  file_test: ''
+oomp_key: oomp_hardware_bearing_5200_series_5213_size_65_mm_id_120_mm_od_38.1_mm_depth
+run_action: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: false
+series: '5200'
+size: '5213'
+svg_details:
+  svg_name: bearing_dimension
+  title: 5213 / OPEN BEARING
+  family: DOUBLE ROW ANGULAR CONTACT
+  dimensions_mm:
+    bore: 65.0
+    outside: 120.0
+    width: 38.1
+    contact_angle_deg: 25.0
+  sheet_width_mm: 297
+  sheet_height_mm: 210
+  ink: '#183336'
+  accent: '#147d83'
+  muted: '#61767a'
+  paper: '#ffffff'
+  race_face_fill: '#edf3f3'
+  inner_race_face_outside_mm: 85.4134
+  outer_race_face_inside_mm: 99.5866
+  line_width_mm: 0.45
+  font_family: Helvetica
+  dimension_font_mm: 4
+  title_font_mm: 9
+  front_centre_mm:
+  - 79
+  - 103
+  side_centre_mm:
+  - 211
+  - 103
+  max_view_width_mm: 78
+  max_side_width_mm: 55
+  dimension_offset_mm: 12
+  arrow_size_mm: 2
+  note: Nominal dimensions in mm. Illustration only; no tolerances or fit allowances.
+  authority: manufacturer checked
+  internal_note: Open presentation; internal races and balls are illustrative. Retainers
+    omitted.
+  layout:
+    left_margin_mm: 14
+    right_margin_mm: 283
+    title_y_mm: 22
+    family_y_mm: 33
+    family_font_mm: 3.5
+    brand: OOMP / BEARINGS
+    brand_font_mm: 3.5
+    header_rule_y_mm: 40
+    view_caption_y_mm: 173
+    view_caption_font_mm: 3
+    front_caption: FRONT VIEW
+    side_caption: SIDE VIEW
+    footer_rule_y_mm: 180
+    note_y_mm: 187
+    internal_note_y_mm: 194
+    note_font_mm: 3.2
+    source_y_mm: 202
+    source_font_mm: 3
+    source_prefix: 'SOURCE: '
+    scale_prefix: A4 / scale
+  dimension_style:
+    line_width_mm: 0.25
+    arrow_half_width_ratio: 0.3
+    text_gap_mm: 2
+    extension_mm: 2
+    width_extension_mm: 3
+    centre_extension_mm: 5
+    dash_pattern_mm:
+    - 2
+    - 1
+    flange_leader_offset_mm:
+    - -13
+    - 11
+    flange_text_offset_mm:
+    - -13
+    - 16
+    flange_font_mm: 3.5
+  outline:
+    ink: black
+    line_width_mm: 0.1
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_2: bearing
+taxonomy_2_capital: Bearing
+taxonomy_2_first_letter: b
+taxonomy_2_first_letter_upper: B
+taxonomy_2_length_1: b
+taxonomy_2_length_2: be
+taxonomy_2_length_3: bea
+taxonomy_2_length_4: bear
+taxonomy_2_length_5: beari
+taxonomy_2_upper: BEARING
+taxonomy_2_upper_length_1: B
+taxonomy_2_upper_length_2: BE
+taxonomy_2_upper_length_3: BEA
+taxonomy_2_upper_length_4: BEAR
+taxonomy_2_upper_length_5: BEARI
+taxonomy_3: 5200_series
+taxonomy_3_capital: 5200 Series
+taxonomy_3_first_letter: '5'
+taxonomy_3_first_letter_upper: '5'
+taxonomy_3_length_1: '5'
+taxonomy_3_length_2: '52'
+taxonomy_3_length_3: '520'
+taxonomy_3_length_4: '5200'
+taxonomy_3_length_5: '5200_'
+taxonomy_3_upper: 5200_SERIES
+taxonomy_3_upper_length_1: '5'
+taxonomy_3_upper_length_2: '52'
+taxonomy_3_upper_length_3: '520'
+taxonomy_3_upper_length_4: '5200'
+taxonomy_3_upper_length_5: '5200_'
+taxonomy_4: 5213_size
+taxonomy_4_capital: 5213 Size
+taxonomy_4_first_letter: '5'
+taxonomy_4_first_letter_upper: '5'
+taxonomy_4_length_1: '5'
+taxonomy_4_length_2: '52'
+taxonomy_4_length_3: '521'
+taxonomy_4_length_4: '5213'
+taxonomy_4_length_5: '5213_'
+taxonomy_4_upper: 5213_SIZE
+taxonomy_4_upper_length_1: '5'
+taxonomy_4_upper_length_2: '52'
+taxonomy_4_upper_length_3: '521'
+taxonomy_4_upper_length_4: '5213'
+taxonomy_4_upper_length_5: '5213_'
+taxonomy_5: 65_mm_id
+taxonomy_5_capital: 65 mm Id
+taxonomy_5_first_letter: '6'
+taxonomy_5_first_letter_upper: '6'
+taxonomy_5_length_1: '6'
+taxonomy_5_length_2: '65'
+taxonomy_5_length_3: '65_'
+taxonomy_5_length_4: 65_m
+taxonomy_5_length_5: 65_mm
+taxonomy_5_upper: 65_MM_ID
+taxonomy_5_upper_length_1: '6'
+taxonomy_5_upper_length_2: '65'
+taxonomy_5_upper_length_3: '65_'
+taxonomy_5_upper_length_4: 65_M
+taxonomy_5_upper_length_5: 65_MM
+taxonomy_6: 120_mm_od
+taxonomy_6_capital: 120 mm Od
+taxonomy_6_first_letter: '1'
+taxonomy_6_first_letter_upper: '1'
+taxonomy_6_length_1: '1'
+taxonomy_6_length_2: '12'
+taxonomy_6_length_3: '120'
+taxonomy_6_length_4: '120_'
+taxonomy_6_length_5: 120_m
+taxonomy_6_upper: 120_MM_OD
+taxonomy_6_upper_length_1: '1'
+taxonomy_6_upper_length_2: '12'
+taxonomy_6_upper_length_3: '120'
+taxonomy_6_upper_length_4: '120_'
+taxonomy_6_upper_length_5: 120_M
+taxonomy_7: 38.1_mm_depth
+taxonomy_7_capital: 38.1 mm Depth
+taxonomy_7_first_letter: '3'
+taxonomy_7_first_letter_upper: '3'
+taxonomy_7_length_1: '3'
+taxonomy_7_length_2: '38'
+taxonomy_7_length_3: '38.'
+taxonomy_7_length_4: '38.1'
+taxonomy_7_length_5: '38.1_'
+taxonomy_7_upper: 38.1_MM_DEPTH
+taxonomy_7_upper_length_1: '3'
+taxonomy_7_upper_length_2: '38'
+taxonomy_7_upper_length_3: '38.'
+taxonomy_7_upper_length_4: '38.1'
+taxonomy_7_upper_length_5: '38.1_'
+taxonomy_8: ''
+taxonomy_9: ''
+url_chat: https://chatgpt.com/c/6ab83793-9d70-83eb-9815-d2452119b41d
+weight: 1,916
+width: 38.1
+catalogue_schema: oomp_bearing_v5
+oomp_id: hardware_bearing_5200_series_5213_size_65_mm_id_120_mm_od_38.1_mm_depth
+family: double_row_angular_contact
+dimensions_mm:
+  bore: 65.0
+  outside: 120.0
+  width: 38.1
+  contact_angle_deg: 25.0
+bore: 65.0
+dimension_authority: manufacturer_checked
+source_checked: '2026-10-27'
+sources:
+- https://www.nsk.com/content/dam/nsk/am/en_us/documents/bearings-americas/Bearing-and-Linear-Replacement-Guide.pdf
+model_note: Nominal presentation model. Raceways, pitch circle, chamfers and retainer
+  geometry are illustrative; ball count/diameter are illustrative unless individually
+  sourced. Not a manufacturer reconstruction, load-rating model or manufacturing/tolerance
+  certification. Unspecified closure is presented open. The mesh shows open races
+  and balls; retainers, seals and exact contact surfaces are omitted.
+closure: open
+three_d_model_details:
+  schema_version: 1
+  generator: bearing_open
+  output_folder: three_d_model
+  parameters:
+    bore: 65.0
+    outside: 120.0
+    width: 38.1
+    edge: 1.65
+    pitch_radius: 46.25
+    ball_radius: 5.715
+    groove_radius: 6.00075
+    inner_shoulder: 42.7067
+    outer_shoulder: 49.7933
+    cage_half_width: 3.14325
+    cage_low: 5.42925
+    cage_high: 6.5722499999999995
+    window_radius: 2.7432
+    contact_angle_deg: 25.0
+    contact_offset: 0.142875
+    identity: hardware_bearing_5200_series_5213_size_65_mm_id_120_mm_od_38.1_mm_depth
+    specification: 5213 / 65 x 120 x 38.1 mm
+    characteristic_dimension_mm: 120.0
+    characteristic_dimension_basis: maximum nominal envelope dimension
+    ball_count: 36
+    balls_per_row: 18
+    row_count: 2
+    ball_specification: illustrative
+    contact_angle_authority: manufacturer_family
+    row_centres_z:
+    - 9.525
+    - 28.575000000000003
+    components:
+    - name: outer_race
+      shape: revolved_profile
+      profile_mm:
+      - - 58.35
+        - 0
+      - - 60.0
+        - 1.65
+      - - 60.0
+        - 36.45
+      - - 58.35
+        - 38.1
+      - - 49.7933
+        - 38.1
+      - - 49.7933
+        - 36.45
+      - - 49.7933
+        - 34.57575
+      - - 49.7933
+        - 34.275712500000004
+      - - 49.7933
+        - 33.975675
+      - - 49.7933
+        - 33.6756375
+      - - 49.850449999999995
+        - 33.375600000000006
+      - - 50.21912304496771
+        - 33.075562500000004
+      - - 50.53539266425785
+        - 32.775525
+      - - 50.81017519672696
+        - 32.4754875
+      - - 51.050599999999996
+        - 32.175450000000005
+      - - 51.261614300037834
+        - 31.875412500000003
+      - - 51.446801941759475
+        - 31.575375
+      - - 51.60884110126376
+        - 31.275337500000003
+      - - 51.74977822030125
+        - 30.975300000000004
+      - - 51.871200760833375
+        - 30.675262500000002
+      - - 51.97435066290274
+        - 30.375225
+      - - 52.060201203688536
+        - 30.075187500000006
+      - - 52.12951022960246
+        - 29.775150000000004
+      - - 52.18285749448305
+        - 29.4751125
+      - - 52.22067086321755
+        - 29.175075000000003
+      - - 52.24324436854478
+        - 28.875037500000005
+      - - 52.25075
+        - 28.575000000000003
+      - - 52.24324436854478
+        - 28.2749625
+      - - 52.22067086321755
+        - 27.974925000000002
+      - - 52.18285749448305
+        - 27.674887500000004
+      - - 52.12951022960246
+        - 27.374850000000002
+      - - 52.060201203688536
+        - 27.074812500000004
+      - - 51.97435066290274
+        - 26.774775000000005
+      - - 51.871200760833375
+        - 26.474737500000003
+      - - 51.74977822030125
+        - 26.1747
+      - - 51.60884110126376
+        - 25.874662500000003
+      - - 51.446801941759475
+        - 25.574625000000005
+      - - 51.261614300037834
+        - 25.274587500000003
+      - - 51.0506
+        - 24.974550000000004
+      - - 50.81017519672696
+        - 24.674512500000002
+      - - 50.53539266425785
+        - 24.374475000000004
+      - - 50.21912304496771
+        - 24.074437500000002
+      - - 49.85045
+        - 23.774400000000004
+      - - 49.7933
+        - 23.4743625
+      - - 49.7933
+        - 23.174325000000003
+      - - 49.7933
+        - 22.8742875
+      - - 49.7933
+        - 22.574250000000003
+      - - 49.7933
+        - 15.52575
+      - - 49.7933
+        - 15.2257125
+      - - 49.7933
+        - 14.925675
+      - - 49.7933
+        - 14.6256375
+      - - 49.85045
+        - 14.3256
+      - - 50.21912304496771
+        - 14.025562500000001
+      - - 50.53539266425785
+        - 13.725525
+      - - 50.81017519672696
+        - 13.425487500000001
+      - - 51.0506
+        - 13.12545
+      - - 51.261614300037834
+        - 12.8254125
+      - - 51.44680194175947
+        - 12.525375
+      - - 51.60884110126376
+        - 12.2253375
+      - - 51.74977822030125
+        - 11.925300000000002
+      - - 51.871200760833375
+        - 11.6252625
+      - - 51.97435066290274
+        - 11.325225
+      - - 52.060201203688536
+        - 11.025187500000001
+      - - 52.12951022960246
+        - 10.72515
+      - - 52.18285749448305
+        - 10.425112500000001
+      - - 52.22067086321755
+        - 10.125075
+      - - 52.24324436854478
+        - 9.8250375
+      - - 52.25075
+        - 9.525
+      - - 52.24324436854478
+        - 9.2249625
+      - - 52.22067086321755
+        - 8.924925
+      - - 52.18285749448305
+        - 8.6248875
+      - - 52.12951022960246
+        - 8.324850000000001
+      - - 52.060201203688536
+        - 8.0248125
+      - - 51.97435066290274
+        - 7.724775000000001
+      - - 51.871200760833375
+        - 7.4247375
+      - - 51.74977822030125
+        - 7.124700000000001
+      - - 51.60884110126376
+        - 6.8246625000000005
+      - - 51.44680194175947
+        - 6.524625
+      - - 51.261614300037834
+        - 6.2245875
+      - - 51.0506
+        - 5.92455
+      - - 50.81017519672696
+        - 5.624512500000001
+      - - 50.53539266425785
+        - 5.3244750000000005
+      - - 50.21912304496771
+        - 5.0244375
+      - - 49.85045
+        - 4.7244
+      - - 49.7933
+        - 4.4243625
+      - - 49.7933
+        - 4.124325000000001
+      - - 49.7933
+        - 3.8242875000000005
+      - - 49.7933
+        - 3.5242500000000003
+      - - 49.7933
+        - 1.65
+      - - 49.7933
+        - 0.0
+      - - 58.35
+        - 0
+    - name: inner_race
+      shape: revolved_profile
+      profile_mm:
+      - - 42.7067
+        - 0.0
+      - - 42.7067
+        - 1.65
+      - - 42.7067
+        - 3.5242500000000003
+      - - 42.7067
+        - 3.8242875000000005
+      - - 42.7067
+        - 4.124325000000001
+      - - 42.7067
+        - 4.4243625
+      - - 42.64955
+        - 4.7244
+      - - 42.28087695503229
+        - 5.0244375
+      - - 41.96460733574215
+        - 5.3244750000000005
+      - - 41.68982480327304
+        - 5.624512500000001
+      - - 41.4494
+        - 5.92455
+      - - 41.238385699962166
+        - 6.2245875
+      - - 41.05319805824053
+        - 6.524625
+      - - 40.89115889873624
+        - 6.8246625000000005
+      - - 40.75022177969875
+        - 7.124700000000001
+      - - 40.628799239166625
+        - 7.4247375
+      - - 40.52564933709726
+        - 7.724775000000001
+      - - 40.439798796311464
+        - 8.0248125
+      - - 40.37048977039754
+        - 8.324850000000001
+      - - 40.31714250551695
+        - 8.6248875
+      - - 40.27932913678245
+        - 8.924925
+      - - 40.25675563145522
+        - 9.2249625
+      - - 40.24925
+        - 9.525
+      - - 40.25675563145522
+        - 9.8250375
+      - - 40.27932913678245
+        - 10.125075
+      - - 40.31714250551695
+        - 10.425112500000001
+      - - 40.37048977039754
+        - 10.72515
+      - - 40.439798796311464
+        - 11.025187500000001
+      - - 40.52564933709726
+        - 11.325225
+      - - 40.628799239166625
+        - 11.6252625
+      - - 40.75022177969875
+        - 11.925300000000002
+      - - 40.89115889873624
+        - 12.2253375
+      - - 41.05319805824053
+        - 12.525375
+      - - 41.238385699962166
+        - 12.8254125
+      - - 41.4494
+        - 13.12545
+      - - 41.68982480327304
+        - 13.425487500000001
+      - - 41.96460733574215
+        - 13.725525
+      - - 42.28087695503229
+        - 14.025562500000001
+      - - 42.64955
+        - 14.3256
+      - - 42.7067
+        - 14.6256375
+      - - 42.7067
+        - 14.925675
+      - - 42.7067
+        - 15.2257125
+      - - 42.7067
+        - 15.52575
+      - - 42.7067
+        - 22.574250000000003
+      - - 42.7067
+        - 22.8742875
+      - - 42.7067
+        - 23.174325000000003
+      - - 42.7067
+        - 23.4743625
+      - - 42.64955
+        - 23.774400000000004
+      - - 42.28087695503229
+        - 24.074437500000002
+      - - 41.96460733574215
+        - 24.374475000000004
+      - - 41.68982480327304
+        - 24.674512500000002
+      - - 41.4494
+        - 24.974550000000004
+      - - 41.238385699962166
+        - 25.274587500000003
+      - - 41.053198058240525
+        - 25.574625000000005
+      - - 40.89115889873624
+        - 25.874662500000003
+      - - 40.75022177969875
+        - 26.1747
+      - - 40.628799239166625
+        - 26.474737500000003
+      - - 40.52564933709726
+        - 26.774775000000005
+      - - 40.439798796311464
+        - 27.074812500000004
+      - - 40.37048977039754
+        - 27.374850000000002
+      - - 40.31714250551695
+        - 27.674887500000004
+      - - 40.27932913678245
+        - 27.974925000000002
+      - - 40.25675563145522
+        - 28.2749625
+      - - 40.24925
+        - 28.575000000000003
+      - - 40.25675563145522
+        - 28.875037500000005
+      - - 40.27932913678245
+        - 29.175075000000003
+      - - 40.31714250551695
+        - 29.4751125
+      - - 40.37048977039754
+        - 29.775150000000004
+      - - 40.439798796311464
+        - 30.075187500000006
+      - - 40.52564933709726
+        - 30.375225
+      - - 40.628799239166625
+        - 30.675262500000002
+      - - 40.75022177969875
+        - 30.975300000000004
+      - - 40.89115889873624
+        - 31.275337500000003
+      - - 41.053198058240525
+        - 31.575375
+      - - 41.238385699962166
+        - 31.875412500000003
+      - - 41.449400000000004
+        - 32.175450000000005
+      - - 41.68982480327304
+        - 32.4754875
+      - - 41.96460733574215
+        - 32.775525
+      - - 42.28087695503229
+        - 33.075562500000004
+      - - 42.649550000000005
+        - 33.375600000000006
+      - - 42.7067
+        - 33.6756375
+      - - 42.7067
+        - 33.975675
+      - - 42.7067
+        - 34.275712500000004
+      - - 42.7067
+        - 34.57575
+      - - 42.7067
+        - 36.45
+      - - 42.7067
+        - 38.1
+      - - 34.15
+        - 38.1
+      - - 32.5
+        - 36.45
+      - - 32.5
+        - 1.65
+      - - 34.15
+        - 0
+      - - 42.7067
+        - 0.0
+    - name: ball_row_1_1
+      shape: sphere
+      radius_mm: 5.715
+      centre_mm:
+      - 46.25
+      - 0.0
+      - 9.525
+    - name: ball_row_1_2
+      shape: sphere
+      radius_mm: 5.715
+      centre_mm:
+      - 43.46078371134826
+      - 15.818431628812178
+      - 9.525
+    - name: ball_row_1_3
+      shape: sphere
+      radius_mm: 5.715
+      centre_mm:
+      - 35.42955549425273
+      - 29.72892694800244
+      - 9.525
+    - name: ball_row_1_4
+      shape: sphere
+      radius_mm: 5.715
+      centre_mm:
+      - 23.125000000000004
+      - 40.053674925030286
+      - 9.525
+    - name: ball_row_1_5
+      shape: sphere
+      radius_mm: 5.715
+      centre_mm:
+      - 8.031228217095531
+      - 45.547358576814624
+      - 9.525
+    - name: ball_row_1_6
+      shape: sphere
+      radius_mm: 5.715
+      centre_mm:
+      - -8.031228217095526
+      - 45.547358576814624
+      - 9.525
+    - name: ball_row_1_7
+      shape: sphere
+      radius_mm: 5.715
+      centre_mm:
+      - -23.12499999999999
+      - 40.05367492503029
+      - 9.525
+    - name: ball_row_1_8
+      shape: sphere
+      radius_mm: 5.715
+      centre_mm:
+      - -35.429555494252725
+      - 29.72892694800245
+      - 9.525
+    - name: ball_row_1_9
+      shape: sphere
+      radius_mm: 5.715
+      centre_mm:
+      - -43.46078371134826
+      - 15.818431628812185
+      - 9.525
+    - name: ball_row_1_10
+      shape: sphere
+      radius_mm: 5.715
+      centre_mm:
+      - -46.25
+      - 5.6639914460565085e-15
+      - 9.525
+    - name: ball_row_1_11
+      shape: sphere
+      radius_mm: 5.715
+      centre_mm:
+      - -43.46078371134826
+      - -15.818431628812176
+      - 9.525
+    - name: ball_row_1_12
+      shape: sphere
+      radius_mm: 5.715
+      centre_mm:
+      - -35.429555494252746
+      - -29.728926948002425
+      - 9.525
+    - name: ball_row_1_13
+      shape: sphere
+      radius_mm: 5.715
+      centre_mm:
+      - -23.12500000000002
+      - -40.05367492503028
+      - 9.525
+    - name: ball_row_1_14
+      shape: sphere
+      radius_mm: 5.715
+      centre_mm:
+      - -8.031228217095528
+      - -45.547358576814624
+      - 9.525
+    - name: ball_row_1_15
+      shape: sphere
+      radius_mm: 5.715
+      centre_mm:
+      - 8.031228217095512
+      - -45.547358576814624
+      - 9.525
+    - name: ball_row_1_16
+      shape: sphere
+      radius_mm: 5.715
+      centre_mm:
+      - 23.124999999999968
+      - -40.05367492503031
+      - 9.525
+    - name: ball_row_1_17
+      shape: sphere
+      radius_mm: 5.715
+      centre_mm:
+      - 35.429555494252725
+      - -29.728926948002456
+      - 9.525
+    - name: ball_row_1_18
+      shape: sphere
+      radius_mm: 5.715
+      centre_mm:
+      - 43.46078371134826
+      - -15.818431628812172
+      - 9.525
+    - name: ball_row_2_1
+      shape: sphere
+      radius_mm: 5.715
+      centre_mm:
+      - 46.25
+      - 0.0
+      - 28.575000000000003
+    - name: ball_row_2_2
+      shape: sphere
+      radius_mm: 5.715
+      centre_mm:
+      - 43.46078371134826
+      - 15.818431628812178
+      - 28.575000000000003
+    - name: ball_row_2_3
+      shape: sphere
+      radius_mm: 5.715
+      centre_mm:
+      - 35.42955549425273
+      - 29.72892694800244
+      - 28.575000000000003
+    - name: ball_row_2_4
+      shape: sphere
+      radius_mm: 5.715
+      centre_mm:
+      - 23.125000000000004
+      - 40.053674925030286
+      - 28.575000000000003
+    - name: ball_row_2_5
+      shape: sphere
+      radius_mm: 5.715
+      centre_mm:
+      - 8.031228217095531
+      - 45.547358576814624
+      - 28.575000000000003
+    - name: ball_row_2_6
+      shape: sphere
+      radius_mm: 5.715
+      centre_mm:
+      - -8.031228217095526
+      - 45.547358576814624
+      - 28.575000000000003
+    - name: ball_row_2_7
+      shape: sphere
+      radius_mm: 5.715
+      centre_mm:
+      - -23.12499999999999
+      - 40.05367492503029
+      - 28.575000000000003
+    - name: ball_row_2_8
+      shape: sphere
+      radius_mm: 5.715
+      centre_mm:
+      - -35.429555494252725
+      - 29.72892694800245
+      - 28.575000000000003
+    - name: ball_row_2_9
+      shape: sphere
+      radius_mm: 5.715
+      centre_mm:
+      - -43.46078371134826
+      - 15.818431628812185
+      - 28.575000000000003
+    - name: ball_row_2_10
+      shape: sphere
+      radius_mm: 5.715
+      centre_mm:
+      - -46.25
+      - 5.6639914460565085e-15
+      - 28.575000000000003
+    - name: ball_row_2_11
+      shape: sphere
+      radius_mm: 5.715
+      centre_mm:
+      - -43.46078371134826
+      - -15.818431628812176
+      - 28.575000000000003
+    - name: ball_row_2_12
+      shape: sphere
+      radius_mm: 5.715
+      centre_mm:
+      - -35.429555494252746
+      - -29.728926948002425
+      - 28.575000000000003
+    - name: ball_row_2_13
+      shape: sphere
+      radius_mm: 5.715
+      centre_mm:
+      - -23.12500000000002
+      - -40.05367492503028
+      - 28.575000000000003
+    - name: ball_row_2_14
+      shape: sphere
+      radius_mm: 5.715
+      centre_mm:
+      - -8.031228217095528
+      - -45.547358576814624
+      - 28.575000000000003
+    - name: ball_row_2_15
+      shape: sphere
+      radius_mm: 5.715
+      centre_mm:
+      - 8.031228217095512
+      - -45.547358576814624
+      - 28.575000000000003
+    - name: ball_row_2_16
+      shape: sphere
+      radius_mm: 5.715
+      centre_mm:
+      - 23.124999999999968
+      - -40.05367492503031
+      - 28.575000000000003
+    - name: ball_row_2_17
+      shape: sphere
+      radius_mm: 5.715
+      centre_mm:
+      - 35.429555494252725
+      - -29.728926948002456
+      - 28.575000000000003
+    - name: ball_row_2_18
+      shape: sphere
+      radius_mm: 5.715
+      centre_mm:
+      - 43.46078371134826
+      - -15.818431628812172
+      - 28.575000000000003
+  modelling_note: Nominal presentation model. Raceways, pitch circle, chamfers and
+    retainer geometry are illustrative; ball count/diameter are illustrative unless
+    individually sourced. Not a manufacturer reconstruction, load-rating model or
+    manufacturing/tolerance certification. Unspecified closure is presented open.
+    The mesh shows open races and balls; retainers, seals and exact contact surfaces
+    are omitted.
+  dimension_authority: manufacturer_checked
+  model_formats:
+  - glb
+  variants:
+    full:
+      angular_segments: 128
+      sphere_subdivisions: 3
+    display:
+      angular_segments: 32
+      sphere_subdivisions: 2
+  views:
+  - isometric
+  - front
+  - back
+  - left
+  - right
+  - top
+  - bottom
+  material:
+    name: Illustrative polished bearing steel
+    base_colour_srgb:
+    - 0.62
+    - 0.65
+    - 0.69
+    metallic: 1.0
+    roughness: 0.22
+    roughness_variation: 0.045
+    coat_weight: 0.02
+    coat_roughness: 0.28
+    microtexture_spacing_mm: 0.025
+    microtexture_height_um: 0.8
+    note: Illustrative bearing steel; material grade and finish are not specified.
+  studio:
+    engine: cycles
+    device: auto
+    seed: 7991
+    low_samples: 24
+    high_samples: 48
+    adaptive_threshold: 0.015
+    denoise: true
+    view_transform: AgX
+    look: AgX - Medium High Contrast
+    exposure: 0.0
+    world_colour:
+    - 0.78
+    - 0.82
+    - 0.9
+    world_strength: 0.35
+    floor_colour_srgb:
+    - 0.93
+    - 0.935
+    - 0.94
+    floor_roughness: 0.55
+    framing_margin: 0.13
+    lights:
+    - name: Key softbox
+      position:
+      - -3
+      - -4
+      - 6
+      power: 650.0
+      width: 4.0
+      height: 5.0
+      colour:
+      - 1.0
+      - 0.96
+      - 0.9
+    - name: Fill softbox
+      position:
+      - 4
+      - -1
+      - 3
+      power: 330.0
+      width: 3.0
+      height: 4.0
+      colour:
+      - 0.9
+      - 0.95
+      - 1.0
+    - name: Rim strip
+      position:
+      - 1
+      - 4
+      - 4
+      power: 850.0
+      width: 1.2
+      height: 5.0
+      colour:
+      - 1.0
+      - 1.0
+      - 1.0
+    poses:
+      isometric:
+        camera_eye:
+        - 1
+        - -1
+        - 1
+        projection: orthographic
+        orientation: principal axis Z up
+      product:
+        camera_eye:
+        - -6
+        - -10
+        - 6
+        projection: orthographic
+        orientation: resting on lower face
+        yaw_degrees: -12.0
+        support: Stable convex-hull support using actual mesh centre of mass.
+        resting_axis: face
+  renders:
+    low:
+      file: render_low.png
+      variant: display
+      pixels: 512
+      view: isometric
+    high:
+      file: render_high.png
+      variant: full
+      pixels: 2048
+      view: isometric
+    product_low:
+      file: render_product_low.png
+      variant: display
+      pixels: 512
+      view: product
+    product_high:
+      file: render_product_high.png
+      variant: full
+      pixels: 2048
+      view: product
+oobb_type: bearing_open
+oobb_details:
+  oobb_type: bearing_open
+  run_scad: true
+  run_solidcraft: false
+  angular_segments: 128
+  components:
+  - name: outer_race
+    shape: revolved_profile
+    profile_mm:
+    - - 58.35
+      - 0
+    - - 60.0
+      - 1.65
+    - - 60.0
+      - 36.45
+    - - 58.35
+      - 38.1
+    - - 49.7933
+      - 38.1
+    - - 49.7933
+      - 36.45
+    - - 49.7933
+      - 34.57575
+    - - 49.7933
+      - 34.275712500000004
+    - - 49.7933
+      - 33.975675
+    - - 49.7933
+      - 33.6756375
+    - - 49.850449999999995
+      - 33.375600000000006
+    - - 50.21912304496771
+      - 33.075562500000004
+    - - 50.53539266425785
+      - 32.775525
+    - - 50.81017519672696
+      - 32.4754875
+    - - 51.050599999999996
+      - 32.175450000000005
+    - - 51.261614300037834
+      - 31.875412500000003
+    - - 51.446801941759475
+      - 31.575375
+    - - 51.60884110126376
+      - 31.275337500000003
+    - - 51.74977822030125
+      - 30.975300000000004
+    - - 51.871200760833375
+      - 30.675262500000002
+    - - 51.97435066290274
+      - 30.375225
+    - - 52.060201203688536
+      - 30.075187500000006
+    - - 52.12951022960246
+      - 29.775150000000004
+    - - 52.18285749448305
+      - 29.4751125
+    - - 52.22067086321755
+      - 29.175075000000003
+    - - 52.24324436854478
+      - 28.875037500000005
+    - - 52.25075
+      - 28.575000000000003
+    - - 52.24324436854478
+      - 28.2749625
+    - - 52.22067086321755
+      - 27.974925000000002
+    - - 52.18285749448305
+      - 27.674887500000004
+    - - 52.12951022960246
+      - 27.374850000000002
+    - - 52.060201203688536
+      - 27.074812500000004
+    - - 51.97435066290274
+      - 26.774775000000005
+    - - 51.871200760833375
+      - 26.474737500000003
+    - - 51.74977822030125
+      - 26.1747
+    - - 51.60884110126376
+      - 25.874662500000003
+    - - 51.446801941759475
+      - 25.574625000000005
+    - - 51.261614300037834
+      - 25.274587500000003
+    - - 51.0506
+      - 24.974550000000004
+    - - 50.81017519672696
+      - 24.674512500000002
+    - - 50.53539266425785
+      - 24.374475000000004
+    - - 50.21912304496771
+      - 24.074437500000002
+    - - 49.85045
+      - 23.774400000000004
+    - - 49.7933
+      - 23.4743625
+    - - 49.7933
+      - 23.174325000000003
+    - - 49.7933
+      - 22.8742875
+    - - 49.7933
+      - 22.574250000000003
+    - - 49.7933
+      - 15.52575
+    - - 49.7933
+      - 15.2257125
+    - - 49.7933
+      - 14.925675
+    - - 49.7933
+      - 14.6256375
+    - - 49.85045
+      - 14.3256
+    - - 50.21912304496771
+      - 14.025562500000001
+    - - 50.53539266425785
+      - 13.725525
+    - - 50.81017519672696
+      - 13.425487500000001
+    - - 51.0506
+      - 13.12545
+    - - 51.261614300037834
+      - 12.8254125
+    - - 51.44680194175947
+      - 12.525375
+    - - 51.60884110126376
+      - 12.2253375
+    - - 51.74977822030125
+      - 11.925300000000002
+    - - 51.871200760833375
+      - 11.6252625
+    - - 51.97435066290274
+      - 11.325225
+    - - 52.060201203688536
+      - 11.025187500000001
+    - - 52.12951022960246
+      - 10.72515
+    - - 52.18285749448305
+      - 10.425112500000001
+    - - 52.22067086321755
+      - 10.125075
+    - - 52.24324436854478
+      - 9.8250375
+    - - 52.25075
+      - 9.525
+    - - 52.24324436854478
+      - 9.2249625
+    - - 52.22067086321755
+      - 8.924925
+    - - 52.18285749448305
+      - 8.6248875
+    - - 52.12951022960246
+      - 8.324850000000001
+    - - 52.060201203688536
+      - 8.0248125
+    - - 51.97435066290274
+      - 7.724775000000001
+    - - 51.871200760833375
+      - 7.4247375
+    - - 51.74977822030125
+      - 7.124700000000001
+    - - 51.60884110126376
+      - 6.8246625000000005
+    - - 51.44680194175947
+      - 6.524625
+    - - 51.261614300037834
+      - 6.2245875
+    - - 51.0506
+      - 5.92455
+    - - 50.81017519672696
+      - 5.624512500000001
+    - - 50.53539266425785
+      - 5.3244750000000005
+    - - 50.21912304496771
+      - 5.0244375
+    - - 49.85045
+      - 4.7244
+    - - 49.7933
+      - 4.4243625
+    - - 49.7933
+      - 4.124325000000001
+    - - 49.7933
+      - 3.8242875000000005
+    - - 49.7933
+      - 3.5242500000000003
+    - - 49.7933
+      - 1.65
+    - - 49.7933
+      - 0.0
+    - - 58.35
+      - 0
+  - name: inner_race
+    shape: revolved_profile
+    profile_mm:
+    - - 42.7067
+      - 0.0
+    - - 42.7067
+      - 1.65
+    - - 42.7067
+      - 3.5242500000000003
+    - - 42.7067
+      - 3.8242875000000005
+    - - 42.7067
+      - 4.124325000000001
+    - - 42.7067
+      - 4.4243625
+    - - 42.64955
+      - 4.7244
+    - - 42.28087695503229
+      - 5.0244375
+    - - 41.96460733574215
+      - 5.3244750000000005
+    - - 41.68982480327304
+      - 5.624512500000001
+    - - 41.4494
+      - 5.92455
+    - - 41.238385699962166
+      - 6.2245875
+    - - 41.05319805824053
+      - 6.524625
+    - - 40.89115889873624
+      - 6.8246625000000005
+    - - 40.75022177969875
+      - 7.124700000000001
+    - - 40.628799239166625
+      - 7.4247375
+    - - 40.52564933709726
+      - 7.724775000000001
+    - - 40.439798796311464
+      - 8.0248125
+    - - 40.37048977039754
+      - 8.324850000000001
+    - - 40.31714250551695
+      - 8.6248875
+    - - 40.27932913678245
+      - 8.924925
+    - - 40.25675563145522
+      - 9.2249625
+    - - 40.24925
+      - 9.525
+    - - 40.25675563145522
+      - 9.8250375
+    - - 40.27932913678245
+      - 10.125075
+    - - 40.31714250551695
+      - 10.425112500000001
+    - - 40.37048977039754
+      - 10.72515
+    - - 40.439798796311464
+      - 11.025187500000001
+    - - 40.52564933709726
+      - 11.325225
+    - - 40.628799239166625
+      - 11.6252625
+    - - 40.75022177969875
+      - 11.925300000000002
+    - - 40.89115889873624
+      - 12.2253375
+    - - 41.05319805824053
+      - 12.525375
+    - - 41.238385699962166
+      - 12.8254125
+    - - 41.4494
+      - 13.12545
+    - - 41.68982480327304
+      - 13.425487500000001
+    - - 41.96460733574215
+      - 13.725525
+    - - 42.28087695503229
+      - 14.025562500000001
+    - - 42.64955
+      - 14.3256
+    - - 42.7067
+      - 14.6256375
+    - - 42.7067
+      - 14.925675
+    - - 42.7067
+      - 15.2257125
+    - - 42.7067
+      - 15.52575
+    - - 42.7067
+      - 22.574250000000003
+    - - 42.7067
+      - 22.8742875
+    - - 42.7067
+      - 23.174325000000003
+    - - 42.7067
+      - 23.4743625
+    - - 42.64955
+      - 23.774400000000004
+    - - 42.28087695503229
+      - 24.074437500000002
+    - - 41.96460733574215
+      - 24.374475000000004
+    - - 41.68982480327304
+      - 24.674512500000002
+    - - 41.4494
+      - 24.974550000000004
+    - - 41.238385699962166
+      - 25.274587500000003
+    - - 41.053198058240525
+      - 25.574625000000005
+    - - 40.89115889873624
+      - 25.874662500000003
+    - - 40.75022177969875
+      - 26.1747
+    - - 40.628799239166625
+      - 26.474737500000003
+    - - 40.52564933709726
+      - 26.774775000000005
+    - - 40.439798796311464
+      - 27.074812500000004
+    - - 40.37048977039754
+      - 27.374850000000002
+    - - 40.31714250551695
+      - 27.674887500000004
+    - - 40.27932913678245
+      - 27.974925000000002
+    - - 40.25675563145522
+      - 28.2749625
+    - - 40.24925
+      - 28.575000000000003
+    - - 40.25675563145522
+      - 28.875037500000005
+    - - 40.27932913678245
+      - 29.175075000000003
+    - - 40.31714250551695
+      - 29.4751125
+    - - 40.37048977039754
+      - 29.775150000000004
+    - - 40.439798796311464
+      - 30.075187500000006
+    - - 40.52564933709726
+      - 30.375225
+    - - 40.628799239166625
+      - 30.675262500000002
+    - - 40.75022177969875
+      - 30.975300000000004
+    - - 40.89115889873624
+      - 31.275337500000003
+    - - 41.053198058240525
+      - 31.575375
+    - - 41.238385699962166
+      - 31.875412500000003
+    - - 41.449400000000004
+      - 32.175450000000005
+    - - 41.68982480327304
+      - 32.4754875
+    - - 41.96460733574215
+      - 32.775525
+    - - 42.28087695503229
+      - 33.075562500000004
+    - - 42.649550000000005
+      - 33.375600000000006
+    - - 42.7067
+      - 33.6756375
+    - - 42.7067
+      - 33.975675
+    - - 42.7067
+      - 34.275712500000004
+    - - 42.7067
+      - 34.57575
+    - - 42.7067
+      - 36.45
+    - - 42.7067
+      - 38.1
+    - - 34.15
+      - 38.1
+    - - 32.5
+      - 36.45
+    - - 32.5
+      - 1.65
+    - - 34.15
+      - 0
+    - - 42.7067
+      - 0.0
+  - name: ball_row_1_1
+    shape: sphere
+    radius_mm: 5.715
+    centre_mm:
+    - 46.25
+    - 0.0
+    - 9.525
+  - name: ball_row_1_2
+    shape: sphere
+    radius_mm: 5.715
+    centre_mm:
+    - 43.46078371134826
+    - 15.818431628812178
+    - 9.525
+  - name: ball_row_1_3
+    shape: sphere
+    radius_mm: 5.715
+    centre_mm:
+    - 35.42955549425273
+    - 29.72892694800244
+    - 9.525
+  - name: ball_row_1_4
+    shape: sphere
+    radius_mm: 5.715
+    centre_mm:
+    - 23.125000000000004
+    - 40.053674925030286
+    - 9.525
+  - name: ball_row_1_5
+    shape: sphere
+    radius_mm: 5.715
+    centre_mm:
+    - 8.031228217095531
+    - 45.547358576814624
+    - 9.525
+  - name: ball_row_1_6
+    shape: sphere
+    radius_mm: 5.715
+    centre_mm:
+    - -8.031228217095526
+    - 45.547358576814624
+    - 9.525
+  - name: ball_row_1_7
+    shape: sphere
+    radius_mm: 5.715
+    centre_mm:
+    - -23.12499999999999
+    - 40.05367492503029
+    - 9.525
+  - name: ball_row_1_8
+    shape: sphere
+    radius_mm: 5.715
+    centre_mm:
+    - -35.429555494252725
+    - 29.72892694800245
+    - 9.525
+  - name: ball_row_1_9
+    shape: sphere
+    radius_mm: 5.715
+    centre_mm:
+    - -43.46078371134826
+    - 15.818431628812185
+    - 9.525
+  - name: ball_row_1_10
+    shape: sphere
+    radius_mm: 5.715
+    centre_mm:
+    - -46.25
+    - 5.6639914460565085e-15
+    - 9.525
+  - name: ball_row_1_11
+    shape: sphere
+    radius_mm: 5.715
+    centre_mm:
+    - -43.46078371134826
+    - -15.818431628812176
+    - 9.525
+  - name: ball_row_1_12
+    shape: sphere
+    radius_mm: 5.715
+    centre_mm:
+    - -35.429555494252746
+    - -29.728926948002425
+    - 9.525
+  - name: ball_row_1_13
+    shape: sphere
+    radius_mm: 5.715
+    centre_mm:
+    - -23.12500000000002
+    - -40.05367492503028
+    - 9.525
+  - name: ball_row_1_14
+    shape: sphere
+    radius_mm: 5.715
+    centre_mm:
+    - -8.031228217095528
+    - -45.547358576814624
+    - 9.525
+  - name: ball_row_1_15
+    shape: sphere
+    radius_mm: 5.715
+    centre_mm:
+    - 8.031228217095512
+    - -45.547358576814624
+    - 9.525
+  - name: ball_row_1_16
+    shape: sphere
+    radius_mm: 5.715
+    centre_mm:
+    - 23.124999999999968
+    - -40.05367492503031
+    - 9.525
+  - name: ball_row_1_17
+    shape: sphere
+    radius_mm: 5.715
+    centre_mm:
+    - 35.429555494252725
+    - -29.728926948002456
+    - 9.525
+  - name: ball_row_1_18
+    shape: sphere
+    radius_mm: 5.715
+    centre_mm:
+    - 43.46078371134826
+    - -15.818431628812172
+    - 9.525
+  - name: ball_row_2_1
+    shape: sphere
+    radius_mm: 5.715
+    centre_mm:
+    - 46.25
+    - 0.0
+    - 28.575000000000003
+  - name: ball_row_2_2
+    shape: sphere
+    radius_mm: 5.715
+    centre_mm:
+    - 43.46078371134826
+    - 15.818431628812178
+    - 28.575000000000003
+  - name: ball_row_2_3
+    shape: sphere
+    radius_mm: 5.715
+    centre_mm:
+    - 35.42955549425273
+    - 29.72892694800244
+    - 28.575000000000003
+  - name: ball_row_2_4
+    shape: sphere
+    radius_mm: 5.715
+    centre_mm:
+    - 23.125000000000004
+    - 40.053674925030286
+    - 28.575000000000003
+  - name: ball_row_2_5
+    shape: sphere
+    radius_mm: 5.715
+    centre_mm:
+    - 8.031228217095531
+    - 45.547358576814624
+    - 28.575000000000003
+  - name: ball_row_2_6
+    shape: sphere
+    radius_mm: 5.715
+    centre_mm:
+    - -8.031228217095526
+    - 45.547358576814624
+    - 28.575000000000003
+  - name: ball_row_2_7
+    shape: sphere
+    radius_mm: 5.715
+    centre_mm:
+    - -23.12499999999999
+    - 40.05367492503029
+    - 28.575000000000003
+  - name: ball_row_2_8
+    shape: sphere
+    radius_mm: 5.715
+    centre_mm:
+    - -35.429555494252725
+    - 29.72892694800245
+    - 28.575000000000003
+  - name: ball_row_2_9
+    shape: sphere
+    radius_mm: 5.715
+    centre_mm:
+    - -43.46078371134826
+    - 15.818431628812185
+    - 28.575000000000003
+  - name: ball_row_2_10
+    shape: sphere
+    radius_mm: 5.715
+    centre_mm:
+    - -46.25
+    - 5.6639914460565085e-15
+    - 28.575000000000003
+  - name: ball_row_2_11
+    shape: sphere
+    radius_mm: 5.715
+    centre_mm:
+    - -43.46078371134826
+    - -15.818431628812176
+    - 28.575000000000003
+  - name: ball_row_2_12
+    shape: sphere
+    radius_mm: 5.715
+    centre_mm:
+    - -35.429555494252746
+    - -29.728926948002425
+    - 28.575000000000003
+  - name: ball_row_2_13
+    shape: sphere
+    radius_mm: 5.715
+    centre_mm:
+    - -23.12500000000002
+    - -40.05367492503028
+    - 28.575000000000003
+  - name: ball_row_2_14
+    shape: sphere
+    radius_mm: 5.715
+    centre_mm:
+    - -8.031228217095528
+    - -45.547358576814624
+    - 28.575000000000003
+  - name: ball_row_2_15
+    shape: sphere
+    radius_mm: 5.715
+    centre_mm:
+    - 8.031228217095512
+    - -45.547358576814624
+    - 28.575000000000003
+  - name: ball_row_2_16
+    shape: sphere
+    radius_mm: 5.715
+    centre_mm:
+    - 23.124999999999968
+    - -40.05367492503031
+    - 28.575000000000003
+  - name: ball_row_2_17
+    shape: sphere
+    radius_mm: 5.715
+    centre_mm:
+    - 35.429555494252725
+    - -29.728926948002456
+    - 28.575000000000003
+  - name: ball_row_2_18
+    shape: sphere
+    radius_mm: 5.715
+    centre_mm:
+    - 43.46078371134826
+    - -15.818431628812172
+    - 28.575000000000003
+label_details:
+  size: '5213'
+  dimensions: 65 x 120 x 38.1 mm
+  formats_mm:
+  - - 76.2
+    - 50.8
+  - - 38.1
+    - 25.4
+  ink: '#183336'
+  accent: '#147d83'
+  paper: '#ffffff'
+  font_family: Helvetica
+  view_box_mm:
+  - 0
+  - 0
+  - 76.2
+  - 50.8
+  file_stems:
+  - label_bearing_3x2
+  - label_bearing_1_5x1
+  brand: OOMP / BEARING
+  brand_position_mm:
+  - 5
+  - 10
+  brand_font_mm: 3
+  size_position_mm:
+  - 5
+  - 29
+  size_font_mm: 14
+  dimensions_position_mm:
+  - 5
+  - 42
+  dimensions_font_mm: 4
+readme_details:
+  title: 5213 bearing - 65 x 120 x 38.1 mm
+  description: 'Double row angular contact bearing: 65 mm bore, 120 mm outside diameter
+    and 38.1 mm width.'

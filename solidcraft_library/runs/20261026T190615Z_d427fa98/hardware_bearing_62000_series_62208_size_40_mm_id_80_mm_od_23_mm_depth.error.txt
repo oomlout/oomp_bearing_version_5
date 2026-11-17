@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "C:\od\OneDrive\docs\software_cad_mcp_helper\components\bearing_catalogue\batch.py", line 203, in main
+    else: result = build_item(root, entry, generator, version)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\od\OneDrive\docs\software_cad_mcp_helper\components\bearing_catalogue\batch.py", line 127, in build_item
+    template, master_manifest = master(root, entry, generator, version)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\od\OneDrive\docs\software_cad_mcp_helper\components\bearing_catalogue\batch.py", line 102, in master
+    require_ok(client.call('export', {'path': str(attempt/'master.stl')}))
+  File "C:\od\OneDrive\docs\software_cad_mcp_helper\components\backend\working.py", line 18, in require_ok
+    raise RuntimeError(str(result))
+RuntimeError: {'tool_error': True, 'detail': 'C:\\od\\OneDrive\\docs\\oomp_bearing\\solidcraft_library\\masters\\09a82ce1b640dc0a94d5\\20261026T194536Z_6a766d99\\master.stl: There is not enough space on the disk. (os error 112)'}

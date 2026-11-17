@@ -1,0 +1,205 @@
+{
+  "status": "passed",
+  "schema_version": 1,
+  "fingerprint": "57101c724b10e51cbc424b9cc030abb7d9472af5f172fa5e87df9f0cb40207f0",
+  "part_id": "hardware_bearing_61800_series_61817_size_85_mm_id_110_mm_od_13_mm_depth",
+  "spec": {
+    "family": "single_row_deep_groove",
+    "closure": "open",
+    "ball_count": 32,
+    "parameters": {
+      "bore": 85.0,
+      "outside": 110.0,
+      "width": 13.0,
+      "edge": 0.75,
+      "pitch_radius": 48.75,
+      "ball_radius": 3.5000000000000004,
+      "groove_radius": 3.5875000000000004,
+      "inner_shoulder": 46.58,
+      "outer_shoulder": 50.92,
+      "cage_half_width": 1.9250000000000005,
+      "cage_low": 3.325,
+      "cage_high": 4.025,
+      "window_radius": 1.6800000000000002
+    },
+    "ball_specification": "illustrative"
+  },
+  "units": "mm",
+  "anchor": "axis Z, center at origin",
+  "sources": [
+    "source_file\\dimension\\oomp_bearing_sizes.csv"
+  ],
+  "dimension_authority": "local_catalogue_only",
+  "limitation": "Nominal presentation model. Raceways, pitch circle, chamfers and retainer geometry are illustrative; ball count/diameter are illustrative unless individually sourced. Not a manufacturer reconstruction, load-rating model or manufacturing/tolerance certification. Unspecified closure is presented open.",
+  "backend": "solidcraft-cli 0.22.0",
+  "generator": {
+    "working.py": "baba87babd5b5ab6dcdd1db9c1c16c3ae2f74eb48874004713e9868fa6eb8c70",
+    "catalogue.py": "422e0584636bf4992d2905013cb43a87c75ac3d659e8ad929341652264e00935",
+    "native.py": "147f1acfdf0642da397b322e9f51f043b500bab80fa86ce60fc5431022244aa1",
+    "batch.py": "43d7e7c61eead0883ca597e60942c379d0846133eaf580b7d879ad55601cb9a4"
+  },
+  "input_hashes": {
+    "parts_source\\hardware_bearing_61800_series_61817_size_85_mm_id_110_mm_od_13_mm_depth\\working.yaml": "ccfa5dc9adc87880adb50c59fd759e641e26ac7a0003c82c94776e3988cb6fbf",
+    "parts\\hardware_bearing_61800_series_61817_size_85_mm_id_110_mm_od_13_mm_depth\\working.yaml": "ac034cc4f0de919670ee371b5f84b0852ad6cc1fe5f10d7d02686d4d6d9143a6",
+    "source_file\\dimension\\oomp_bearing_sizes.csv": "557bba577deb99891993b079ba096516d1acb695457ebdcfbab8c5dd3d114293",
+    "source_file\\solidcraft\\bearing_facts.json": "4f54f56dfa037307cdd8160dd8467da065e99f0db883b3db07eda48fa1d8d796"
+  },
+  "template": "solidcraft_library\\masters\\82abd358a21dc36c0cb9\\20261026T191053Z_96ad552d\\parametric.solidcraft",
+  "template_sha256": "f1d003fc948dd3edbf4833e98b01d87e8bab9fc8757771ce314d16cabd3c51c8",
+  "master_validation": {
+    "original": {
+      "status": "passed",
+      "scope": "native/STL presentation geometry",
+      "watertight": true,
+      "body_count": 36,
+      "ball_count": 32,
+      "bounds_mm": [
+        [
+          -55.0,
+          -55.0,
+          -6.5
+        ],
+        [
+          55.0,
+          55.0,
+          6.5
+        ]
+      ],
+      "bore_mm": 85.00000000000001,
+      "ball_diameter_mm": 7.000000000000001,
+      "pitch_radius_mm": 48.75,
+      "volume_mm3": 35364.79428769044,
+      "triangles": 1484990,
+      "tolerance_mm": 0.022000000000000002,
+      "checks": [
+        "separate positive solids",
+        "envelope",
+        "bore",
+        "spheres and angular spacing",
+        "raceway sections",
+        "both open faces",
+        "retainer bridges",
+        "ball clearances"
+      ]
+    },
+    "width_edit": {
+      "before_mm": 13.0,
+      "after_mm": 13.13,
+      "saved_and_reopened": true,
+      "mesh": {
+        "status": "passed",
+        "scope": "native/STL presentation geometry",
+        "watertight": true,
+        "body_count": 36,
+        "ball_count": 32,
+        "bounds_mm": [
+          [
+            -55.0,
+            -55.0,
+            -6.565000057220459
+          ],
+          [
+            55.0,
+            55.0,
+            6.565000057220459
+          ]
+        ],
+        "bore_mm": 85.00000000000001,
+        "ball_diameter_mm": 7.000000000000001,
+        "pitch_radius_mm": 48.75,
+        "volume_mm3": 35689.68922773086,
+        "triangles": 1484978,
+        "tolerance_mm": 0.022000000000000002,
+        "checks": [
+          "separate positive solids",
+          "envelope",
+          "bore",
+          "spheres and angular spacing",
+          "raceway sections",
+          "both open faces",
+          "retainer bridges",
+          "ball clearances"
+        ]
+      }
+    }
+  },
+  "validation": {
+    "generated": {
+      "status": "passed",
+      "scope": "native/STL presentation geometry",
+      "watertight": true,
+      "body_count": 36,
+      "ball_count": 32,
+      "bounds_mm": [
+        [
+          -55.0,
+          -55.0,
+          -6.5
+        ],
+        [
+          55.0,
+          55.0,
+          6.5
+        ]
+      ],
+      "bore_mm": 85.00000000000001,
+      "ball_diameter_mm": 7.000000000000001,
+      "pitch_radius_mm": 48.75,
+      "volume_mm3": 35364.79428769044,
+      "triangles": 1484990,
+      "tolerance_mm": 0.022000000000000002,
+      "checks": [
+        "separate positive solids",
+        "envelope",
+        "bore",
+        "spheres and angular spacing",
+        "raceway sections",
+        "both open faces",
+        "retainer bridges",
+        "ball clearances"
+      ]
+    },
+    "reopened": {
+      "status": "passed",
+      "scope": "native/STL presentation geometry",
+      "watertight": true,
+      "body_count": 36,
+      "ball_count": 32,
+      "bounds_mm": [
+        [
+          -55.0,
+          -55.0,
+          -6.5
+        ],
+        [
+          55.0,
+          55.0,
+          6.5
+        ]
+      ],
+      "bore_mm": 85.00000000000001,
+      "ball_diameter_mm": 7.000000000000001,
+      "pitch_radius_mm": 48.75,
+      "volume_mm3": 35364.79428769044,
+      "triangles": 1484990,
+      "tolerance_mm": 0.022000000000000002,
+      "checks": [
+        "separate positive solids",
+        "envelope",
+        "bore",
+        "spheres and angular spacing",
+        "raceway sections",
+        "both open faces",
+        "retainer bridges",
+        "ball clearances"
+      ]
+    }
+  },
+  "step_status": "not qualified by this workflow; no STEP published",
+  "artifacts": {
+    "bearing_61817_open.solidcraft": "850e5e9a6898a2a40aa6d9296b38f455e4afcc1123c7cc6521e1b29a04861346",
+    "bearing_61817_open.stl": "4ed7ae8c3877c8447c774595d8c11d716e58ed93767758d038ddb98329cc72b0",
+    "preview.png": "4913a4789c07e14e5e66e484575fa4e09b01dc81674cb9914c593cfc8ad2249a",
+    "reopened.stl": "c0db97ec9428bd9c7d348f185e3c2990a94eba4e9dc6991c1410e21356d5d290"
+  }
+}

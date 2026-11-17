@@ -1,0 +1,104 @@
+checked: '2026-10-06'
+series: '6700'
+dimension_unit: mm
+weight_unit: g
+scope: Standard 6700 and larger additions 6708 through 6720; existing 6701 through 6707 rows retained.
+selection_notes:
+  - Dimensions and masses for 6708-6710 follow AST's individual open-bearing listings.
+  - Dimensions and masses for 6711-6720 follow C&H's individual 617xx listings, which explicitly cross-reference 67xx. C&H masses converted from kg to g.
+  - These are catalogue listings, not confirmations of stock or a universal maximum series size.
+  - Manufacturer dimensions differ for some larger 67xx designations; match the cited drawing before substituting brands.
+  - The 6700 entry follows AST's standard open 10x15x3 mm listing, checked 2026-10-25; wider closure variants exist.
+  - RAYSDE lists 6722, 6724, 6726 and 6730, but its larger 67xx dimensions conflict with the C&H 617xx family. These were not added without corroborating individual product specifications.
+comparison_sources:
+  - https://www.cdybearings.com/6700-series-thin-section-bearings/
+  - https://www.cxnjs.com/content/150.html
+  - https://consbrgs.com/products/61716-2/
+  - https://www.maysmeprecision.com/Show/?Cid=556
+  - https://raysde.com/landing/deep-groove-ball-bearing-motor.html
+parts:
+  '6700':
+    description: Thin section deep groove ball bearing, 10 x 15 x 3 mm (bore x OD x width).
+    catalogue_supplier: AST Bearings
+    catalogue_model: '6700'
+    bearing_closure_reference: Open
+    source_url: https://www.astbearings.com/catalog/thin_section_metric/6700
+  '6708':
+    description: Thin section deep groove ball bearing, 40 x 50 x 6 mm (bore x OD x width).
+    catalogue_supplier: AST Bearings
+    catalogue_model: '6708'
+    bearing_closure_reference: Open
+    source_url: https://www.astbearings.com/catalog/thin_section_metric/6708
+  '6709':
+    description: Thin section deep groove ball bearing, 45 x 55 x 6 mm (bore x OD x width).
+    catalogue_supplier: AST Bearings
+    catalogue_model: '6709'
+    bearing_closure_reference: Open
+    source_url: https://www.astbearings.com/catalog/thin_section_metric/6709
+  '6710':
+    description: Thin section deep groove ball bearing, 50 x 62 x 6 mm (bore x OD x width).
+    catalogue_supplier: AST Bearings
+    catalogue_model: '6710'
+    bearing_closure_reference: Open
+    source_url: https://www.astbearings.com/catalog/thin_section_metric/6710
+  '6711':
+    description: Thin section deep groove ball bearing, 55 x 68 x 7 mm (bore x OD x width).
+    catalogue_supplier: C&H Bearing
+    catalogue_model: '61711'
+    bearing_closure_reference: Open
+    source_url: https://www.chenghuibearing.com/product-model/61711/
+  '6712':
+    description: Thin section deep groove ball bearing, 60 x 75 x 7 mm (bore x OD x width).
+    catalogue_supplier: C&H Bearing
+    catalogue_model: '61712'
+    bearing_closure_reference: Open
+    source_url: https://www.chenghuibearing.com/product-model/61712/
+    dimension_note: C&H and Kecheng list 60x75x7; Maysme lists 60x72x7. This entry follows the C&H 61712 drawing; do not assume the alternative OD fits.
+  '6713':
+    description: Thin section deep groove ball bearing, 65 x 80 x 7 mm (bore x OD x width).
+    catalogue_supplier: C&H Bearing
+    catalogue_model: '61713'
+    bearing_closure_reference: Open
+    source_url: https://www.chenghuibearing.com/product-model/61713/
+  '6714':
+    description: Thin section deep groove ball bearing, 70 x 85 x 7 mm (bore x OD x width).
+    catalogue_supplier: C&H Bearing
+    catalogue_model: '61714'
+    bearing_closure_reference: Open
+    source_url: https://www.chenghuibearing.com/product-model/61714/
+  '6715':
+    description: Thin section deep groove ball bearing, 75 x 90 x 7 mm (bore x OD x width).
+    catalogue_supplier: C&H Bearing
+    catalogue_model: '61715'
+    bearing_closure_reference: Open
+    source_url: https://www.chenghuibearing.com/product-model/61715/
+  '6716':
+    description: Thin section deep groove ball bearing, 80 x 95 x 7 mm (bore x OD x width).
+    catalogue_supplier: C&H Bearing
+    catalogue_model: '61716'
+    bearing_closure_reference: Open
+    source_url: https://www.chenghuibearing.com/product-model/61716/
+  '6717':
+    description: Thin section deep groove ball bearing, 85 x 105 x 10 mm (bore x OD x width).
+    catalogue_supplier: C&H Bearing
+    catalogue_model: '61717'
+    bearing_closure_reference: Open
+    source_url: https://www.chenghuibearing.com/product-model/61717/
+  '6718':
+    description: Thin section deep groove ball bearing, 90 x 110 x 10 mm (bore x OD x width).
+    catalogue_supplier: C&H Bearing
+    catalogue_model: '61718'
+    bearing_closure_reference: Open
+    source_url: https://www.chenghuibearing.com/product-model/61718/
+  '6719':
+    description: Thin section deep groove ball bearing, 95 x 115 x 10 mm (bore x OD x width).
+    catalogue_supplier: C&H Bearing
+    catalogue_model: '61719'
+    bearing_closure_reference: Open
+    source_url: https://www.chenghuibearing.com/product-model/61719/
+  '6720':
+    description: Thin section deep groove ball bearing, 100 x 120 x 10 mm (bore x OD x width).
+    catalogue_supplier: C&H Bearing
+    catalogue_model: '61720'
+    bearing_closure_reference: Open
+    source_url: https://www.chenghuibearing.com/product-model/61720/

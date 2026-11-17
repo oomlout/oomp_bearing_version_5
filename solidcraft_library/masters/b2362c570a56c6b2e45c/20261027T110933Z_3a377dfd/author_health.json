@@ -1,0 +1,3871 @@
+{
+  "active_sketch": null,
+  "bodies": [
+    {
+      "area_mm2": 2225.755935509068,
+      "bbox": {
+        "max": [
+          11.021300113620539,
+          11.0213,
+          7.950000000000001
+        ],
+        "min": [
+          -11.02130029162225,
+          -11.021299999999998,
+          -7.95
+        ]
+      },
+      "center_of_mass": [
+        3.201790832910871e-08,
+        -7.038786161024096e-08,
+        2.8967125629675786e-06
+      ],
+      "edges": 12,
+      "face_types": {
+        "cone": 4,
+        "cylinder": 4,
+        "other": 2,
+        "plane": 2
+      },
+      "faces": 12,
+      "kernel": {
+        "edges": 78,
+        "faces": 38,
+        "shells": 1,
+        "vertices": 42
+      },
+      "name": "inner_race",
+      "vertices": 12,
+      "visible": true,
+      "volume_mm3": 2857.4218968399914
+    },
+    {
+      "area_mm2": 3845.6178476679547,
+      "bbox": {
+        "max": [
+          17.5,
+          17.5,
+          7.950000000000001
+        ],
+        "min": [
+          -17.5,
+          -17.5,
+          -7.950000000000001
+        ]
+      },
+      "center_of_mass": [
+        3.25959450622873e-08,
+        -6.619925312929454e-08,
+        5.707756356071823e-06
+      ],
+      "edges": 12,
+      "face_types": {
+        "cone": 4,
+        "cylinder": 4,
+        "other": 2,
+        "plane": 2
+      },
+      "faces": 12,
+      "kernel": {
+        "edges": 78,
+        "faces": 38,
+        "shells": 1,
+        "vertices": 42
+      },
+      "name": "outer_race",
+      "vertices": 12,
+      "visible": true,
+      "volume_mm3": 4980.4027853450925
+    },
+    {
+      "area_mm2": 71.47785212794585,
+      "bbox": {
+        "max": [
+          14.885,
+          2.385,
+          -1.5900000000000016
+        ],
+        "min": [
+          10.115,
+          -2.385,
+          -6.36
+        ]
+      },
+      "center_of_mass": [
+        12.499999999999085,
+        1.0274517616329567e-15,
+        -3.9750000000271077
+      ],
+      "edges": 0,
+      "face_types": {
+        "sphere": 1
+      },
+      "faces": 1,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "name": "ball_1",
+      "vertices": 0,
+      "visible": true,
+      "volume_mm3": 56.822842176030896
+    },
+    {
+      "area_mm2": 71.47785212794591,
+      "bbox": {
+        "max": [
+          13.2103175473055,
+          8.635000000000002,
+          -1.5900000000000016
+        ],
+        "min": [
+          8.4403175473055,
+          3.865,
+          -6.36
+        ]
+      },
+      "center_of_mass": [
+        10.825317547304586,
+        6.250000000000001,
+        -3.975000000027107
+      ],
+      "edges": 0,
+      "face_types": {
+        "sphere": 1
+      },
+      "faces": 1,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "name": "ball_2",
+      "vertices": 0,
+      "visible": true,
+      "volume_mm3": 56.82284217603037
+    },
+    {
+      "area_mm2": 71.4778521279457,
+      "bbox": {
+        "max": [
+          8.635000000000002,
+          13.2103175473055,
+          -1.5900000000000016
+        ],
+        "min": [
+          3.8649999999999984,
+          8.4403175473055,
+          -6.360000000000001
+        ]
+      },
+      "center_of_mass": [
+        6.249999999999086,
+        10.8253175473055,
+        -3.975000000027108
+      ],
+      "edges": 0,
+      "face_types": {
+        "sphere": 1
+      },
+      "faces": 1,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "name": "ball_3",
+      "vertices": 0,
+      "visible": true,
+      "volume_mm3": 56.82284217603044
+    },
+    {
+      "area_mm2": 71.47785212794555,
+      "bbox": {
+        "max": [
+          2.3850000000000007,
+          14.885,
+          -1.5900000000000016
+        ],
+        "min": [
+          -2.3849999999999993,
+          10.115,
+          -6.359999999999999
+        ]
+      },
+      "center_of_mass": [
+        -9.161513297802833e-13,
+        12.5,
+        -3.9750000000271064
+      ],
+      "edges": 0,
+      "face_types": {
+        "sphere": 1
+      },
+      "faces": 1,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "name": "ball_4",
+      "vertices": 0,
+      "visible": true,
+      "volume_mm3": 56.82284217603084
+    },
+    {
+      "area_mm2": 71.47785212794524,
+      "bbox": {
+        "max": [
+          -3.865,
+          13.2103175473055,
+          -1.5900000000000016
+        ],
+        "min": [
+          -8.635000000000002,
+          8.4403175473055,
+          -6.359999999999999
+        ]
+      },
+      "center_of_mass": [
+        -6.250000000000916,
+        10.825317547305499,
+        -3.9750000000271077
+      ],
+      "edges": 0,
+      "face_types": {
+        "sphere": 1
+      },
+      "faces": 1,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "name": "ball_5",
+      "vertices": 0,
+      "visible": true,
+      "volume_mm3": 56.82284217603069
+    },
+    {
+      "area_mm2": 71.47785212794616,
+      "bbox": {
+        "max": [
+          -8.4403175473055,
+          8.635000000000002,
+          -1.5900000000000016
+        ],
+        "min": [
+          -13.2103175473055,
+          3.8649999999999984,
+          -6.36
+        ]
+      },
+      "center_of_mass": [
+        -10.825317547306417,
+        6.25,
+        -3.9750000000271077
+      ],
+      "edges": 0,
+      "face_types": {
+        "sphere": 1
+      },
+      "faces": 1,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "name": "ball_6",
+      "vertices": 0,
+      "visible": true,
+      "volume_mm3": 56.82284217603058
+    },
+    {
+      "area_mm2": 71.47785212794506,
+      "bbox": {
+        "max": [
+          -10.115,
+          2.385000000000002,
+          -1.5900000000000016
+        ],
+        "min": [
+          -14.885,
+          -2.3849999999999985,
+          -6.36
+        ]
+      },
+      "center_of_mass": [
+        -12.500000000000915,
+        1.3125983171948303e-15,
+        -3.9750000000271077
+      ],
+      "edges": 0,
+      "face_types": {
+        "sphere": 1
+      },
+      "faces": 1,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "name": "ball_7",
+      "vertices": 0,
+      "visible": true,
+      "volume_mm3": 56.822842176031116
+    },
+    {
+      "area_mm2": 71.47785212794619,
+      "bbox": {
+        "max": [
+          -8.4403175473055,
+          -3.865,
+          -1.5900000000000016
+        ],
+        "min": [
+          -13.2103175473055,
+          -8.635000000000002,
+          -6.359999999999999
+        ]
+      },
+      "center_of_mass": [
+        -10.825317547306414,
+        -6.250000000000001,
+        -3.975000000027107
+      ],
+      "edges": 0,
+      "face_types": {
+        "sphere": 1
+      },
+      "faces": 1,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "name": "ball_8",
+      "vertices": 0,
+      "visible": true,
+      "volume_mm3": 56.822842176030576
+    },
+    {
+      "area_mm2": 71.47785212794537,
+      "bbox": {
+        "max": [
+          -3.8649999999999984,
+          -8.4403175473055,
+          -1.5900000000000016
+        ],
+        "min": [
+          -8.635000000000002,
+          -13.2103175473055,
+          -6.36
+        ]
+      },
+      "center_of_mass": [
+        -6.250000000000914,
+        -10.825317547305502,
+        -3.975000000027108
+      ],
+      "edges": 0,
+      "face_types": {
+        "sphere": 1
+      },
+      "faces": 1,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "name": "ball_9",
+      "vertices": 0,
+      "visible": true,
+      "volume_mm3": 56.82284217603055
+    },
+    {
+      "area_mm2": 71.47785212794547,
+      "bbox": {
+        "max": [
+          2.3849999999999976,
+          -10.115,
+          -1.5900000000000016
+        ],
+        "min": [
+          -2.3850000000000025,
+          -14.885,
+          -6.360000000000001
+        ]
+      },
+      "center_of_mass": [
+        -9.161035211492211e-13,
+        -12.500000000000002,
+        -3.9750000000271077
+      ],
+      "edges": 0,
+      "face_types": {
+        "sphere": 1
+      },
+      "faces": 1,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "name": "ball_10",
+      "vertices": 0,
+      "visible": true,
+      "volume_mm3": 56.8228421760307
+    },
+    {
+      "area_mm2": 71.47785212794567,
+      "bbox": {
+        "max": [
+          8.635000000000002,
+          -8.4403175473055,
+          -1.5900000000000016
+        ],
+        "min": [
+          3.865,
+          -13.2103175473055,
+          -6.36
+        ]
+      },
+      "center_of_mass": [
+        6.249999999999084,
+        -10.825317547305499,
+        -3.975000000027109
+      ],
+      "edges": 0,
+      "face_types": {
+        "sphere": 1
+      },
+      "faces": 1,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "name": "ball_11",
+      "vertices": 0,
+      "visible": true,
+      "volume_mm3": 56.822842176030434
+    },
+    {
+      "area_mm2": 71.477852127946,
+      "bbox": {
+        "max": [
+          13.2103175473055,
+          -3.8649999999999984,
+          -1.5900000000000016
+        ],
+        "min": [
+          8.4403175473055,
+          -8.635000000000002,
+          -6.36
+        ]
+      },
+      "center_of_mass": [
+        10.825317547304588,
+        -6.249999999999999,
+        -3.975000000027107
+      ],
+      "edges": 0,
+      "face_types": {
+        "sphere": 1
+      },
+      "faces": 1,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "name": "ball_12",
+      "vertices": 0,
+      "visible": true,
+      "volume_mm3": 56.82284217603014
+    },
+    {
+      "area_mm2": 71.47785212794606,
+      "bbox": {
+        "max": [
+          14.885,
+          2.385,
+          6.36
+        ],
+        "min": [
+          10.115,
+          -2.385,
+          1.5900000000000016
+        ]
+      },
+      "center_of_mass": [
+        12.499999999999085,
+        4.1460174490859785e-16,
+        3.9749999999728947
+      ],
+      "edges": 0,
+      "face_types": {
+        "sphere": 1
+      },
+      "faces": 1,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "name": "ball_13",
+      "vertices": 0,
+      "visible": true,
+      "volume_mm3": 56.82284217603054
+    },
+    {
+      "area_mm2": 71.47785212794614,
+      "bbox": {
+        "max": [
+          13.2103175473055,
+          8.635,
+          6.36
+        ],
+        "min": [
+          8.4403175473055,
+          3.865000000000002,
+          1.5900000000000016
+        ]
+      },
+      "center_of_mass": [
+        10.825317547304586,
+        6.25,
+        3.9749999999728938
+      ],
+      "edges": 0,
+      "face_types": {
+        "sphere": 1
+      },
+      "faces": 1,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "name": "ball_14",
+      "vertices": 0,
+      "visible": true,
+      "volume_mm3": 56.82284217603003
+    },
+    {
+      "area_mm2": 71.4778521279458,
+      "bbox": {
+        "max": [
+          8.634999999999998,
+          13.2103175473055,
+          6.36
+        ],
+        "min": [
+          3.865,
+          8.4403175473055,
+          1.5900000000000016
+        ]
+      },
+      "center_of_mass": [
+        6.249999999999086,
+        10.825317547305502,
+        3.9749999999728964
+      ],
+      "edges": 0,
+      "face_types": {
+        "sphere": 1
+      },
+      "faces": 1,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "name": "ball_15",
+      "vertices": 0,
+      "visible": true,
+      "volume_mm3": 56.82284217603014
+    },
+    {
+      "area_mm2": 71.4778521279457,
+      "bbox": {
+        "max": [
+          2.3850000000000007,
+          14.885,
+          6.360000000000001
+        ],
+        "min": [
+          -2.3849999999999993,
+          10.115,
+          1.5900000000000016
+        ]
+      },
+      "center_of_mass": [
+        -9.147443195135615e-13,
+        12.5,
+        3.9749999999728924
+      ],
+      "edges": 0,
+      "face_types": {
+        "sphere": 1
+      },
+      "faces": 1,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "name": "ball_16",
+      "vertices": 0,
+      "visible": true,
+      "volume_mm3": 56.82284217603046
+    },
+    {
+      "area_mm2": 71.47785212794565,
+      "bbox": {
+        "max": [
+          -3.865000000000002,
+          13.2103175473055,
+          6.36
+        ],
+        "min": [
+          -8.635,
+          8.4403175473055,
+          1.5900000000000016
+        ]
+      },
+      "center_of_mass": [
+        -6.250000000000915,
+        10.8253175473055,
+        3.974999999972896
+      ],
+      "edges": 0,
+      "face_types": {
+        "sphere": 1
+      },
+      "faces": 1,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "name": "ball_17",
+      "vertices": 0,
+      "visible": true,
+      "volume_mm3": 56.82284217603038
+    },
+    {
+      "area_mm2": 71.47785212794565,
+      "bbox": {
+        "max": [
+          -8.4403175473055,
+          8.634999999999998,
+          6.359999999999999
+        ],
+        "min": [
+          -13.2103175473055,
+          3.865,
+          1.5900000000000016
+        ]
+      },
+      "center_of_mass": [
+        -10.825317547306415,
+        6.250000000000001,
+        3.974999999972895
+      ],
+      "edges": 0,
+      "face_types": {
+        "sphere": 1
+      },
+      "faces": 1,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "name": "ball_18",
+      "vertices": 0,
+      "visible": true,
+      "volume_mm3": 56.822842176030406
+    },
+    {
+      "area_mm2": 71.47785212794554,
+      "bbox": {
+        "max": [
+          -10.115,
+          2.385000000000001,
+          6.36
+        ],
+        "min": [
+          -14.885,
+          -2.3849999999999976,
+          1.5900000000000016
+        ]
+      },
+      "center_of_mass": [
+        -12.500000000000913,
+        1.2141450831913412e-15,
+        3.9749999999728938
+      ],
+      "edges": 0,
+      "face_types": {
+        "sphere": 1
+      },
+      "faces": 1,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "name": "ball_19",
+      "vertices": 0,
+      "visible": true,
+      "volume_mm3": 56.82284217603061
+    },
+    {
+      "area_mm2": 71.47785212794578,
+      "bbox": {
+        "max": [
+          -8.4403175473055,
+          -3.865000000000002,
+          6.36
+        ],
+        "min": [
+          -13.2103175473055,
+          -8.635,
+          1.5900000000000016
+        ]
+      },
+      "center_of_mass": [
+        -10.825317547306414,
+        -6.25,
+        3.9749999999728947
+      ],
+      "edges": 0,
+      "face_types": {
+        "sphere": 1
+      },
+      "faces": 1,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "name": "ball_20",
+      "vertices": 0,
+      "visible": true,
+      "volume_mm3": 56.82284217603055
+    },
+    {
+      "area_mm2": 71.47785212794582,
+      "bbox": {
+        "max": [
+          -3.865,
+          -8.4403175473055,
+          6.359999999999999
+        ],
+        "min": [
+          -8.634999999999998,
+          -13.2103175473055,
+          1.5900000000000016
+        ]
+      },
+      "center_of_mass": [
+        -6.250000000000916,
+        -10.825317547305502,
+        3.9749999999728947
+      ],
+      "edges": 0,
+      "face_types": {
+        "sphere": 1
+      },
+      "faces": 1,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "name": "ball_21",
+      "vertices": 0,
+      "visible": true,
+      "volume_mm3": 56.822842176030356
+    },
+    {
+      "area_mm2": 71.4778521279458,
+      "bbox": {
+        "max": [
+          2.384999999999997,
+          -10.115,
+          6.359999999999999
+        ],
+        "min": [
+          -2.385000000000002,
+          -14.885,
+          1.5900000000000016
+        ]
+      },
+      "center_of_mass": [
+        -9.177852188514247e-13,
+        -12.5,
+        3.9749999999728933
+      ],
+      "edges": 0,
+      "face_types": {
+        "sphere": 1
+      },
+      "faces": 1,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "name": "ball_22",
+      "vertices": 0,
+      "visible": true,
+      "volume_mm3": 56.822842176030406
+    },
+    {
+      "area_mm2": 71.47785212794601,
+      "bbox": {
+        "max": [
+          8.635,
+          -8.4403175473055,
+          6.360000000000001
+        ],
+        "min": [
+          3.865000000000002,
+          -13.2103175473055,
+          1.5900000000000016
+        ]
+      },
+      "center_of_mass": [
+        6.249999999999087,
+        -10.8253175473055,
+        3.9749999999728947
+      ],
+      "edges": 0,
+      "face_types": {
+        "sphere": 1
+      },
+      "faces": 1,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "name": "ball_23",
+      "vertices": 0,
+      "visible": true,
+      "volume_mm3": 56.82284217603014
+    },
+    {
+      "area_mm2": 71.47785212794646,
+      "bbox": {
+        "max": [
+          13.2103175473055,
+          -3.865,
+          6.36
+        ],
+        "min": [
+          8.4403175473055,
+          -8.634999999999998,
+          1.5900000000000016
+        ]
+      },
+      "center_of_mass": [
+        10.825317547304586,
+        -6.249999999999999,
+        3.9749999999728938
+      ],
+      "edges": 0,
+      "face_types": {
+        "sphere": 1
+      },
+      "faces": 1,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "name": "ball_24",
+      "vertices": 0,
+      "visible": true,
+      "volume_mm3": 56.8228421760299
+    },
+    {
+      "area_mm2": 429.39723045881897,
+      "bbox": {
+        "max": [
+          13.811750000000021,
+          13.81166967834802,
+          -6.240750000000509
+        ],
+        "min": [
+          -13.811749999999995,
+          -13.811669678348004,
+          -6.717750000001498
+        ]
+      },
+      "center_of_mass": [
+        -4.426782800546817e-14,
+        1.6563301160897193e-14,
+        -6.479250000000979
+      ],
+      "edges": 28,
+      "face_types": {
+        "cylinder": 14,
+        "plane": 2
+      },
+      "faces": 16,
+      "kernel": {
+        "edges": 90,
+        "faces": 32,
+        "shells": 1,
+        "vertices": 60
+      },
+      "name": "cage_lower_row1",
+      "vertices": 28,
+      "visible": true,
+      "volume_mm3": 74.72193939642698
+    },
+    {
+      "area_mm2": 429.39723045882,
+      "bbox": {
+        "max": [
+          13.81175,
+          13.811669678348025,
+          -1.232250000000114
+        ],
+        "min": [
+          -13.81175000000002,
+          -13.811669678347997,
+          -1.7092500000004085
+        ]
+      },
+      "center_of_mass": [
+        -4.3872289216882215e-14,
+        5.811772074120429e-14,
+        -1.4707500000002565
+      ],
+      "edges": 28,
+      "face_types": {
+        "cylinder": 14,
+        "plane": 2
+      },
+      "faces": 16,
+      "kernel": {
+        "edges": 90,
+        "faces": 32,
+        "shells": 1,
+        "vertices": 60
+      },
+      "name": "cage_upper_row1",
+      "vertices": 28,
+      "visible": true,
+      "volume_mm3": 74.72193939642723
+    },
+    {
+      "area_mm2": 429.39723045882073,
+      "bbox": {
+        "max": [
+          13.811750000000002,
+          13.81166967834801,
+          1.7092499999998148
+        ],
+        "min": [
+          -13.81175000000002,
+          -13.811669678348016,
+          1.2322499999997198
+        ]
+      },
+      "center_of_mass": [
+        -9.236513479557038e-14,
+        -8.567936380788797e-15,
+        1.470749999999771
+      ],
+      "edges": 28,
+      "face_types": {
+        "cylinder": 14,
+        "plane": 2
+      },
+      "faces": 16,
+      "kernel": {
+        "edges": 90,
+        "faces": 32,
+        "shells": 1,
+        "vertices": 60
+      },
+      "name": "cage_lower_row2",
+      "vertices": 28,
+      "visible": true,
+      "volume_mm3": 74.72193939642739
+    },
+    {
+      "area_mm2": 429.397230458821,
+      "bbox": {
+        "max": [
+          13.81175,
+          13.81166967834802,
+          6.717749999999463
+        ],
+        "min": [
+          -13.811750000000032,
+          -13.811669678348037,
+          6.2407499999983465
+        ]
+      },
+      "center_of_mass": [
+        -3.370659286686357e-14,
+        -3.1756896693095184e-14,
+        6.4792499999988955
+      ],
+      "edges": 28,
+      "face_types": {
+        "cylinder": 14,
+        "plane": 2
+      },
+      "faces": 16,
+      "kernel": {
+        "edges": 90,
+        "faces": 32,
+        "shells": 1,
+        "vertices": 60
+      },
+      "name": "cage_upper_row2",
+      "vertices": 28,
+      "visible": true,
+      "volume_mm3": 74.72193939642752
+    }
+  ],
+  "dirty": true,
+  "hidden_origin": [],
+  "marker": 88,
+  "metadata": {},
+  "name": "Untitled",
+  "params": [
+    {
+      "comment": "",
+      "error": null,
+      "expression": "15 mm",
+      "model": false,
+      "name": "bore",
+      "unit": "mm",
+      "value": 15.0
+    },
+    {
+      "comment": "",
+      "error": null,
+      "expression": "35 mm",
+      "model": false,
+      "name": "outside",
+      "unit": "mm",
+      "value": 35.0
+    },
+    {
+      "comment": "",
+      "error": null,
+      "expression": "15.9 mm",
+      "model": false,
+      "name": "width",
+      "unit": "mm",
+      "value": 15.9
+    },
+    {
+      "comment": "",
+      "error": null,
+      "expression": "0.6 mm",
+      "model": false,
+      "name": "edge",
+      "unit": "mm",
+      "value": 0.6
+    },
+    {
+      "comment": "",
+      "error": null,
+      "expression": "12.5 mm",
+      "model": false,
+      "name": "pitch_radius",
+      "unit": "mm",
+      "value": 12.5
+    },
+    {
+      "comment": "",
+      "error": null,
+      "expression": "2.385 mm",
+      "model": false,
+      "name": "ball_radius",
+      "unit": "mm",
+      "value": 2.385
+    },
+    {
+      "comment": "",
+      "error": null,
+      "expression": "2.50425 mm",
+      "model": false,
+      "name": "groove_radius",
+      "unit": "mm",
+      "value": 2.50425
+    },
+    {
+      "comment": "",
+      "error": null,
+      "expression": "11.0213 mm",
+      "model": false,
+      "name": "inner_shoulder",
+      "unit": "mm",
+      "value": 11.0213
+    },
+    {
+      "comment": "",
+      "error": null,
+      "expression": "13.9787 mm",
+      "model": false,
+      "name": "outer_shoulder",
+      "unit": "mm",
+      "value": 13.9787
+    },
+    {
+      "comment": "",
+      "error": null,
+      "expression": "1.31175 mm",
+      "model": false,
+      "name": "cage_half_width",
+      "unit": "mm",
+      "value": 1.31175
+    },
+    {
+      "comment": "",
+      "error": null,
+      "expression": "2.26575 mm",
+      "model": false,
+      "name": "cage_low",
+      "unit": "mm",
+      "value": 2.26575
+    },
+    {
+      "comment": "",
+      "error": null,
+      "expression": "2.74275 mm",
+      "model": false,
+      "name": "cage_high",
+      "unit": "mm",
+      "value": 2.74275
+    },
+    {
+      "comment": "",
+      "error": null,
+      "expression": "1.1448 mm",
+      "model": false,
+      "name": "window_radius",
+      "unit": "mm",
+      "value": 1.1448
+    },
+    {
+      "comment": "",
+      "error": null,
+      "expression": "25 deg",
+      "model": false,
+      "name": "contact_angle_deg",
+      "unit": "deg",
+      "value": 0.4363323129985824
+    },
+    {
+      "comment": "",
+      "error": null,
+      "expression": "0.059625 mm",
+      "model": false,
+      "name": "contact_offset",
+      "unit": "mm",
+      "value": 0.059625
+    }
+  ],
+  "path": null,
+  "redo": 0,
+  "revision": 219,
+  "selection": [],
+  "sketches": [
+    {
+      "constraints": [],
+      "curves": [
+        {
+          "construction": false,
+          "end": "p2",
+          "end_at": [
+            10.4213,
+            7.95
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l1",
+          "start": "p1",
+          "start_at": [
+            8.1,
+            7.95
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p3",
+          "end_at": [
+            11.0213,
+            7.3500000000000005
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l2",
+          "start": "p2",
+          "start_at": [
+            10.4213,
+            7.95
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p4",
+          "end_at": [
+            11.0213,
+            -7.3500000000000005
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l3",
+          "start": "p3",
+          "start_at": [
+            11.0213,
+            7.3500000000000005
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p5",
+          "end_at": [
+            10.4213,
+            -7.95
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l4",
+          "start": "p4",
+          "start_at": [
+            11.0213,
+            -7.3500000000000005
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p6",
+          "end_at": [
+            8.1,
+            -7.95
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l5",
+          "start": "p5",
+          "start_at": [
+            10.4213,
+            -7.95
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p7",
+          "end_at": [
+            7.5,
+            -7.3500000000000005
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l6",
+          "start": "p6",
+          "start_at": [
+            8.1,
+            -7.95
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p8",
+          "end_at": [
+            7.5,
+            7.3500000000000005
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l7",
+          "start": "p7",
+          "start_at": [
+            7.5,
+            -7.3500000000000005
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p1",
+          "end_at": [
+            8.1,
+            7.95
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l8",
+          "start": "p8",
+          "start_at": [
+            7.5,
+            7.3500000000000005
+          ],
+          "type": "line"
+        }
+      ],
+      "dof": 0,
+      "failing": [],
+      "fully_constrained": true,
+      "id": 1,
+      "links": [],
+      "name": "inner_race_section",
+      "plane": {
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_dir": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "y_dir": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "points": [
+        {
+          "at": [
+            0.0,
+            0.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "origin",
+          "link": null,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            8.1,
+            7.95
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p1",
+          "link": null,
+          "world": [
+            8.1,
+            0.0,
+            -7.95
+          ]
+        },
+        {
+          "at": [
+            10.4213,
+            7.95
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p2",
+          "link": null,
+          "world": [
+            10.4213,
+            0.0,
+            -7.95
+          ]
+        },
+        {
+          "at": [
+            11.0213,
+            7.3500000000000005
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p3",
+          "link": null,
+          "world": [
+            11.0213,
+            0.0,
+            -7.3500000000000005
+          ]
+        },
+        {
+          "at": [
+            11.0213,
+            -7.3500000000000005
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p4",
+          "link": null,
+          "world": [
+            11.0213,
+            0.0,
+            7.3500000000000005
+          ]
+        },
+        {
+          "at": [
+            10.4213,
+            -7.95
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p5",
+          "link": null,
+          "world": [
+            10.4213,
+            0.0,
+            7.95
+          ]
+        },
+        {
+          "at": [
+            8.1,
+            -7.95
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p6",
+          "link": null,
+          "world": [
+            8.1,
+            0.0,
+            7.95
+          ]
+        },
+        {
+          "at": [
+            7.5,
+            -7.3500000000000005
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p7",
+          "link": null,
+          "world": [
+            7.5,
+            0.0,
+            7.3500000000000005
+          ]
+        },
+        {
+          "at": [
+            7.5,
+            7.3500000000000005
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p8",
+          "link": null,
+          "world": [
+            7.5,
+            0.0,
+            -7.3500000000000005
+          ]
+        }
+      ],
+      "profiles": [
+        {
+          "area_mm2": 55.268670000000014,
+          "centroid_sketch": [
+            9.260649999999998,
+            0.0
+          ],
+          "curves": [
+            "l1",
+            "l8",
+            "l7",
+            "l6",
+            "l5",
+            "l4",
+            "l3",
+            "l2"
+          ],
+          "holes": [],
+          "index": 0
+        }
+      ],
+      "status": "solved",
+      "visible": false,
+      "wires": []
+    },
+    {
+      "constraints": [],
+      "curves": [
+        {
+          "construction": false,
+          "end": "p2",
+          "end_at": [
+            16.9,
+            7.95
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l1",
+          "start": "p1",
+          "start_at": [
+            14.5787,
+            7.95
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p3",
+          "end_at": [
+            17.5,
+            7.3500000000000005
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l2",
+          "start": "p2",
+          "start_at": [
+            16.9,
+            7.95
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p4",
+          "end_at": [
+            17.5,
+            -7.3500000000000005
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l3",
+          "start": "p3",
+          "start_at": [
+            17.5,
+            7.3500000000000005
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p5",
+          "end_at": [
+            16.9,
+            -7.95
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l4",
+          "start": "p4",
+          "start_at": [
+            17.5,
+            -7.3500000000000005
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p6",
+          "end_at": [
+            14.5787,
+            -7.95
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l5",
+          "start": "p5",
+          "start_at": [
+            16.9,
+            -7.95
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p7",
+          "end_at": [
+            13.9787,
+            -7.3500000000000005
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l6",
+          "start": "p6",
+          "start_at": [
+            14.5787,
+            -7.95
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p8",
+          "end_at": [
+            13.9787,
+            7.3500000000000005
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l7",
+          "start": "p7",
+          "start_at": [
+            13.9787,
+            -7.3500000000000005
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p1",
+          "end_at": [
+            14.5787,
+            7.95
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l8",
+          "start": "p8",
+          "start_at": [
+            13.9787,
+            7.3500000000000005
+          ],
+          "type": "line"
+        }
+      ],
+      "dof": 0,
+      "failing": [],
+      "fully_constrained": true,
+      "id": 3,
+      "links": [],
+      "name": "outer_race_section",
+      "plane": {
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_dir": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "y_dir": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "points": [
+        {
+          "at": [
+            0.0,
+            0.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "origin",
+          "link": null,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            14.5787,
+            7.95
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p1",
+          "link": null,
+          "world": [
+            14.5787,
+            0.0,
+            -7.95
+          ]
+        },
+        {
+          "at": [
+            16.9,
+            7.95
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p2",
+          "link": null,
+          "world": [
+            16.9,
+            0.0,
+            -7.95
+          ]
+        },
+        {
+          "at": [
+            17.5,
+            7.3500000000000005
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p3",
+          "link": null,
+          "world": [
+            17.5,
+            0.0,
+            -7.3500000000000005
+          ]
+        },
+        {
+          "at": [
+            17.5,
+            -7.3500000000000005
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p4",
+          "link": null,
+          "world": [
+            17.5,
+            0.0,
+            7.3500000000000005
+          ]
+        },
+        {
+          "at": [
+            16.9,
+            -7.95
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p5",
+          "link": null,
+          "world": [
+            16.9,
+            0.0,
+            7.95
+          ]
+        },
+        {
+          "at": [
+            14.5787,
+            -7.95
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p6",
+          "link": null,
+          "world": [
+            14.5787,
+            0.0,
+            7.95
+          ]
+        },
+        {
+          "at": [
+            13.9787,
+            -7.3500000000000005
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p7",
+          "link": null,
+          "world": [
+            13.9787,
+            0.0,
+            7.3500000000000005
+          ]
+        },
+        {
+          "at": [
+            13.9787,
+            7.3500000000000005
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p8",
+          "link": null,
+          "world": [
+            13.9787,
+            0.0,
+            -7.3500000000000005
+          ]
+        }
+      ],
+      "profiles": [
+        {
+          "area_mm2": 55.26866999999997,
+          "centroid_sketch": [
+            15.739350000000002,
+            0.0
+          ],
+          "curves": [
+            "l1",
+            "l8",
+            "l7",
+            "l6",
+            "l5",
+            "l4",
+            "l3",
+            "l2"
+          ],
+          "holes": [],
+          "index": 0
+        }
+      ],
+      "status": "solved",
+      "visible": false,
+      "wires": []
+    },
+    {
+      "constraints": [],
+      "curves": [
+        {
+          "construction": false,
+          "end": "p2",
+          "end_at": [
+            13.81175,
+            6.7177500000000006
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l1",
+          "start": "p1",
+          "start_at": [
+            11.18825,
+            6.7177500000000006
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p3",
+          "end_at": [
+            13.81175,
+            6.24075
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l2",
+          "start": "p2",
+          "start_at": [
+            13.81175,
+            6.7177500000000006
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p4",
+          "end_at": [
+            11.18825,
+            6.24075
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l3",
+          "start": "p3",
+          "start_at": [
+            13.81175,
+            6.24075
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p1",
+          "end_at": [
+            11.18825,
+            6.7177500000000006
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l4",
+          "start": "p4",
+          "start_at": [
+            11.18825,
+            6.24075
+          ],
+          "type": "line"
+        }
+      ],
+      "dof": 0,
+      "failing": [],
+      "fully_constrained": true,
+      "id": 33,
+      "links": [],
+      "name": "cage_lower_row1_section",
+      "plane": {
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_dir": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "y_dir": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "points": [
+        {
+          "at": [
+            0.0,
+            0.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "origin",
+          "link": null,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            11.18825,
+            6.7177500000000006
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p1",
+          "link": null,
+          "world": [
+            11.18825,
+            0.0,
+            -6.7177500000000006
+          ]
+        },
+        {
+          "at": [
+            13.81175,
+            6.7177500000000006
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p2",
+          "link": null,
+          "world": [
+            13.81175,
+            0.0,
+            -6.7177500000000006
+          ]
+        },
+        {
+          "at": [
+            13.81175,
+            6.24075
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p3",
+          "link": null,
+          "world": [
+            13.81175,
+            0.0,
+            -6.24075
+          ]
+        },
+        {
+          "at": [
+            11.18825,
+            6.24075
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p4",
+          "link": null,
+          "world": [
+            11.18825,
+            0.0,
+            -6.24075
+          ]
+        }
+      ],
+      "profiles": [
+        {
+          "area_mm2": 1.2514095000000083,
+          "centroid_sketch": [
+            12.499999999999972,
+            6.479249999999985
+          ],
+          "curves": [
+            "l1",
+            "l4",
+            "l3",
+            "l2"
+          ],
+          "holes": [],
+          "index": 0
+        }
+      ],
+      "status": "solved",
+      "visible": false,
+      "wires": []
+    },
+    {
+      "constraints": [],
+      "curves": [
+        {
+          "construction": false,
+          "end": "p2",
+          "end_at": [
+            13.81175,
+            1.70925
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l1",
+          "start": "p1",
+          "start_at": [
+            11.18825,
+            1.70925
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p3",
+          "end_at": [
+            13.81175,
+            1.23225
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l2",
+          "start": "p2",
+          "start_at": [
+            13.81175,
+            1.70925
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p4",
+          "end_at": [
+            11.18825,
+            1.23225
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l3",
+          "start": "p3",
+          "start_at": [
+            13.81175,
+            1.23225
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p1",
+          "end_at": [
+            11.18825,
+            1.70925
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l4",
+          "start": "p4",
+          "start_at": [
+            11.18825,
+            1.23225
+          ],
+          "type": "line"
+        }
+      ],
+      "dof": 0,
+      "failing": [],
+      "fully_constrained": true,
+      "id": 47,
+      "links": [],
+      "name": "cage_upper_row1_section",
+      "plane": {
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_dir": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "y_dir": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "points": [
+        {
+          "at": [
+            0.0,
+            0.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "origin",
+          "link": null,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            11.18825,
+            1.70925
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p1",
+          "link": null,
+          "world": [
+            11.18825,
+            0.0,
+            -1.70925
+          ]
+        },
+        {
+          "at": [
+            13.81175,
+            1.70925
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p2",
+          "link": null,
+          "world": [
+            13.81175,
+            0.0,
+            -1.70925
+          ]
+        },
+        {
+          "at": [
+            13.81175,
+            1.23225
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p3",
+          "link": null,
+          "world": [
+            13.81175,
+            0.0,
+            -1.23225
+          ]
+        },
+        {
+          "at": [
+            11.18825,
+            1.23225
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p4",
+          "link": null,
+          "world": [
+            11.18825,
+            0.0,
+            -1.23225
+          ]
+        }
+      ],
+      "profiles": [
+        {
+          "area_mm2": 1.2514094999999994,
+          "centroid_sketch": [
+            12.499999999999998,
+            1.4707500000000002
+          ],
+          "curves": [
+            "l1",
+            "l4",
+            "l3",
+            "l2"
+          ],
+          "holes": [],
+          "index": 0
+        }
+      ],
+      "status": "solved",
+      "visible": false,
+      "wires": []
+    },
+    {
+      "constraints": [],
+      "curves": [
+        {
+          "construction": false,
+          "end": "p2",
+          "end_at": [
+            13.81175,
+            -1.23225
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l1",
+          "start": "p1",
+          "start_at": [
+            11.18825,
+            -1.23225
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p3",
+          "end_at": [
+            13.81175,
+            -1.70925
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l2",
+          "start": "p2",
+          "start_at": [
+            13.81175,
+            -1.23225
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p4",
+          "end_at": [
+            11.18825,
+            -1.70925
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l3",
+          "start": "p3",
+          "start_at": [
+            13.81175,
+            -1.70925
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p1",
+          "end_at": [
+            11.18825,
+            -1.23225
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l4",
+          "start": "p4",
+          "start_at": [
+            11.18825,
+            -1.70925
+          ],
+          "type": "line"
+        }
+      ],
+      "dof": 0,
+      "failing": [],
+      "fully_constrained": true,
+      "id": 61,
+      "links": [],
+      "name": "cage_lower_row2_section",
+      "plane": {
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_dir": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "y_dir": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "points": [
+        {
+          "at": [
+            0.0,
+            0.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "origin",
+          "link": null,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            11.18825,
+            -1.23225
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p1",
+          "link": null,
+          "world": [
+            11.18825,
+            0.0,
+            1.23225
+          ]
+        },
+        {
+          "at": [
+            13.81175,
+            -1.23225
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p2",
+          "link": null,
+          "world": [
+            13.81175,
+            0.0,
+            1.23225
+          ]
+        },
+        {
+          "at": [
+            13.81175,
+            -1.70925
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p3",
+          "link": null,
+          "world": [
+            13.81175,
+            0.0,
+            1.70925
+          ]
+        },
+        {
+          "at": [
+            11.18825,
+            -1.70925
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p4",
+          "link": null,
+          "world": [
+            11.18825,
+            0.0,
+            1.70925
+          ]
+        }
+      ],
+      "profiles": [
+        {
+          "area_mm2": 1.2514094999999994,
+          "centroid_sketch": [
+            12.499999999999998,
+            -1.4707500000000002
+          ],
+          "curves": [
+            "l1",
+            "l4",
+            "l3",
+            "l2"
+          ],
+          "holes": [],
+          "index": 0
+        }
+      ],
+      "status": "solved",
+      "visible": false,
+      "wires": []
+    },
+    {
+      "constraints": [],
+      "curves": [
+        {
+          "construction": false,
+          "end": "p2",
+          "end_at": [
+            13.81175,
+            -6.24075
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l1",
+          "start": "p1",
+          "start_at": [
+            11.18825,
+            -6.24075
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p3",
+          "end_at": [
+            13.81175,
+            -6.7177500000000006
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l2",
+          "start": "p2",
+          "start_at": [
+            13.81175,
+            -6.24075
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p4",
+          "end_at": [
+            11.18825,
+            -6.7177500000000006
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l3",
+          "start": "p3",
+          "start_at": [
+            13.81175,
+            -6.7177500000000006
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p1",
+          "end_at": [
+            11.18825,
+            -6.24075
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l4",
+          "start": "p4",
+          "start_at": [
+            11.18825,
+            -6.7177500000000006
+          ],
+          "type": "line"
+        }
+      ],
+      "dof": 0,
+      "failing": [],
+      "fully_constrained": true,
+      "id": 75,
+      "links": [],
+      "name": "cage_upper_row2_section",
+      "plane": {
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_dir": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "y_dir": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "points": [
+        {
+          "at": [
+            0.0,
+            0.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "origin",
+          "link": null,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            11.18825,
+            -6.24075
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p1",
+          "link": null,
+          "world": [
+            11.18825,
+            0.0,
+            6.24075
+          ]
+        },
+        {
+          "at": [
+            13.81175,
+            -6.24075
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p2",
+          "link": null,
+          "world": [
+            13.81175,
+            0.0,
+            6.24075
+          ]
+        },
+        {
+          "at": [
+            13.81175,
+            -6.7177500000000006
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p3",
+          "link": null,
+          "world": [
+            13.81175,
+            0.0,
+            6.7177500000000006
+          ]
+        },
+        {
+          "at": [
+            11.18825,
+            -6.7177500000000006
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p4",
+          "link": null,
+          "world": [
+            11.18825,
+            0.0,
+            6.7177500000000006
+          ]
+        }
+      ],
+      "profiles": [
+        {
+          "area_mm2": 1.2514095000000083,
+          "centroid_sketch": [
+            12.499999999999972,
+            -6.479249999999982
+          ],
+          "curves": [
+            "l1",
+            "l4",
+            "l3",
+            "l2"
+          ],
+          "holes": [],
+          "index": 0
+        }
+      ],
+      "status": "solved",
+      "visible": false,
+      "wires": []
+    }
+  ],
+  "timeline": [
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 1,
+      "ms": 0.0739,
+      "name": "inner_race_section",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 2,
+      "ms": 27.677699999999998,
+      "name": "inner_race_revolve",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "RevolveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 3,
+      "ms": 0.0602,
+      "name": "outer_race_section",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 4,
+      "ms": 27.8495,
+      "name": "outer_race_revolve",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "RevolveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 5,
+      "ms": 1203.1239,
+      "name": "inner_race_raceway_0",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "TorusFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 6,
+      "ms": 1306.5008,
+      "name": "inner_race_raceway_2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "TorusFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 7,
+      "ms": 1149.3755999999998,
+      "name": "outer_race_raceway_0",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "TorusFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 8,
+      "ms": 1316.8555,
+      "name": "outer_race_raceway_2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "TorusFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 9,
+      "ms": 5.8729000000000005,
+      "name": "rolling_element_1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "SphereFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 10,
+      "ms": 8.674299999999999,
+      "name": "rolling_element_2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "SphereFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 11,
+      "ms": 8.6588,
+      "name": "rolling_element_3",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "SphereFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 12,
+      "ms": 5.6537999999999995,
+      "name": "rolling_element_4",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "SphereFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 13,
+      "ms": 8.4298,
+      "name": "rolling_element_5",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "SphereFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 14,
+      "ms": 13.1364,
+      "name": "rolling_element_6",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "SphereFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 15,
+      "ms": 5.2814000000000005,
+      "name": "rolling_element_7",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "SphereFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 16,
+      "ms": 5.9087000000000005,
+      "name": "rolling_element_8",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "SphereFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 17,
+      "ms": 5.477799999999999,
+      "name": "rolling_element_9",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "SphereFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 18,
+      "ms": 5.8492,
+      "name": "rolling_element_10",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "SphereFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 19,
+      "ms": 5.5293,
+      "name": "rolling_element_11",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "SphereFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 20,
+      "ms": 8.5334,
+      "name": "rolling_element_12",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "SphereFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 21,
+      "ms": 5.5683,
+      "name": "rolling_element_13",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "SphereFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 22,
+      "ms": 9.0729,
+      "name": "rolling_element_14",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "SphereFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 23,
+      "ms": 5.0306,
+      "name": "rolling_element_15",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "SphereFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 24,
+      "ms": 8.609,
+      "name": "rolling_element_16",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "SphereFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 25,
+      "ms": 8.4131,
+      "name": "rolling_element_17",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "SphereFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 26,
+      "ms": 5.739400000000001,
+      "name": "rolling_element_18",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "SphereFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 27,
+      "ms": 9.0877,
+      "name": "rolling_element_19",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "SphereFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 28,
+      "ms": 5.4918,
+      "name": "rolling_element_20",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "SphereFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 29,
+      "ms": 5.1744,
+      "name": "rolling_element_21",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "SphereFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 30,
+      "ms": 8.290199999999999,
+      "name": "rolling_element_22",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "SphereFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 31,
+      "ms": 5.4671,
+      "name": "rolling_element_23",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "SphereFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 32,
+      "ms": 8.4473,
+      "name": "rolling_element_24",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "SphereFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 33,
+      "ms": 0.0718,
+      "name": "cage_lower_row1_section",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 34,
+      "ms": 15.836699999999999,
+      "name": "cage_lower_row1_revolve",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "RevolveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 35,
+      "ms": 11.3288,
+      "name": "cage_lower_row1_window_1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 36,
+      "ms": 12.9666,
+      "name": "cage_lower_row1_window_2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 37,
+      "ms": 13.277000000000001,
+      "name": "cage_lower_row1_window_3",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 38,
+      "ms": 12.964500000000001,
+      "name": "cage_lower_row1_window_4",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 39,
+      "ms": 13.1642,
+      "name": "cage_lower_row1_window_5",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 40,
+      "ms": 10.321399999999999,
+      "name": "cage_lower_row1_window_6",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 41,
+      "ms": 21.150100000000002,
+      "name": "cage_lower_row1_window_7",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 42,
+      "ms": 18.5775,
+      "name": "cage_lower_row1_window_8",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 43,
+      "ms": 22.5684,
+      "name": "cage_lower_row1_window_9",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 44,
+      "ms": 29.1831,
+      "name": "cage_lower_row1_window_10",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 45,
+      "ms": 20.723599999999998,
+      "name": "cage_lower_row1_window_11",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 46,
+      "ms": 32.497699999999995,
+      "name": "cage_lower_row1_window_12",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 47,
+      "ms": 0.0821,
+      "name": "cage_upper_row1_section",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 48,
+      "ms": 16.7442,
+      "name": "cage_upper_row1_revolve",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "RevolveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 49,
+      "ms": 10.8956,
+      "name": "cage_upper_row1_window_1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 50,
+      "ms": 9.8177,
+      "name": "cage_upper_row1_window_2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 51,
+      "ms": 13.4285,
+      "name": "cage_upper_row1_window_3",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 52,
+      "ms": 14.1281,
+      "name": "cage_upper_row1_window_4",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 53,
+      "ms": 13.2417,
+      "name": "cage_upper_row1_window_5",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 54,
+      "ms": 12.487699999999998,
+      "name": "cage_upper_row1_window_6",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 55,
+      "ms": 16.5151,
+      "name": "cage_upper_row1_window_7",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 56,
+      "ms": 19.6565,
+      "name": "cage_upper_row1_window_8",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 57,
+      "ms": 19.3033,
+      "name": "cage_upper_row1_window_9",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 58,
+      "ms": 23.045099999999998,
+      "name": "cage_upper_row1_window_10",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 59,
+      "ms": 20.360400000000002,
+      "name": "cage_upper_row1_window_11",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 60,
+      "ms": 25.062,
+      "name": "cage_upper_row1_window_12",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 61,
+      "ms": 0.0843,
+      "name": "cage_lower_row2_section",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 62,
+      "ms": 18.0882,
+      "name": "cage_lower_row2_revolve",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "RevolveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 63,
+      "ms": 10.9297,
+      "name": "cage_lower_row2_window_1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 64,
+      "ms": 11.7384,
+      "name": "cage_lower_row2_window_2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 65,
+      "ms": 13.432400000000001,
+      "name": "cage_lower_row2_window_3",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 66,
+      "ms": 11.1487,
+      "name": "cage_lower_row2_window_4",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 67,
+      "ms": 14.1584,
+      "name": "cage_lower_row2_window_5",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 68,
+      "ms": 11.976799999999999,
+      "name": "cage_lower_row2_window_6",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 69,
+      "ms": 17.481,
+      "name": "cage_lower_row2_window_7",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 70,
+      "ms": 19.7659,
+      "name": "cage_lower_row2_window_8",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 71,
+      "ms": 23.906299999999998,
+      "name": "cage_lower_row2_window_9",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 72,
+      "ms": 17.976300000000002,
+      "name": "cage_lower_row2_window_10",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 73,
+      "ms": 21.3888,
+      "name": "cage_lower_row2_window_11",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 74,
+      "ms": 22.407300000000003,
+      "name": "cage_lower_row2_window_12",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 75,
+      "ms": 0.0843,
+      "name": "cage_upper_row2_section",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 76,
+      "ms": 16.1739,
+      "name": "cage_upper_row2_revolve",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "RevolveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 77,
+      "ms": 12.5763,
+      "name": "cage_upper_row2_window_1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 78,
+      "ms": 9.2192,
+      "name": "cage_upper_row2_window_2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 79,
+      "ms": 10.376,
+      "name": "cage_upper_row2_window_3",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 80,
+      "ms": 9.617,
+      "name": "cage_upper_row2_window_4",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 81,
+      "ms": 11.7945,
+      "name": "cage_upper_row2_window_5",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 82,
+      "ms": 15.4882,
+      "name": "cage_upper_row2_window_6",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 83,
+      "ms": 17.950899999999997,
+      "name": "cage_upper_row2_window_7",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 84,
+      "ms": 15.0007,
+      "name": "cage_upper_row2_window_8",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 85,
+      "ms": 19.5445,
+      "name": "cage_upper_row2_window_9",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 86,
+      "ms": 21.4407,
+      "name": "cage_upper_row2_window_10",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 87,
+      "ms": 19.1789,
+      "name": "cage_upper_row2_window_11",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 88,
+      "ms": 24.9237,
+      "name": "cage_upper_row2_window_12",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    }
+  ],
+  "undo": 115,
+  "units": "mm"
+}

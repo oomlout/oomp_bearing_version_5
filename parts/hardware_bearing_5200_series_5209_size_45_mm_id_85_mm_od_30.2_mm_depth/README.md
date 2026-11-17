@@ -1,0 +1,1786 @@
+<!-- bearing-catalogue:start -->
+# 5209 bearing - 45 x 85 x 30.2 mm
+
+## Summary
+
+Double row angular contact bearing: 45 mm bore, 85 mm outside diameter and 30.2 mm width.
+
+| Product view | Isometric view |
+| --- | --- |
+| ![Open bearing product render](three_d_model/render_product_low.png) | ![Open bearing isometric render](three_d_model/render_low.png) |
+
+Generated catalogue illustrations; the open internal geometry is illustrative.
+
+## Details
+
+**OOMP ID:** `hardware_bearing_5200_series_5209_size_45_mm_id_85_mm_od_30.2_mm_depth`
+
+| Dimension | Nominal value |
+| --- | --- |
+| Bore / ID | 45 mm |
+| Outside diameter / OD | 85 mm |
+| Width / B | 30.2 mm |
+| Catalogue contact angle | 25 degrees |
+
+**Dimension evidence:** manufacturer checked (review retained from 2026-10-27).
+
+Nominal presentation model. Raceways, pitch circle, chamfers and retainer geometry are illustrative; ball count/diameter are illustrative unless individually sourced. Not a manufacturer reconstruction, load-rating model or manufacturing/tolerance certification. Unspecified closure is presented open. The mesh shows open races and balls; retainers, seals and exact contact surfaces are omitted.
+
+Contact-angle authority: **manufacturer family**. The mesh does not reconstruct the manufacturer contact surfaces.
+
+![Dimensioned front and side views](working_dimension.svg)
+
+[Printable A4 dimension sheet](working_dimension_a4.pdf) · [1:1 outline](working_svg.svg)
+
+### Source evidence
+
+- [https://www.nsk.com/content/dam/nsk/am/en_us/documents/bearings-americas/Bearing-and-Linear-Replacement-Guide.pdf](https://www.nsk.com/content/dam/nsk/am/en_us/documents/bearings-americas/Bearing-and-Linear-Replacement-Guide.pdf)
+
+[Retained research and corrected dimensions](../../source_file/solidcraft/) · [Editable declaration](../../working_oomp_declarations_bearing.py)
+
+## Parts
+
+[Canonical part folder](.) · [Metadata](working.yaml) · [Browse this series](../../navigation/5200/README.md)
+
+### Files
+
+- [Editable OpenSCAD geometry](3dpr.scad)
+- [Full model / GLB / metres, Y-up](three_d_model/model_full.glb)
+- [Lightweight model / GLB / metres, Y-up](three_d_model/model_display.glb)
+- [Editable Blender studio](three_d_model/studio.blend)
+- [Product render / 2048 px](three_d_model/render_product_high.png)
+- [Isometric render / 2048 px](three_d_model/render_high.png)
+- [Populated model and render recipe](three_d_model/parameters.json)
+- [Mesh measurements and artifact hashes](three_d_model/manifest.json)
+- [Retained native CAD success manifest](solidcraft/latest_success.json)
+- [76.2 x 50.8 mm label](label_bearing_3x2.pdf)
+- [38.1 x 25.4 mm label](label_bearing_1_5x1.pdf)
+- [Retained editable native bearing / SolidCraft](solidcraft/generations/61de120b3238bea2_20261027T112311Z_163b70bb/bearing_5209_open.solidcraft)
+
+### Orthographic views
+
+| Quality | Isometric | Front | Back | Left | Right | Top | Bottom |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Full | [Isometric](three_d_model/full/isometric.svg) | [Front](three_d_model/full/front.svg) | [Back](three_d_model/full/back.svg) | [Left](three_d_model/full/left.svg) | [Right](three_d_model/full/right.svg) | [Top](three_d_model/full/top.svg) | [Bottom](three_d_model/full/bottom.svg) |
+| Display | [Isometric](three_d_model/display/isometric.svg) | [Front](three_d_model/display/front.svg) | [Back](three_d_model/display/back.svg) | [Left](three_d_model/display/left.svg) | [Right](three_d_model/display/right.svg) | [Top](three_d_model/display/top.svg) | [Bottom](three_d_model/display/bottom.svg) |
+
+## Assembly
+
+No installation procedure is established for this generic size record. Select the required closure, clearance, tolerance and load rating from the actual purchased bearing specification.
+
+<details>
+<summary>Complete OOMP metadata</summary>
+
+```yaml
+depth: 30.2
+id: hardware_bearing_5200_series_5209_size_45_mm_id_85_mm_od_30.2_mm_depth
+od: 85.0
+series: '5200'
+size: '5209'
+svg_details:
+  svg_name: bearing_dimension
+  title: 5209 / OPEN BEARING
+  family: DOUBLE ROW ANGULAR CONTACT
+  dimensions_mm:
+    bore: 45.0
+    outside: 85.0
+    width: 30.2
+    contact_angle_deg: 25.0
+  sheet_width_mm: 297
+  sheet_height_mm: 210
+  ink: '#183336'
+  accent: '#147d83'
+  muted: '#61767a'
+  paper: '#ffffff'
+  race_face_fill: '#edf3f3'
+  inner_race_face_outside_mm: 59.3828
+  outer_race_face_inside_mm: 70.6172
+  line_width_mm: 0.45
+  font_family: Helvetica
+  dimension_font_mm: 4
+  title_font_mm: 9
+  front_centre_mm:
+  - 79
+  - 103
+  side_centre_mm:
+  - 211
+  - 103
+  max_view_width_mm: 78
+  max_side_width_mm: 55
+  dimension_offset_mm: 12
+  arrow_size_mm: 2
+  note: Nominal dimensions in mm. Illustration only; no tolerances or fit allowances.
+  authority: manufacturer checked
+  internal_note: Open presentation; internal races and balls are illustrative. Retainers
+    omitted.
+  layout:
+    left_margin_mm: 14
+    right_margin_mm: 283
+    title_y_mm: 22
+    family_y_mm: 33
+    family_font_mm: 3.5
+    brand: OOMP / BEARINGS
+    brand_font_mm: 3.5
+    header_rule_y_mm: 40
+    view_caption_y_mm: 173
+    view_caption_font_mm: 3
+    front_caption: FRONT VIEW
+    side_caption: SIDE VIEW
+    footer_rule_y_mm: 180
+    note_y_mm: 187
+    internal_note_y_mm: 194
+    note_font_mm: 3.2
+    source_y_mm: 202
+    source_font_mm: 3
+    source_prefix: 'SOURCE: '
+    scale_prefix: A4 / scale
+  dimension_style:
+    line_width_mm: 0.25
+    arrow_half_width_ratio: 0.3
+    text_gap_mm: 2
+    extension_mm: 2
+    width_extension_mm: 3
+    centre_extension_mm: 5
+    dash_pattern_mm:
+    - 2
+    - 1
+    flange_leader_offset_mm:
+    - -13
+    - 11
+    flange_text_offset_mm:
+    - -13
+    - 16
+    flange_font_mm: 3.5
+  outline:
+    ink: black
+    line_width_mm: 0.1
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: bearing
+taxonomy_3: 5200_series
+taxonomy_4: 5209_size
+taxonomy_5: 45_mm_id
+taxonomy_6: 85_mm_od
+taxonomy_7: 30.2_mm_depth
+taxonomy_8: ''
+taxonomy_9: ''
+weight: '640'
+width: 30.2
+dimension_selection:
+  policy: standard_metric_open_catalogue
+  previous_id: hardware_bearing_5200_series_5209_size_45_mm_id_85_mm_od_30.1_mm_depth
+  sources:
+  - https://www.nsk.com/content/dam/nsk/am/en_us/documents/bearings-americas/Bearing-and-Linear-Replacement-Guide.pdf
+  note: User selected standard catalogue variants on 2026-10-27; no sales ranking
+    asserted.
+url_chat: https://chatgpt.com/sites
+run_action: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: false
+generate_stl: false
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_2_upper: BEARING
+taxonomy_2_upper_length_1: B
+taxonomy_2_upper_length_2: BE
+taxonomy_2_upper_length_3: BEA
+taxonomy_2_upper_length_4: BEAR
+taxonomy_2_upper_length_5: BEARI
+taxonomy_2_length_1: b
+taxonomy_2_length_2: be
+taxonomy_2_length_3: bea
+taxonomy_2_length_4: bear
+taxonomy_2_length_5: beari
+taxonomy_2_capital: Bearing
+taxonomy_2_first_letter: b
+taxonomy_2_first_letter_upper: B
+taxonomy_3_upper: 5200_SERIES
+taxonomy_3_upper_length_1: '5'
+taxonomy_3_upper_length_2: '52'
+taxonomy_3_upper_length_3: '520'
+taxonomy_3_upper_length_4: '5200'
+taxonomy_3_upper_length_5: '5200_'
+taxonomy_3_length_1: '5'
+taxonomy_3_length_2: '52'
+taxonomy_3_length_3: '520'
+taxonomy_3_length_4: '5200'
+taxonomy_3_length_5: '5200_'
+taxonomy_3_capital: 5200 Series
+taxonomy_3_first_letter: '5'
+taxonomy_3_first_letter_upper: '5'
+taxonomy_4_upper: 5209_SIZE
+taxonomy_4_upper_length_1: '5'
+taxonomy_4_upper_length_2: '52'
+taxonomy_4_upper_length_3: '520'
+taxonomy_4_upper_length_4: '5209'
+taxonomy_4_upper_length_5: '5209_'
+taxonomy_4_length_1: '5'
+taxonomy_4_length_2: '52'
+taxonomy_4_length_3: '520'
+taxonomy_4_length_4: '5209'
+taxonomy_4_length_5: '5209_'
+taxonomy_4_capital: 5209 Size
+taxonomy_4_first_letter: '5'
+taxonomy_4_first_letter_upper: '5'
+taxonomy_5_upper: 45_MM_ID
+taxonomy_5_upper_length_1: '4'
+taxonomy_5_upper_length_2: '45'
+taxonomy_5_upper_length_3: '45_'
+taxonomy_5_upper_length_4: 45_M
+taxonomy_5_upper_length_5: 45_MM
+taxonomy_5_length_1: '4'
+taxonomy_5_length_2: '45'
+taxonomy_5_length_3: '45_'
+taxonomy_5_length_4: 45_m
+taxonomy_5_length_5: 45_mm
+taxonomy_5_capital: 45 mm Id
+taxonomy_5_first_letter: '4'
+taxonomy_5_first_letter_upper: '4'
+taxonomy_6_upper: 85_MM_OD
+taxonomy_6_upper_length_1: '8'
+taxonomy_6_upper_length_2: '85'
+taxonomy_6_upper_length_3: '85_'
+taxonomy_6_upper_length_4: 85_M
+taxonomy_6_upper_length_5: 85_MM
+taxonomy_6_length_1: '8'
+taxonomy_6_length_2: '85'
+taxonomy_6_length_3: '85_'
+taxonomy_6_length_4: 85_m
+taxonomy_6_length_5: 85_mm
+taxonomy_6_capital: 85 mm Od
+taxonomy_6_first_letter: '8'
+taxonomy_6_first_letter_upper: '8'
+taxonomy_7_upper: 30.2_MM_DEPTH
+taxonomy_7_upper_length_1: '3'
+taxonomy_7_upper_length_2: '30'
+taxonomy_7_upper_length_3: '30.'
+taxonomy_7_upper_length_4: '30.2'
+taxonomy_7_upper_length_5: '30.2_'
+taxonomy_7_length_1: '3'
+taxonomy_7_length_2: '30'
+taxonomy_7_length_3: '30.'
+taxonomy_7_length_4: '30.2'
+taxonomy_7_length_5: '30.2_'
+taxonomy_7_capital: 30.2 mm Depth
+taxonomy_7_first_letter: '3'
+taxonomy_7_first_letter_upper: '3'
+id_no_class: hardware_bearing_5200_series_5209_size_45_mm_id_85_mm_od_30.2_mm_depth
+id_no_type: hardware_bearing_5200_series_5209_size_45_mm_id_85_mm_od_30.2_mm_depth
+id_no_size: hardware_bearing_5200_series_size_45_mm_id_85_mm_od_30.2_mm_depth
+oomp_key: oomp_hardware_bearing_5200_series_5209_size_45_mm_id_85_mm_od_30.2_mm_depth
+link_github: https://github.com/oomlout/oomp_bearing_version_5/tree/main/parts/hardware_bearing_5200_series_5209_size_45_mm_id_85_mm_od_30.2_mm_depth
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_bearing_5200_series_5209_size_45_mm_id_85_mm_od_30.2_mm_depth
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_bearing_5200_series_5209_size_45_mm_id_85_mm_od_30.2_mm_depth
+directory: parts/hardware_bearing_5200_series_5209_size_45_mm_id_85_mm_od_30.2_mm_depth
+name: 5209 bearing
+name_no_class: Hardware Bearing 5200 Series 5209 Size 45 Mm Id 85 Mm Od 30.2 Mm Depth
+name_no_type: Hardware Bearing 5200 Series 5209 Size 45 Mm Id 85 Mm Od 30.2 Mm Depth
+name_no_size: Hardware Bearing 5200 Series Size 45 Mm Id 85 Mm Od 30.2 Mm Depth
+md5: e8e344aae9c7645cacd3d960ffe73353
+md5_5: e8e34
+md5_5_upper: E8E34
+md5_6: e8e344
+md5_6_upper: E8E344
+md5_6_alpha: 934n8
+md5_6_alpha_upper: 934N8
+md5_10: e8e344aae9
+md5_10_upper: E8E344AAE9
+bip_39_full_array:
+- trophy
+- boss
+- click
+- squeeze
+- iron
+- comic
+- rebuild
+- kite
+- genius
+- you
+- smoke
+- pole
+bip_39_full_space: trophy boss click squeeze iron comic rebuild kite genius you smoke
+  pole
+bip_39_full_no_space: trophybossclicksqueezeironcomicrebuildkitegeniusyousmokepole
+bip_39_full_underscore: trophy_boss_click_squeeze_iron_comic_rebuild_kite_genius_you_smoke_pole
+bip_39_2_word_array:
+- trophy
+- boss
+bip_39_2_word_space: trophy boss
+bip_39_2_word_no_space: trophyboss
+bip_39_2_word_underscore: trophy_boss
+bip_39_3_word_array:
+- trophy
+- boss
+- click
+bip_39_3_word_space: trophy boss click
+bip_39_3_word_no_space: trophybossclick
+bip_39_3_word_underscore: trophy_boss_click
+name_space: hardware bearing 5200 series 5209 size 45 mm id 85 mm od 30.2 mm depth
+name_proper: 5209 bearing
+name_upper: HARDWARE BEARING 5200 SERIES 5209 SIZE 45 MM ID 85 MM OD 30.2 MM DEPTH
+oomlout_ai_roboclick_1:
+  file_test: ''
+  actions:
+  - command: text_jinja_template
+    description: Bold bearing label 3x2
+    file_template: C:\od\OneDrive\docs\oomp_bearing\source_file\template_jinja\label_bearing_bold\3x2.svg.j2
+    file_output: label_bearing_bold_3x2.svg
+    dict_data_yaml_files:
+      label_source: C:\od\OneDrive\docs\oomp_bearing\parts_source\hardware_bearing_5200_series_5209_size_45_mm_id_85_mm_od_30_2_mm_depth\working.yaml
+      label_manual: C:\od\OneDrive\docs\oomp_bearing\parts\hardware_bearing_5200_series_5209_size_45_mm_id_85_mm_od_30.2_mm_depth\working_manual.yaml
+    convert_to_pdf: false
+    convert_to_png: false
+oomlout_ai_roboclick_2:
+  file_test: ''
+  actions:
+  - command: text_jinja_template
+    description: Bold bearing label 1_5x1
+    file_template: C:\od\OneDrive\docs\oomp_bearing\source_file\template_jinja\label_bearing_bold\1_5x1.svg.j2
+    file_output: label_bearing_bold_1_5x1.svg
+    dict_data_yaml_files:
+      label_source: C:\od\OneDrive\docs\oomp_bearing\parts_source\hardware_bearing_5200_series_5209_size_45_mm_id_85_mm_od_30_2_mm_depth\working.yaml
+      label_manual: C:\od\OneDrive\docs\oomp_bearing\parts\hardware_bearing_5200_series_5209_size_45_mm_id_85_mm_od_30.2_mm_depth\working_manual.yaml
+    convert_to_pdf: false
+    convert_to_png: false
+catalogue_schema: oomp_bearing_v5
+oomp_id: hardware_bearing_5200_series_5209_size_45_mm_id_85_mm_od_30.2_mm_depth
+family: double_row_angular_contact
+dimensions_mm:
+  bore: 45.0
+  outside: 85.0
+  width: 30.2
+  contact_angle_deg: 25.0
+bore: 45.0
+dimension_authority: manufacturer_checked
+source_checked: '2026-10-27'
+sources:
+- https://www.nsk.com/content/dam/nsk/am/en_us/documents/bearings-americas/Bearing-and-Linear-Replacement-Guide.pdf
+model_note: Nominal presentation model. Raceways, pitch circle, chamfers and retainer
+  geometry are illustrative; ball count/diameter are illustrative unless individually
+  sourced. Not a manufacturer reconstruction, load-rating model or manufacturing/tolerance
+  certification. Unspecified closure is presented open. The mesh shows open races
+  and balls; retainers, seals and exact contact surfaces are omitted.
+closure: open
+three_d_model_details:
+  schema_version: 1
+  generator: bearing_open
+  output_folder: three_d_model
+  parameters:
+    bore: 45.0
+    outside: 85.0
+    width: 30.2
+    edge: 1.2
+    pitch_radius: 32.5
+    ball_radius: 4.529999999999999
+    groove_radius: 4.7565
+    inner_shoulder: 29.6914
+    outer_shoulder: 35.3086
+    cage_half_width: 2.4915
+    cage_low: 4.303499999999999
+    cage_high: 5.2094999999999985
+    window_radius: 2.1743999999999994
+    contact_angle_deg: 25.0
+    contact_offset: 0.11324999999999999
+    identity: hardware_bearing_5200_series_5209_size_45_mm_id_85_mm_od_30.2_mm_depth
+    specification: 5209 / 45 x 85 x 30.2 mm
+    characteristic_dimension_mm: 85.0
+    characteristic_dimension_basis: maximum nominal envelope dimension
+    ball_count: 32
+    balls_per_row: 16
+    row_count: 2
+    ball_specification: illustrative
+    contact_angle_authority: manufacturer_family
+    row_centres_z:
+    - 7.55
+    - 22.65
+    components:
+    - name: outer_race
+      shape: revolved_profile
+      profile_mm:
+      - - 41.3
+        - 0
+      - - 42.5
+        - 1.2
+      - - 42.5
+        - 29.0
+      - - 41.3
+        - 30.2
+      - - 35.3086
+        - 30.2
+      - - 35.3086
+        - 29.0
+      - - 35.3086
+        - 27.4065
+      - - 35.3086
+        - 27.168675
+      - - 35.3086
+        - 26.93085
+      - - 35.3086
+        - 26.693025
+      - - 35.3539
+        - 26.455199999999998
+      - - 35.64612902776968
+        - 26.217374999999997
+      - - 35.89682043203641
+        - 25.97955
+      - - 36.11462705882294
+        - 25.741725
+      - - 36.3052
+        - 25.5039
+      - - 36.47246067877015
+        - 25.266075
+      - - 36.61924983310068
+        - 25.02825
+      - - 36.74769032173663
+        - 24.790425
+      - - 36.85940425861149
+        - 24.552599999999998
+      - - 36.9556499469073
+        - 24.314774999999997
+      - - 37.0374118115397
+        - 24.07695
+      - - 37.10546132155889
+        - 23.839125
+      - - 37.16039918461927
+        - 23.601300000000002
+      - - 37.20268494313355
+        - 23.363475
+      - - 37.23265774459764
+        - 23.12565
+      - - 37.25055065433209
+        - 22.887825
+      - - 37.2565
+        - 22.65
+      - - 37.25055065433209
+        - 22.412174999999998
+      - - 37.23265774459764
+        - 22.17435
+      - - 37.20268494313355
+        - 21.936525
+      - - 37.16039918461927
+        - 21.6987
+      - - 37.10546132155889
+        - 21.460874999999998
+      - - 37.037411811539705
+        - 21.22305
+      - - 36.9556499469073
+        - 20.985225
+      - - 36.85940425861149
+        - 20.7474
+      - - 36.74769032173663
+        - 20.509574999999998
+      - - 36.61924983310068
+        - 20.27175
+      - - 36.47246067877015
+        - 20.033925
+      - - 36.3052
+        - 19.7961
+      - - 36.11462705882294
+        - 19.558275
+      - - 35.89682043203641
+        - 19.32045
+      - - 35.64612902776968
+        - 19.082625
+      - - 35.3539
+        - 18.8448
+      - - 35.3086
+        - 18.606975
+      - - 35.3086
+        - 18.36915
+      - - 35.3086
+        - 18.131325
+      - - 35.3086
+        - 17.8935
+      - - 35.3086
+        - 12.3065
+      - - 35.3086
+        - 12.068675
+      - - 35.3086
+        - 11.83085
+      - - 35.3086
+        - 11.593024999999999
+      - - 35.3539
+        - 11.3552
+      - - 35.64612902776968
+        - 11.117375
+      - - 35.89682043203641
+        - 10.87955
+      - - 36.11462705882295
+        - 10.641725
+      - - 36.3052
+        - 10.4039
+      - - 36.47246067877015
+        - 10.166075
+      - - 36.61924983310068
+        - 9.928249999999998
+      - - 36.74769032173663
+        - 9.690425000000001
+      - - 36.85940425861149
+        - 9.4526
+      - - 36.9556499469073
+        - 9.214775
+      - - 37.037411811539705
+        - 8.976949999999999
+      - - 37.10546132155889
+        - 8.739125
+      - - 37.16039918461927
+        - 8.5013
+      - - 37.20268494313355
+        - 8.263475
+      - - 37.23265774459764
+        - 8.025649999999999
+      - - 37.25055065433209
+        - 7.787825
+      - - 37.2565
+        - 7.55
+      - - 37.25055065433209
+        - 7.312175
+      - - 37.23265774459764
+        - 7.07435
+      - - 37.20268494313355
+        - 6.836525
+      - - 37.16039918461927
+        - 6.5987
+      - - 37.10546132155889
+        - 6.360875
+      - - 37.0374118115397
+        - 6.123049999999999
+      - - 36.9556499469073
+        - 5.885225
+      - - 36.85940425861149
+        - 5.6474
+      - - 36.74769032173663
+        - 5.409575
+      - - 36.61924983310068
+        - 5.171749999999999
+      - - 36.47246067877015
+        - 4.933925
+      - - 36.3052
+        - 4.6960999999999995
+      - - 36.11462705882294
+        - 4.4582749999999995
+      - - 35.89682043203641
+        - 4.22045
+      - - 35.64612902776968
+        - 3.9826249999999996
+      - - 35.3539
+        - 3.7447999999999997
+      - - 35.3086
+        - 3.5069749999999997
+      - - 35.3086
+        - 3.26915
+      - - 35.3086
+        - 3.031325
+      - - 35.3086
+        - 2.7935
+      - - 35.3086
+        - 1.2
+      - - 35.3086
+        - 0.0
+      - - 41.3
+        - 0
+    - name: inner_race
+      shape: revolved_profile
+      profile_mm:
+      - - 29.6914
+        - 0.0
+      - - 29.6914
+        - 1.2
+      - - 29.6914
+        - 2.7935
+      - - 29.6914
+        - 3.031325
+      - - 29.6914
+        - 3.26915
+      - - 29.6914
+        - 3.5069749999999997
+      - - 29.6461
+        - 3.7447999999999997
+      - - 29.353870972230318
+        - 3.9826249999999996
+      - - 29.103179567963593
+        - 4.22045
+      - - 28.885372941177057
+        - 4.4582749999999995
+      - - 28.6948
+        - 4.6960999999999995
+      - - 28.52753932122985
+        - 4.933925
+      - - 28.38075016689932
+        - 5.171749999999999
+      - - 28.252309678263373
+        - 5.409575
+      - - 28.14059574138851
+        - 5.6474
+      - - 28.044350053092703
+        - 5.885225
+      - - 27.9625881884603
+        - 6.123049999999999
+      - - 27.894538678441105
+        - 6.360875
+      - - 27.839600815380727
+        - 6.5987
+      - - 27.797315056866452
+        - 6.836525
+      - - 27.76734225540236
+        - 7.07435
+      - - 27.749449345667916
+        - 7.312175
+      - - 27.7435
+        - 7.55
+      - - 27.749449345667916
+        - 7.787825
+      - - 27.76734225540236
+        - 8.025649999999999
+      - - 27.797315056866452
+        - 8.263475
+      - - 27.839600815380727
+        - 8.5013
+      - - 27.894538678441105
+        - 8.739125
+      - - 27.9625881884603
+        - 8.976949999999999
+      - - 28.044350053092703
+        - 9.214775
+      - - 28.14059574138851
+        - 9.4526
+      - - 28.252309678263373
+        - 9.690425000000001
+      - - 28.38075016689932
+        - 9.928249999999998
+      - - 28.52753932122985
+        - 10.166075
+      - - 28.6948
+        - 10.4039
+      - - 28.885372941177057
+        - 10.641725
+      - - 29.103179567963593
+        - 10.87955
+      - - 29.353870972230318
+        - 11.117375
+      - - 29.6461
+        - 11.3552
+      - - 29.6914
+        - 11.593024999999999
+      - - 29.6914
+        - 11.83085
+      - - 29.6914
+        - 12.068675
+      - - 29.6914
+        - 12.3065
+      - - 29.6914
+        - 17.8935
+      - - 29.6914
+        - 18.131325
+      - - 29.6914
+        - 18.36915
+      - - 29.6914
+        - 18.606975
+      - - 29.6461
+        - 18.8448
+      - - 29.353870972230318
+        - 19.082625
+      - - 29.10317956796359
+        - 19.32045
+      - - 28.885372941177057
+        - 19.558275
+      - - 28.6948
+        - 19.7961
+      - - 28.52753932122985
+        - 20.033925
+      - - 28.38075016689932
+        - 20.27175
+      - - 28.252309678263373
+        - 20.509574999999998
+      - - 28.14059574138851
+        - 20.7474
+      - - 28.044350053092703
+        - 20.985225
+      - - 27.9625881884603
+        - 21.22305
+      - - 27.894538678441105
+        - 21.460874999999998
+      - - 27.839600815380727
+        - 21.6987
+      - - 27.797315056866452
+        - 21.936525
+      - - 27.76734225540236
+        - 22.17435
+      - - 27.749449345667916
+        - 22.412174999999998
+      - - 27.7435
+        - 22.65
+      - - 27.749449345667916
+        - 22.887825
+      - - 27.76734225540236
+        - 23.12565
+      - - 27.797315056866452
+        - 23.363475
+      - - 27.839600815380727
+        - 23.601300000000002
+      - - 27.894538678441105
+        - 23.839125
+      - - 27.9625881884603
+        - 24.07695
+      - - 28.044350053092703
+        - 24.314774999999997
+      - - 28.14059574138851
+        - 24.552599999999998
+      - - 28.252309678263373
+        - 24.790425
+      - - 28.38075016689932
+        - 25.02825
+      - - 28.527539321229852
+        - 25.266075
+      - - 28.6948
+        - 25.5039
+      - - 28.885372941177057
+        - 25.741725
+      - - 29.103179567963593
+        - 25.97955
+      - - 29.353870972230318
+        - 26.217374999999997
+      - - 29.6461
+        - 26.455199999999998
+      - - 29.6914
+        - 26.693025
+      - - 29.6914
+        - 26.93085
+      - - 29.6914
+        - 27.168675
+      - - 29.6914
+        - 27.4065
+      - - 29.6914
+        - 29.0
+      - - 29.6914
+        - 30.2
+      - - 23.7
+        - 30.2
+      - - 22.5
+        - 29.0
+      - - 22.5
+        - 1.2
+      - - 23.7
+        - 0
+      - - 29.6914
+        - 0.0
+    - name: ball_row_1_1
+      shape: sphere
+      radius_mm: 4.529999999999999
+      centre_mm:
+      - 32.5
+      - 0.0
+      - 7.55
+    - name: ball_row_1_2
+      shape: sphere
+      radius_mm: 4.529999999999999
+      centre_mm:
+      - 30.02608480661682
+      - 12.437211551865419
+      - 7.55
+    - name: ball_row_1_3
+      shape: sphere
+      radius_mm: 4.529999999999999
+      centre_mm:
+      - 22.980970388562795
+      - 22.980970388562795
+      - 7.55
+    - name: ball_row_1_4
+      shape: sphere
+      radius_mm: 4.529999999999999
+      centre_mm:
+      - 12.43721155186542
+      - 30.02608480661682
+      - 7.55
+    - name: ball_row_1_5
+      shape: sphere
+      radius_mm: 4.529999999999999
+      centre_mm:
+      - 1.990051048614449e-15
+      - 32.5
+      - 7.55
+    - name: ball_row_1_6
+      shape: sphere
+      radius_mm: 4.529999999999999
+      centre_mm:
+      - -12.437211551865417
+      - 30.02608480661682
+      - 7.55
+    - name: ball_row_1_7
+      shape: sphere
+      radius_mm: 4.529999999999999
+      centre_mm:
+      - -22.980970388562792
+      - 22.980970388562795
+      - 7.55
+    - name: ball_row_1_8
+      shape: sphere
+      radius_mm: 4.529999999999999
+      centre_mm:
+      - -30.02608480661682
+      - 12.437211551865422
+      - 7.55
+    - name: ball_row_1_9
+      shape: sphere
+      radius_mm: 4.529999999999999
+      centre_mm:
+      - -32.5
+      - 3.980102097228898e-15
+      - 7.55
+    - name: ball_row_1_10
+      shape: sphere
+      radius_mm: 4.529999999999999
+      centre_mm:
+      - -30.026084806616822
+      - -12.437211551865415
+      - 7.55
+    - name: ball_row_1_11
+      shape: sphere
+      radius_mm: 4.529999999999999
+      centre_mm:
+      - -22.9809703885628
+      - -22.980970388562792
+      - 7.55
+    - name: ball_row_1_12
+      shape: sphere
+      radius_mm: 4.529999999999999
+      centre_mm:
+      - -12.437211551865436
+      - -30.02608480661681
+      - 7.55
+    - name: ball_row_1_13
+      shape: sphere
+      radius_mm: 4.529999999999999
+      centre_mm:
+      - -5.970153145843346e-15
+      - -32.5
+      - 7.55
+    - name: ball_row_1_14
+      shape: sphere
+      radius_mm: 4.529999999999999
+      centre_mm:
+      - 12.437211551865426
+      - -30.026084806616815
+      - 7.55
+    - name: ball_row_1_15
+      shape: sphere
+      radius_mm: 4.529999999999999
+      centre_mm:
+      - 22.98097038856279
+      - -22.9809703885628
+      - 7.55
+    - name: ball_row_1_16
+      shape: sphere
+      radius_mm: 4.529999999999999
+      centre_mm:
+      - 30.02608480661681
+      - -12.437211551865438
+      - 7.55
+    - name: ball_row_2_1
+      shape: sphere
+      radius_mm: 4.529999999999999
+      centre_mm:
+      - 32.5
+      - 0.0
+      - 22.65
+    - name: ball_row_2_2
+      shape: sphere
+      radius_mm: 4.529999999999999
+      centre_mm:
+      - 30.02608480661682
+      - 12.437211551865419
+      - 22.65
+    - name: ball_row_2_3
+      shape: sphere
+      radius_mm: 4.529999999999999
+      centre_mm:
+      - 22.980970388562795
+      - 22.980970388562795
+      - 22.65
+    - name: ball_row_2_4
+      shape: sphere
+      radius_mm: 4.529999999999999
+      centre_mm:
+      - 12.43721155186542
+      - 30.02608480661682
+      - 22.65
+    - name: ball_row_2_5
+      shape: sphere
+      radius_mm: 4.529999999999999
+      centre_mm:
+      - 1.990051048614449e-15
+      - 32.5
+      - 22.65
+    - name: ball_row_2_6
+      shape: sphere
+      radius_mm: 4.529999999999999
+      centre_mm:
+      - -12.437211551865417
+      - 30.02608480661682
+      - 22.65
+    - name: ball_row_2_7
+      shape: sphere
+      radius_mm: 4.529999999999999
+      centre_mm:
+      - -22.980970388562792
+      - 22.980970388562795
+      - 22.65
+    - name: ball_row_2_8
+      shape: sphere
+      radius_mm: 4.529999999999999
+      centre_mm:
+      - -30.02608480661682
+      - 12.437211551865422
+      - 22.65
+    - name: ball_row_2_9
+      shape: sphere
+      radius_mm: 4.529999999999999
+      centre_mm:
+      - -32.5
+      - 3.980102097228898e-15
+      - 22.65
+    - name: ball_row_2_10
+      shape: sphere
+      radius_mm: 4.529999999999999
+      centre_mm:
+      - -30.026084806616822
+      - -12.437211551865415
+      - 22.65
+    - name: ball_row_2_11
+      shape: sphere
+      radius_mm: 4.529999999999999
+      centre_mm:
+      - -22.9809703885628
+      - -22.980970388562792
+      - 22.65
+    - name: ball_row_2_12
+      shape: sphere
+      radius_mm: 4.529999999999999
+      centre_mm:
+      - -12.437211551865436
+      - -30.02608480661681
+      - 22.65
+    - name: ball_row_2_13
+      shape: sphere
+      radius_mm: 4.529999999999999
+      centre_mm:
+      - -5.970153145843346e-15
+      - -32.5
+      - 22.65
+    - name: ball_row_2_14
+      shape: sphere
+      radius_mm: 4.529999999999999
+      centre_mm:
+      - 12.437211551865426
+      - -30.026084806616815
+      - 22.65
+    - name: ball_row_2_15
+      shape: sphere
+      radius_mm: 4.529999999999999
+      centre_mm:
+      - 22.98097038856279
+      - -22.9809703885628
+      - 22.65
+    - name: ball_row_2_16
+      shape: sphere
+      radius_mm: 4.529999999999999
+      centre_mm:
+      - 30.02608480661681
+      - -12.437211551865438
+      - 22.65
+  modelling_note: Nominal presentation model. Raceways, pitch circle, chamfers and
+    retainer geometry are illustrative; ball count/diameter are illustrative unless
+    individually sourced. Not a manufacturer reconstruction, load-rating model or
+    manufacturing/tolerance certification. Unspecified closure is presented open.
+    The mesh shows open races and balls; retainers, seals and exact contact surfaces
+    are omitted.
+  dimension_authority: manufacturer_checked
+  model_formats:
+  - glb
+  variants:
+    full:
+      angular_segments: 128
+      sphere_subdivisions: 3
+    display:
+      angular_segments: 32
+      sphere_subdivisions: 2
+  views:
+  - isometric
+  - front
+  - back
+  - left
+  - right
+  - top
+  - bottom
+  material:
+    name: Illustrative polished bearing steel
+    base_colour_srgb:
+    - 0.62
+    - 0.65
+    - 0.69
+    metallic: 1.0
+    roughness: 0.22
+    roughness_variation: 0.045
+    coat_weight: 0.02
+    coat_roughness: 0.28
+    microtexture_spacing_mm: 0.025
+    microtexture_height_um: 0.8
+    note: Illustrative bearing steel; material grade and finish are not specified.
+  studio:
+    engine: cycles
+    device: auto
+    seed: 7991
+    low_samples: 24
+    high_samples: 48
+    adaptive_threshold: 0.015
+    denoise: true
+    view_transform: AgX
+    look: AgX - Medium High Contrast
+    exposure: 0.0
+    world_colour:
+    - 0.78
+    - 0.82
+    - 0.9
+    world_strength: 0.35
+    floor_colour_srgb:
+    - 0.93
+    - 0.935
+    - 0.94
+    floor_roughness: 0.55
+    framing_margin: 0.13
+    lights:
+    - name: Key softbox
+      position:
+      - -3
+      - -4
+      - 6
+      power: 650.0
+      width: 4.0
+      height: 5.0
+      colour:
+      - 1.0
+      - 0.96
+      - 0.9
+    - name: Fill softbox
+      position:
+      - 4
+      - -1
+      - 3
+      power: 330.0
+      width: 3.0
+      height: 4.0
+      colour:
+      - 0.9
+      - 0.95
+      - 1.0
+    - name: Rim strip
+      position:
+      - 1
+      - 4
+      - 4
+      power: 850.0
+      width: 1.2
+      height: 5.0
+      colour:
+      - 1.0
+      - 1.0
+      - 1.0
+    poses:
+      isometric:
+        camera_eye:
+        - 1
+        - -1
+        - 1
+        projection: orthographic
+        orientation: principal axis Z up
+      product:
+        camera_eye:
+        - -6
+        - -10
+        - 6
+        projection: orthographic
+        orientation: resting on lower face
+        yaw_degrees: -12.0
+        support: Stable convex-hull support using actual mesh centre of mass.
+        resting_axis: face
+  renders:
+    low:
+      file: render_low.png
+      variant: display
+      pixels: 512
+      view: isometric
+    high:
+      file: render_high.png
+      variant: full
+      pixels: 2048
+      view: isometric
+    product_low:
+      file: render_product_low.png
+      variant: display
+      pixels: 512
+      view: product
+    product_high:
+      file: render_product_high.png
+      variant: full
+      pixels: 2048
+      view: product
+oobb_type: bearing_open
+oobb_details:
+  oobb_type: bearing_open
+  run_scad: true
+  run_solidcraft: false
+  angular_segments: 128
+  components:
+  - name: outer_race
+    shape: revolved_profile
+    profile_mm:
+    - - 41.3
+      - 0
+    - - 42.5
+      - 1.2
+    - - 42.5
+      - 29.0
+    - - 41.3
+      - 30.2
+    - - 35.3086
+      - 30.2
+    - - 35.3086
+      - 29.0
+    - - 35.3086
+      - 27.4065
+    - - 35.3086
+      - 27.168675
+    - - 35.3086
+      - 26.93085
+    - - 35.3086
+      - 26.693025
+    - - 35.3539
+      - 26.455199999999998
+    - - 35.64612902776968
+      - 26.217374999999997
+    - - 35.89682043203641
+      - 25.97955
+    - - 36.11462705882294
+      - 25.741725
+    - - 36.3052
+      - 25.5039
+    - - 36.47246067877015
+      - 25.266075
+    - - 36.61924983310068
+      - 25.02825
+    - - 36.74769032173663
+      - 24.790425
+    - - 36.85940425861149
+      - 24.552599999999998
+    - - 36.9556499469073
+      - 24.314774999999997
+    - - 37.0374118115397
+      - 24.07695
+    - - 37.10546132155889
+      - 23.839125
+    - - 37.16039918461927
+      - 23.601300000000002
+    - - 37.20268494313355
+      - 23.363475
+    - - 37.23265774459764
+      - 23.12565
+    - - 37.25055065433209
+      - 22.887825
+    - - 37.2565
+      - 22.65
+    - - 37.25055065433209
+      - 22.412174999999998
+    - - 37.23265774459764
+      - 22.17435
+    - - 37.20268494313355
+      - 21.936525
+    - - 37.16039918461927
+      - 21.6987
+    - - 37.10546132155889
+      - 21.460874999999998
+    - - 37.037411811539705
+      - 21.22305
+    - - 36.9556499469073
+      - 20.985225
+    - - 36.85940425861149
+      - 20.7474
+    - - 36.74769032173663
+      - 20.509574999999998
+    - - 36.61924983310068
+      - 20.27175
+    - - 36.47246067877015
+      - 20.033925
+    - - 36.3052
+      - 19.7961
+    - - 36.11462705882294
+      - 19.558275
+    - - 35.89682043203641
+      - 19.32045
+    - - 35.64612902776968
+      - 19.082625
+    - - 35.3539
+      - 18.8448
+    - - 35.3086
+      - 18.606975
+    - - 35.3086
+      - 18.36915
+    - - 35.3086
+      - 18.131325
+    - - 35.3086
+      - 17.8935
+    - - 35.3086
+      - 12.3065
+    - - 35.3086
+      - 12.068675
+    - - 35.3086
+      - 11.83085
+    - - 35.3086
+      - 11.593024999999999
+    - - 35.3539
+      - 11.3552
+    - - 35.64612902776968
+      - 11.117375
+    - - 35.89682043203641
+      - 10.87955
+    - - 36.11462705882295
+      - 10.641725
+    - - 36.3052
+      - 10.4039
+    - - 36.47246067877015
+      - 10.166075
+    - - 36.61924983310068
+      - 9.928249999999998
+    - - 36.74769032173663
+      - 9.690425000000001
+    - - 36.85940425861149
+      - 9.4526
+    - - 36.9556499469073
+      - 9.214775
+    - - 37.037411811539705
+      - 8.976949999999999
+    - - 37.10546132155889
+      - 8.739125
+    - - 37.16039918461927
+      - 8.5013
+    - - 37.20268494313355
+      - 8.263475
+    - - 37.23265774459764
+      - 8.025649999999999
+    - - 37.25055065433209
+      - 7.787825
+    - - 37.2565
+      - 7.55
+    - - 37.25055065433209
+      - 7.312175
+    - - 37.23265774459764
+      - 7.07435
+    - - 37.20268494313355
+      - 6.836525
+    - - 37.16039918461927
+      - 6.5987
+    - - 37.10546132155889
+      - 6.360875
+    - - 37.0374118115397
+      - 6.123049999999999
+    - - 36.9556499469073
+      - 5.885225
+    - - 36.85940425861149
+      - 5.6474
+    - - 36.74769032173663
+      - 5.409575
+    - - 36.61924983310068
+      - 5.171749999999999
+    - - 36.47246067877015
+      - 4.933925
+    - - 36.3052
+      - 4.6960999999999995
+    - - 36.11462705882294
+      - 4.4582749999999995
+    - - 35.89682043203641
+      - 4.22045
+    - - 35.64612902776968
+      - 3.9826249999999996
+    - - 35.3539
+      - 3.7447999999999997
+    - - 35.3086
+      - 3.5069749999999997
+    - - 35.3086
+      - 3.26915
+    - - 35.3086
+      - 3.031325
+    - - 35.3086
+      - 2.7935
+    - - 35.3086
+      - 1.2
+    - - 35.3086
+      - 0.0
+    - - 41.3
+      - 0
+  - name: inner_race
+    shape: revolved_profile
+    profile_mm:
+    - - 29.6914
+      - 0.0
+    - - 29.6914
+      - 1.2
+    - - 29.6914
+      - 2.7935
+    - - 29.6914
+      - 3.031325
+    - - 29.6914
+      - 3.26915
+    - - 29.6914
+      - 3.5069749999999997
+    - - 29.6461
+      - 3.7447999999999997
+    - - 29.353870972230318
+      - 3.9826249999999996
+    - - 29.103179567963593
+      - 4.22045
+    - - 28.885372941177057
+      - 4.4582749999999995
+    - - 28.6948
+      - 4.6960999999999995
+    - - 28.52753932122985
+      - 4.933925
+    - - 28.38075016689932
+      - 5.171749999999999
+    - - 28.252309678263373
+      - 5.409575
+    - - 28.14059574138851
+      - 5.6474
+    - - 28.044350053092703
+      - 5.885225
+    - - 27.9625881884603
+      - 6.123049999999999
+    - - 27.894538678441105
+      - 6.360875
+    - - 27.839600815380727
+      - 6.5987
+    - - 27.797315056866452
+      - 6.836525
+    - - 27.76734225540236
+      - 7.07435
+    - - 27.749449345667916
+      - 7.312175
+    - - 27.7435
+      - 7.55
+    - - 27.749449345667916
+      - 7.787825
+    - - 27.76734225540236
+      - 8.025649999999999
+    - - 27.797315056866452
+      - 8.263475
+    - - 27.839600815380727
+      - 8.5013
+    - - 27.894538678441105
+      - 8.739125
+    - - 27.9625881884603
+      - 8.976949999999999
+    - - 28.044350053092703
+      - 9.214775
+    - - 28.14059574138851
+      - 9.4526
+    - - 28.252309678263373
+      - 9.690425000000001
+    - - 28.38075016689932
+      - 9.928249999999998
+    - - 28.52753932122985
+      - 10.166075
+    - - 28.6948
+      - 10.4039
+    - - 28.885372941177057
+      - 10.641725
+    - - 29.103179567963593
+      - 10.87955
+    - - 29.353870972230318
+      - 11.117375
+    - - 29.6461
+      - 11.3552
+    - - 29.6914
+      - 11.593024999999999
+    - - 29.6914
+      - 11.83085
+    - - 29.6914
+      - 12.068675
+    - - 29.6914
+      - 12.3065
+    - - 29.6914
+      - 17.8935
+    - - 29.6914
+      - 18.131325
+    - - 29.6914
+      - 18.36915
+    - - 29.6914
+      - 18.606975
+    - - 29.6461
+      - 18.8448
+    - - 29.353870972230318
+      - 19.082625
+    - - 29.10317956796359
+      - 19.32045
+    - - 28.885372941177057
+      - 19.558275
+    - - 28.6948
+      - 19.7961
+    - - 28.52753932122985
+      - 20.033925
+    - - 28.38075016689932
+      - 20.27175
+    - - 28.252309678263373
+      - 20.509574999999998
+    - - 28.14059574138851
+      - 20.7474
+    - - 28.044350053092703
+      - 20.985225
+    - - 27.9625881884603
+      - 21.22305
+    - - 27.894538678441105
+      - 21.460874999999998
+    - - 27.839600815380727
+      - 21.6987
+    - - 27.797315056866452
+      - 21.936525
+    - - 27.76734225540236
+      - 22.17435
+    - - 27.749449345667916
+      - 22.412174999999998
+    - - 27.7435
+      - 22.65
+    - - 27.749449345667916
+      - 22.887825
+    - - 27.76734225540236
+      - 23.12565
+    - - 27.797315056866452
+      - 23.363475
+    - - 27.839600815380727
+      - 23.601300000000002
+    - - 27.894538678441105
+      - 23.839125
+    - - 27.9625881884603
+      - 24.07695
+    - - 28.044350053092703
+      - 24.314774999999997
+    - - 28.14059574138851
+      - 24.552599999999998
+    - - 28.252309678263373
+      - 24.790425
+    - - 28.38075016689932
+      - 25.02825
+    - - 28.527539321229852
+      - 25.266075
+    - - 28.6948
+      - 25.5039
+    - - 28.885372941177057
+      - 25.741725
+    - - 29.103179567963593
+      - 25.97955
+    - - 29.353870972230318
+      - 26.217374999999997
+    - - 29.6461
+      - 26.455199999999998
+    - - 29.6914
+      - 26.693025
+    - - 29.6914
+      - 26.93085
+    - - 29.6914
+      - 27.168675
+    - - 29.6914
+      - 27.4065
+    - - 29.6914
+      - 29.0
+    - - 29.6914
+      - 30.2
+    - - 23.7
+      - 30.2
+    - - 22.5
+      - 29.0
+    - - 22.5
+      - 1.2
+    - - 23.7
+      - 0
+    - - 29.6914
+      - 0.0
+  - name: ball_row_1_1
+    shape: sphere
+    radius_mm: 4.529999999999999
+    centre_mm:
+    - 32.5
+    - 0.0
+    - 7.55
+  - name: ball_row_1_2
+    shape: sphere
+    radius_mm: 4.529999999999999
+    centre_mm:
+    - 30.02608480661682
+    - 12.437211551865419
+    - 7.55
+  - name: ball_row_1_3
+    shape: sphere
+    radius_mm: 4.529999999999999
+    centre_mm:
+    - 22.980970388562795
+    - 22.980970388562795
+    - 7.55
+  - name: ball_row_1_4
+    shape: sphere
+    radius_mm: 4.529999999999999
+    centre_mm:
+    - 12.43721155186542
+    - 30.02608480661682
+    - 7.55
+  - name: ball_row_1_5
+    shape: sphere
+    radius_mm: 4.529999999999999
+    centre_mm:
+    - 1.990051048614449e-15
+    - 32.5
+    - 7.55
+  - name: ball_row_1_6
+    shape: sphere
+    radius_mm: 4.529999999999999
+    centre_mm:
+    - -12.437211551865417
+    - 30.02608480661682
+    - 7.55
+  - name: ball_row_1_7
+    shape: sphere
+    radius_mm: 4.529999999999999
+    centre_mm:
+    - -22.980970388562792
+    - 22.980970388562795
+    - 7.55
+  - name: ball_row_1_8
+    shape: sphere
+    radius_mm: 4.529999999999999
+    centre_mm:
+    - -30.02608480661682
+    - 12.437211551865422
+    - 7.55
+  - name: ball_row_1_9
+    shape: sphere
+    radius_mm: 4.529999999999999
+    centre_mm:
+    - -32.5
+    - 3.980102097228898e-15
+    - 7.55
+  - name: ball_row_1_10
+    shape: sphere
+    radius_mm: 4.529999999999999
+    centre_mm:
+    - -30.026084806616822
+    - -12.437211551865415
+    - 7.55
+  - name: ball_row_1_11
+    shape: sphere
+    radius_mm: 4.529999999999999
+    centre_mm:
+    - -22.9809703885628
+    - -22.980970388562792
+    - 7.55
+  - name: ball_row_1_12
+    shape: sphere
+    radius_mm: 4.529999999999999
+    centre_mm:
+    - -12.437211551865436
+    - -30.02608480661681
+    - 7.55
+  - name: ball_row_1_13
+    shape: sphere
+    radius_mm: 4.529999999999999
+    centre_mm:
+    - -5.970153145843346e-15
+    - -32.5
+    - 7.55
+  - name: ball_row_1_14
+    shape: sphere
+    radius_mm: 4.529999999999999
+    centre_mm:
+    - 12.437211551865426
+    - -30.026084806616815
+    - 7.55
+  - name: ball_row_1_15
+    shape: sphere
+    radius_mm: 4.529999999999999
+    centre_mm:
+    - 22.98097038856279
+    - -22.9809703885628
+    - 7.55
+  - name: ball_row_1_16
+    shape: sphere
+    radius_mm: 4.529999999999999
+    centre_mm:
+    - 30.02608480661681
+    - -12.437211551865438
+    - 7.55
+  - name: ball_row_2_1
+    shape: sphere
+    radius_mm: 4.529999999999999
+    centre_mm:
+    - 32.5
+    - 0.0
+    - 22.65
+  - name: ball_row_2_2
+    shape: sphere
+    radius_mm: 4.529999999999999
+    centre_mm:
+    - 30.02608480661682
+    - 12.437211551865419
+    - 22.65
+  - name: ball_row_2_3
+    shape: sphere
+    radius_mm: 4.529999999999999
+    centre_mm:
+    - 22.980970388562795
+    - 22.980970388562795
+    - 22.65
+  - name: ball_row_2_4
+    shape: sphere
+    radius_mm: 4.529999999999999
+    centre_mm:
+    - 12.43721155186542
+    - 30.02608480661682
+    - 22.65
+  - name: ball_row_2_5
+    shape: sphere
+    radius_mm: 4.529999999999999
+    centre_mm:
+    - 1.990051048614449e-15
+    - 32.5
+    - 22.65
+  - name: ball_row_2_6
+    shape: sphere
+    radius_mm: 4.529999999999999
+    centre_mm:
+    - -12.437211551865417
+    - 30.02608480661682
+    - 22.65
+  - name: ball_row_2_7
+    shape: sphere
+    radius_mm: 4.529999999999999
+    centre_mm:
+    - -22.980970388562792
+    - 22.980970388562795
+    - 22.65
+  - name: ball_row_2_8
+    shape: sphere
+    radius_mm: 4.529999999999999
+    centre_mm:
+    - -30.02608480661682
+    - 12.437211551865422
+    - 22.65
+  - name: ball_row_2_9
+    shape: sphere
+    radius_mm: 4.529999999999999
+    centre_mm:
+    - -32.5
+    - 3.980102097228898e-15
+    - 22.65
+  - name: ball_row_2_10
+    shape: sphere
+    radius_mm: 4.529999999999999
+    centre_mm:
+    - -30.026084806616822
+    - -12.437211551865415
+    - 22.65
+  - name: ball_row_2_11
+    shape: sphere
+    radius_mm: 4.529999999999999
+    centre_mm:
+    - -22.9809703885628
+    - -22.980970388562792
+    - 22.65
+  - name: ball_row_2_12
+    shape: sphere
+    radius_mm: 4.529999999999999
+    centre_mm:
+    - -12.437211551865436
+    - -30.02608480661681
+    - 22.65
+  - name: ball_row_2_13
+    shape: sphere
+    radius_mm: 4.529999999999999
+    centre_mm:
+    - -5.970153145843346e-15
+    - -32.5
+    - 22.65
+  - name: ball_row_2_14
+    shape: sphere
+    radius_mm: 4.529999999999999
+    centre_mm:
+    - 12.437211551865426
+    - -30.026084806616815
+    - 22.65
+  - name: ball_row_2_15
+    shape: sphere
+    radius_mm: 4.529999999999999
+    centre_mm:
+    - 22.98097038856279
+    - -22.9809703885628
+    - 22.65
+  - name: ball_row_2_16
+    shape: sphere
+    radius_mm: 4.529999999999999
+    centre_mm:
+    - 30.02608480661681
+    - -12.437211551865438
+    - 22.65
+label_details:
+  size: '5209'
+  dimensions: 45 x 85 x 30.2 mm
+  formats_mm:
+  - - 76.2
+    - 50.8
+  - - 38.1
+    - 25.4
+  ink: '#183336'
+  accent: '#147d83'
+  paper: '#ffffff'
+  font_family: Helvetica
+  view_box_mm:
+  - 0
+  - 0
+  - 76.2
+  - 50.8
+  file_stems:
+  - label_bearing_3x2
+  - label_bearing_1_5x1
+  brand: OOMP / BEARING
+  brand_position_mm:
+  - 5
+  - 10
+  brand_font_mm: 3
+  size_position_mm:
+  - 5
+  - 29
+  size_font_mm: 14
+  dimensions_position_mm:
+  - 5
+  - 42
+  dimensions_font_mm: 4
+readme_details:
+  title: 5209 bearing - 45 x 85 x 30.2 mm
+  description: 'Double row angular contact bearing: 45 mm bore, 85 mm outside diameter
+    and 30.2 mm width.'
+```
+
+</details>
+<!-- bearing-catalogue:end -->

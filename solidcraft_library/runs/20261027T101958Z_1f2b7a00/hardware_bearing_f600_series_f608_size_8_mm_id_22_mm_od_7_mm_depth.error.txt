@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "C:\od\OneDrive\docs\software_cad_mcp_helper\components\bearing_catalogue\batch.py", line 205, in main
+    else: result = build_item(root, entry, generator, version)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\od\OneDrive\docs\software_cad_mcp_helper\components\bearing_catalogue\batch.py", line 131, in build_item
+    template, master_manifest = master(root, entry, generator, version)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\od\OneDrive\docs\software_cad_mcp_helper\components\bearing_catalogue\batch.py", line 103, in master
+    checks = {'original': inspect_bearing(client, spec, attempt/'author_health.json', check_topology=True)}
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\od\OneDrive\docs\software_cad_mcp_helper\components\bearing_catalogue\batch.py", line 89, in inspect_bearing
+    return validate_design(health, spec, width=width, topology=topology)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\od\OneDrive\docs\software_cad_mcp_helper\components\bearing_catalogue\native.py", line 141, in validate_design
+    center_z = z-direction*sign*p['contact_offset']*math.sin(angle)
+ValueError: Missing flange shoulder plane at sourced thickness

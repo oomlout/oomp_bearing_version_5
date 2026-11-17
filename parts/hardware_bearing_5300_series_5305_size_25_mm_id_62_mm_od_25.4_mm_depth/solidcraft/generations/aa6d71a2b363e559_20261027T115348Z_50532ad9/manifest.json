@@ -1,0 +1,164 @@
+{
+  "status": "passed",
+  "schema_version": 1,
+  "fingerprint": "aa6d71a2b363e55997695215b78c52267b1ba516279d2f3f54fb6a97e1880417",
+  "part_id": "hardware_bearing_5300_series_5305_size_25_mm_id_62_mm_od_25.4_mm_depth",
+  "spec": {
+    "family": "double_row_angular_contact",
+    "closure": "open",
+    "ball_count": 26,
+    "balls_per_row": 13,
+    "row_count": 2,
+    "parameters": {
+      "bore": 25.0,
+      "outside": 62.0,
+      "width": 25.4,
+      "edge": 1.1099999999999999,
+      "pitch_radius": 21.75,
+      "ball_radius": 3.8099999999999996,
+      "groove_radius": 4.0005,
+      "inner_shoulder": 19.3878,
+      "outer_shoulder": 24.1122,
+      "cage_half_width": 2.0955,
+      "cage_low": 3.6194999999999995,
+      "cage_high": 4.381499999999999,
+      "window_radius": 1.8287999999999998,
+      "contact_angle_deg": 25.0,
+      "contact_offset": 0.09525
+    },
+    "contact_angle_authority": "manufacturer_family",
+    "ball_specification": "illustrative"
+  },
+  "units": "mm",
+  "anchor": "axis Z, center at origin",
+  "sources": [
+    "https://www.nsk.com/content/dam/nsk/am/en_us/documents/bearings-americas/Bearing-and-Linear-Replacement-Guide.pdf"
+  ],
+  "dimension_authority": "manufacturer_checked",
+  "limitation": "Nominal presentation model. Raceways, pitch circle, chamfers and retainer geometry are illustrative; ball count/diameter are illustrative unless individually sourced. Not a manufacturer reconstruction, load-rating model or manufacturing/tolerance certification. Unspecified closure is presented open.",
+  "backend": "solidcraft-cli 0.22.0",
+  "generator": {
+    "working.py": "baba87babd5b5ab6dcdd1db9c1c16c3ae2f74eb48874004713e9868fa6eb8c70",
+    "catalogue.py": "a13d5ce416b24256b7a25a573bd1e89585fd6f639ba249e189e36e8e43cbba6a",
+    "native.py": "fdac81b535f7aa45313fb52743269616ba230eb7d01fd69fab142f636894d933",
+    "batch.py": "b7a110c0a8500f7d87fb5cf5878aa94dea2969a79c8a255e671d4e88831043eb"
+  },
+  "input_hashes": {
+    "parts_source\\hardware_bearing_5300_series_5305_size_25_mm_id_62_mm_od_25_4_mm_depth\\working.yaml": "04cae3e4c76585df3276078bd04fe5bfe804f126ce2c5ed839828f04837d44d4",
+    "parts\\hardware_bearing_5300_series_5305_size_25_mm_id_62_mm_od_25.4_mm_depth\\working.yaml": "3bf4b0e859a2c6e67d911c2445d2b662cebc8e75cb227af1c86e6428229d636c",
+    "source_file\\dimension\\oomp_bearing_sizes.csv": "c9c084d7b6e869f912770cbdebd232eb92f43813e80344152dfd366067ccf767",
+    "source_file\\solidcraft\\bearing_facts.json": "231259bb30e68adf6c82d1ed7928695ec22dcbff2795607a3406ecc8be13f061",
+    "source_file/solidcraft/references/nsk_bearing_linear_replacement_guide.pdf": "f78a63ba06b652c580f65c6e687b19614c5c669ee470e4f13b754216e0a90a1d"
+  },
+  "delivery_format": "SolidCraft native",
+  "template": "solidcraft_library\\masters\\6f4ec12c35c8662e2e54\\20261027T115235Z_e362ff4e\\parametric.solidcraft",
+  "template_sha256": "7c8331850f4a02c7d83665886b28a01329386f4b6d50a7d7b58440f752534162",
+  "master_validation": {
+    "original": {
+      "status": "passed",
+      "scope": "native SolidCraft B-rep",
+      "body_count": 32,
+      "ball_count": 26,
+      "row_count": 2,
+      "bounds_mm": {
+        "outside": 62.0,
+        "envelope": 62.0,
+        "width": 25.4
+      },
+      "bore_mm": 25.0,
+      "ball_diameter_mm": 7.619999999999999,
+      "pitch_radius_mm": 21.75,
+      "volume_mm3": 50749.01438448298,
+      "checks": [
+        "healthy timeline and constrained sketches",
+        "separate positive-volume closed bodies",
+        "bearing envelope and width",
+        "bore and outside cylindrical surfaces",
+        "ball sizes, pitch circle and angular spacing",
+        "retainer separation and width"
+      ]
+    },
+    "width_edit": {
+      "before_mm": 25.4,
+      "after_mm": 25.654,
+      "saved_and_reopened": true,
+      "measurements": {
+        "status": "passed",
+        "scope": "native SolidCraft B-rep",
+        "body_count": 32,
+        "ball_count": 26,
+        "row_count": 2,
+        "bounds_mm": {
+          "outside": 62.0,
+          "envelope": 62.0,
+          "width": 25.654
+        },
+        "bore_mm": 25.0,
+        "ball_diameter_mm": 7.619999999999999,
+        "pitch_radius_mm": 21.75,
+        "volume_mm3": 51227.161342667794,
+        "checks": [
+          "healthy timeline and constrained sketches",
+          "separate positive-volume closed bodies",
+          "bearing envelope and width",
+          "bore and outside cylindrical surfaces",
+          "ball sizes, pitch circle and angular spacing",
+          "retainer separation and width"
+        ]
+      }
+    }
+  },
+  "validation": {
+    "generated": {
+      "status": "passed",
+      "scope": "native SolidCraft B-rep",
+      "body_count": 32,
+      "ball_count": 26,
+      "row_count": 2,
+      "bounds_mm": {
+        "outside": 62.0,
+        "envelope": 62.0,
+        "width": 25.4
+      },
+      "bore_mm": 25.0,
+      "ball_diameter_mm": 7.619999999999999,
+      "pitch_radius_mm": 21.75,
+      "volume_mm3": 50749.01438448298,
+      "checks": [
+        "healthy timeline and constrained sketches",
+        "separate positive-volume closed bodies",
+        "bearing envelope and width",
+        "bore and outside cylindrical surfaces",
+        "ball sizes, pitch circle and angular spacing",
+        "retainer separation and width"
+      ]
+    },
+    "reopened": {
+      "status": "passed",
+      "scope": "native SolidCraft B-rep",
+      "body_count": 32,
+      "ball_count": 26,
+      "row_count": 2,
+      "bounds_mm": {
+        "outside": 62.0,
+        "envelope": 62.0,
+        "width": 25.4
+      },
+      "bore_mm": 25.0,
+      "ball_diameter_mm": 7.619999999999999,
+      "pitch_radius_mm": 21.75,
+      "volume_mm3": 50749.01438448298,
+      "checks": [
+        "healthy timeline and constrained sketches",
+        "separate positive-volume closed bodies",
+        "bearing envelope and width",
+        "bore and outside cylindrical surfaces",
+        "ball sizes, pitch circle and angular spacing",
+        "retainer separation and width"
+      ]
+    }
+  },
+  "artifacts": {
+    "bearing_5305_open.solidcraft": "ab0c8d7cab94f4cb86bb255481d68cb18724185b62384cfc1cc5398dcb0d5525"
+  }
+}

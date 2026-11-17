@@ -1,0 +1,15 @@
+Run the bearing extension batch using the existing deterministic generator.
+
+Workspace: C:\od\OneDrive\docs\software_cad_mcp_helper
+Bearing library: C:\od\OneDrive\docs\oomp_bearing
+
+Read components/bearing_catalogue/notes.md and the bearing library's solidcraft_extension_review.json. The extension covers 61 previously unsupported sizes in series F600, 5200 and 5300. Current preflight has 27 ready and 34 needs_review. Four of the review entries (5300, 5301, 5315, 5316) additionally need manufacturer-confirmed contact angles. 6208 is a separate existing conflict, outside this run.
+
+Launch from the helper workspace in PowerShell:
+& .\.venv\Scripts\python.exe .\action_build_bearing_catalogue.py --root C:\od\OneDrive\docs\oomp_bearing --build --series F600 --series 5200 --series 5300 --manufacturer-only
+
+Keep the run serial and monitor solidcraft_progress.json, reporting completed/total, current size and status counts periodically. Let the batch finish. It uses saved manufacturer facts and source snapshots; generation must remain algorithmic with no AI-created per-part geometry. Reuse hash-verified successes. Native models belong in the existing source library part folders, and consuming projects should use the established full-folder library importer.
+
+Do not launch the other catalogue series, run legacy make-all/actions, rewrite dimensions or rename part IDs. Do not bypass source checks or invent a contact angle. needs_review is an expected skip, not a CAD failure; the batch exits 1 if these remain. If an actual CAD failure occurs, inspect its run trace, fix the shared deterministic code if appropriate, and retry only affected sizes. Preserve previous success pointers and failure evidence. Do not remove a build lock owned by a live process.
+
+At completion report attempted/succeeded/reused/needs_review/failed counts, link the run progress and list remaining metadata/source blockers. Stop after the selected batch and report back.

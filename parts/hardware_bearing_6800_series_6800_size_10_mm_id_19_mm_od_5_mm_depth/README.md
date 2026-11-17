@@ -1,0 +1,1783 @@
+<!-- bearing-catalogue:start -->
+# 6800 bearing - 10 x 19 x 5 mm
+
+## Summary
+
+Single row deep groove bearing: 10 mm bore, 19 mm outside diameter and 5 mm width.
+
+| Product view | Isometric view |
+| --- | --- |
+| ![Open bearing product render](three_d_model/render_product_low.png) | ![Open bearing isometric render](three_d_model/render_low.png) |
+
+Generated catalogue illustrations; the open internal geometry is illustrative.
+
+## Details
+
+**OOMP ID:** `hardware_bearing_6800_series_6800_size_10_mm_id_19_mm_od_5_mm_depth`
+
+| Dimension | Nominal value |
+| --- | --- |
+| Bore / ID | 10 mm |
+| Outside diameter / OD | 19 mm |
+| Width / B | 5 mm |
+
+**Dimension evidence:** local catalogue only (review retained from 2026-10-27).
+
+Nominal presentation model. Raceways, pitch circle, chamfers and retainer geometry are illustrative; ball count/diameter are illustrative unless individually sourced. Not a manufacturer reconstruction, load-rating model or manufacturing/tolerance certification. Unspecified closure is presented open. The mesh shows open races and balls; retainers, seals and exact contact surfaces are omitted.
+
+![Dimensioned front and side views](working_dimension.svg)
+
+[Printable A4 dimension sheet](working_dimension_a4.pdf) · [1:1 outline](working_svg.svg)
+
+### Source evidence
+
+- [source_file/dimension/oomp_bearing_sizes.csv](../../source_file/dimension/oomp_bearing_sizes.csv)
+
+[Retained research and corrected dimensions](../../source_file/solidcraft/) · [Editable declaration](../../working_oomp_declarations_bearing.py)
+
+## Parts
+
+[Canonical part folder](.) · [Metadata](working.yaml) · [Browse this series](../../navigation/6800/README.md)
+
+### Files
+
+- [Editable OpenSCAD geometry](3dpr.scad)
+- [Full model / GLB / metres, Y-up](three_d_model/model_full.glb)
+- [Lightweight model / GLB / metres, Y-up](three_d_model/model_display.glb)
+- [Editable Blender studio](three_d_model/studio.blend)
+- [Product render / 2048 px](three_d_model/render_product_high.png)
+- [Isometric render / 2048 px](three_d_model/render_high.png)
+- [Populated model and render recipe](three_d_model/parameters.json)
+- [Mesh measurements and artifact hashes](three_d_model/manifest.json)
+- [Retained native CAD success manifest](solidcraft/latest_success.json)
+- [76.2 x 50.8 mm label](label_bearing_3x2.pdf)
+- [38.1 x 25.4 mm label](label_bearing_1_5x1.pdf)
+- [Retained editable native bearing / SolidCraft](solidcraft/generations/cef6e09458285ed4_20261027T021224Z_40526e5b/bearing_6800_open.solidcraft)
+
+### Orthographic views
+
+| Quality | Isometric | Front | Back | Left | Right | Top | Bottom |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Full | [Isometric](three_d_model/full/isometric.svg) | [Front](three_d_model/full/front.svg) | [Back](three_d_model/full/back.svg) | [Left](three_d_model/full/left.svg) | [Right](three_d_model/full/right.svg) | [Top](three_d_model/full/top.svg) | [Bottom](three_d_model/full/bottom.svg) |
+| Display | [Isometric](three_d_model/display/isometric.svg) | [Front](three_d_model/display/front.svg) | [Back](three_d_model/display/back.svg) | [Left](three_d_model/display/left.svg) | [Right](three_d_model/display/right.svg) | [Top](three_d_model/display/top.svg) | [Bottom](three_d_model/display/bottom.svg) |
+
+## Assembly
+
+No installation procedure is established for this generic size record. Select the required closure, clearance, tolerance and load rating from the actual purchased bearing specification.
+
+<details>
+<summary>Complete OOMP metadata</summary>
+
+```yaml
+bip_39_2_word_array:
+- humble
+- only
+bip_39_2_word_no_space: humbleonly
+bip_39_2_word_space: humble only
+bip_39_2_word_underscore: humble_only
+bip_39_3_word_array:
+- humble
+- only
+- soccer
+bip_39_3_word_no_space: humbleonlysoccer
+bip_39_3_word_space: humble only soccer
+bip_39_3_word_underscore: humble_only_soccer
+bip_39_full_array:
+- humble
+- only
+- soccer
+- control
+- lunar
+- rule
+- split
+- step
+- dream
+- awful
+- permit
+- rack
+bip_39_full_no_space: humbleonlysoccercontrollunarrulesplitstepdreamawfulpermitrack
+bip_39_full_space: humble only soccer control lunar rule split step dream awful permit
+  rack
+bip_39_full_underscore: humble_only_soccer_control_lunar_rule_split_step_dream_awful_permit_rack
+depth: 5.0
+directory: parts/hardware_bearing_6800_series_6800_size_10_mm_id_19_mm_od_5_mm_depth
+generate_stl: false
+id: hardware_bearing_6800_series_6800_size_10_mm_id_19_mm_od_5_mm_depth
+id_no_class: hardware_bearing_6800_series_6800_size_10_mm_id_19_mm_od_5_mm_depth
+id_no_size: hardware_bearing_series_size_10_mm_id_19_mm_od_5_mm_depth
+id_no_type: hardware_bearing_6800_series_6800_size_10_mm_id_19_mm_od_5_mm_depth
+link_github: https://github.com/oomlout/oomp_bearing_version_5/tree/main/parts/hardware_bearing_6800_series_6800_size_10_mm_id_19_mm_od_5_mm_depth
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_bearing_6800_series_6800_size_10_mm_id_19_mm_od_5_mm_depth
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_bearing_6800_series_6800_size_10_mm_id_19_mm_od_5_mm_depth
+md5: 6ef3633717b8517a748eab4282168cd8
+md5_10: 6ef3633717
+md5_10_upper: 6EF3633717
+md5_5: 6ef36
+md5_5_upper: 6EF36
+md5_6: 6ef363
+md5_6_alpha: 4bujn
+md5_6_alpha_upper: 4BUJN
+md5_6_upper: 6EF363
+name: 6800 bearing
+name_no_class: Hardware Bearing 6800 Series 6800 Size 10 Mm Id 19 Mm Od 5 Mm Depth
+name_no_size: Hardware Bearing Series Size 10 Mm Id 19 Mm Od 5 Mm Depth
+name_no_type: Hardware Bearing 6800 Series 6800 Size 10 Mm Id 19 Mm Od 5 Mm Depth
+name_proper: 6800 bearing
+name_space: hardware bearing 6800 series 6800 size 10 mm id 19 mm od 5 mm depth
+name_upper: HARDWARE BEARING 6800 SERIES 6800 SIZE 10 MM ID 19 MM OD 5 MM DEPTH
+od: 19.0
+oomlout_ai_roboclick_1:
+  actions:
+  - command: new_chat
+    description: step_1_create_icon
+  - command: ai_query
+    delay: '240'
+    mode_ai_wait: slow
+    text: '## READ THIS FIRST — no theme is coming in this message, and that is correct
+
+
+      This is **step 1 of 2**. It is deliberately theme-free. You are building a reusable
+      house style, not designing a specific logo.
+
+
+      The theme arrives in step 2. Do **not** ask what the theme is. Do **not** ask
+      any clarifying questions. Do **not** write a final image-generation prompt yet
+      — you cannot, and attempting one is a failure of this step. Do **not** invent
+      a placeholder theme and design for it. If you feel information is missing, that
+      is expected: the missing information is the theme, it is coming next, and nothing
+      in this step requires it.
+
+
+      Your entire output for this step is a **house style guide** that will be applied
+      to whatever theme arrives next.
+
+
+      ---
+
+
+      ## The product this style serves
+
+
+      **Intended use:** a square, single-colour, pure-black-on-pure-white mascot logo,
+      generated as a raster image, then **auto-traced to vector and cut/engraved on
+      a laser cutter**. The trace step is unforgiving — it is the hardest constraint
+      in this brief and should shape most of your recommendations.
+
+
+      **Target feel:** charming, original, cute, polished, instantly readable at ~20
+      mm. A designed branded icon, not a doodle page and not generic kawaii clip art.
+
+
+      ---
+
+
+      ## What to produce
+
+
+      Write these six sections. **Budget: about 900 words total, 1,100 hard ceiling.**
+      That is roughly 100–150 words per section, with section 6 allowed the most.
+      This is a working reference, not an essay — every line should be a rule someone
+      could check a drawing against. Prefer tight bullets over prose paragraphs, and
+      cut any sentence that only restates the brief back at me.
+
+
+      **1. Line language menu**
+
+      Exactly three distinct black-on-white line-art approaches (e.g. uniform monoline,
+      weight-varied outline with sparse interior, chunky sticker-outline, geometric
+      constructed line). One or two lines each: what it does for charm, how it survives
+      auto-tracing, what it costs.
+
+
+      **2. Cuteness that isn''t generic**
+
+      The handful of levers that make a line mascot lovable — eye shape and spacing,
+      head-to-body ratio, pose energy, mouth simplicity, restraint on blush marks
+      — each as a one-line rule with a number where a number applies. Then a short
+      do-not list of the clichés that make an AI mascot look stock (dead-centre symmetrical
+      stare, sparkle confetti, floating hearts, blob bodies), each with its one-line
+      replacement.
+
+
+      **3. Trace-safety rules**
+
+      A flat list of concrete, checkable rules for the auto-trace-to-cut pipeline
+      — one line each, no explanatory paragraphs:
+
+      - minimum stroke thickness relative to the square''s width, stated as a fraction
+      (so it scales)
+
+      - minimum gap between two adjacent strokes before they blur into one traced
+      blob
+
+      - why every shape should read as a closed path, and how to spot one that won''t
+
+      - island/floating-part handling and where to add connective bridges
+
+      - what to do about interior detail that a tracer will turn into noise (crosshatching,
+      stippling, tapering hairlines, single stray dots)
+
+      - why large solid black fills are avoided here, and the acceptable exceptions
+      (small eyes, pupils, a tiny accent shape)
+
+
+      **4. Composition and hierarchy**
+
+      Bulleted rules only: square framing, margin as a fraction of the square, centre
+      of visual mass, minimum negative space, the mascot-leads / props-support / text-reinforces
+      hierarchy, and the shared traits that make it read as one illustrator''s hand
+      (same stroke weight, same corner radius, same eye style, same spacing rhythm).
+
+
+      **5. Text and badge treatments**
+
+      Text is allowed and okay to include. Briefly: when a word helps versus clutters,
+      a maximum letter count that stays cuttable, how to specify literal text so it
+      renders verbatim (quotes, exact casing), the letterform to ask for, and when
+      a badge ring earns its place versus just boxing the mark in. Six bullets is
+      plenty.
+
+
+      **6. Prompt architecture for step 2**
+
+      The most important section, so spend your words here. Specify the exact template
+      the step-2 final prompt must follow — and state that the finished prompt should
+      land at **180–250 words**, long enough to carry the spec, short enough that
+      no single instruction gets diluted. Order it to match how the image model weights
+      a prompt:
+
+
+      1. **Medium and style up front** — the first sentence states it is a square
+      black-and-white line-art mascot logo, because opening words set the mode for
+      everything after.
+
+      2. **Subject** — the mascot, its identity, expression, pose.
+
+      3. **Key details** — props, supporting motifs, any literal text in quotes.
+
+      4. **Layout** — centring, margins, hierarchy, where each element sits.
+
+      5. **Line and manufacturing spec** — stroke weight, closed paths, interior-detail
+      limits.
+
+      6. **Exclusions last** — negatives go at the very end, after every positive
+      descriptor, because a model reading them early tends to treat them as things
+      to compose rather than things to omit.
+
+
+      Give the canonical exclusion list to close with (no grey, no shading, no gradients,
+      no halftone, no dithering, no texture, no colour, no transparency, no background
+      scene, no drop shadow, no outer glow, no frame border unless specified, no watermark,
+      no signature, no extra text beyond what is quoted).
+
+
+      Also state the two facts the prompt must say in plain words no matter what:
+      the image is **square**, and it is **pure black on a pure white background**.
+
+
+      ---
+
+
+      ## Response style and length
+
+
+      **About 900 words, 1,100 absolute maximum.** Bullets over prose. Concrete and
+      checkable over abstract and aspirational — "stroke no thinner than 1/100 of
+      the square''s width" beats "confident lines". No preamble, no restating this
+      brief back at me, no summary of what you are about to do. Skip the caveats and
+      the reasoning behind each rule; just state the rule.
+
+
+      Close with a checklist of the rules, 12 lines at most, so step 2 can be graded
+      against it.
+
+
+      Then stop. No final image prompt, no questions, no theme.
+
+      '
+  - command: ai_query
+    delay: '240'
+    mode_ai_wait: slow
+    text: '## Step 2 of 2 — the theme
+
+
+      The theme is: **an image of hardware bearing 6800 series 6800 size 10 mm id
+      19 mm od 5 mm depth make Hardware Bearing 6800 Series 6800 Size 10 Mm Id 19
+      Mm Od 5 Mm Depth cute, bearing size 6800 10x19x5 mm, code hardware_bearing_6800_series_6800_size_10_mm_id_19_mm_od_5_mm_depth,
+      text is okay to include**
+
+
+      Apply the house style you just wrote to this theme. Everything you need is now
+      in hand. Generate the image during this step without asking questions or waiting
+      for another message.
+
+
+      ---
+
+
+      ## Part A — private exploration
+
+
+      Work through these choices privately before calling the image generation tool.
+      Do not send the exploration as a text response. Push past the theme''s first
+      obvious reading, but do it briskly.
+
+
+      - **Angles:** exactly four mascot interpretations, **one or two sentences each**.
+      Include at least one that anthropomorphises an object or concept from the theme
+      rather than reaching for the obvious animal, and at least one built on a visual
+      pun. Then name your pick in a single sentence saying why it beats the other
+      three — no full comparison table.
+
+      - **The chosen design:** one short paragraph fixing the pose, expression, props,
+      and line strategy. Prefer gesture or a moment of character over a static front-on
+      stare. Cut any prop that is decoration rather than signal.
+
+      - **Text:** one line — the exact string in quotes with exact casing, or "no
+      text". Text is allowed and okay to include when it improves identification.
+
+      - **Trace and small-size check:** a short bullet list of fixes only — every
+      stroke to thicken, gap to widen, island to bridge, detail to delete. Just the
+      fixes, not the reasoning, and not a description of what the design looks like
+      at size.
+
+
+      Skip anything not on that list: no tradeoff essays, no runner-up post-mortems,
+      no notes on your own process.
+
+
+      ## Part B — generate the image now
+
+
+      Write the final image-generation prompt for the chosen direction and pass it
+      directly to the image generation tool in this step. Invoke the tool exactly
+      once. Do not return a text-only prompt, a fenced code block, or a plan to generate
+      later. Finish with the generated image so it can be saved immediately from the
+      generation window.
+
+
+      Follow the six-part architecture from step 1 exactly, in order: medium and style
+      → subject → key details → layout → line and manufacturing spec → exclusions
+      last.
+
+
+      **Length: 180–250 words.** Long enough to carry the full spec, short enough
+      that no single instruction gets diluted. If you are over, cut adjectives and
+      repeated style words before you cut any manufacturing rule.
+
+
+      Hard requirements for that prompt:
+
+
+      - It opens by stating it is a **square black-and-white line-art mascot logo**.
+
+      - It says in plain words that the image is **square** and **pure black on a
+      pure white background**.
+
+      - It states stroke weight as a fraction of the image width, and requires every
+      shape to be a **closed path** with **no floating disconnected islands**.
+
+      - It caps interior detail explicitly and forbids crosshatching, stippling, and
+      hairline tapers.
+
+      - Any literal text appears in quotes with exact casing, spelled out character
+      by character if it is unusual.
+
+      - The exclusion list comes **last**, after every positive descriptor.
+
+      - It is self-contained: someone pasting it cold, with no memory of this conversation,
+      gets the same image. No "as discussed above", no "the mascot from earlier".
+
+      - One image-generation call only. No variants, no alternates, and no extra text
+      response after the image.
+
+      '
+  - command: save_image_generated
+    file_name: initial_generated.png
+    mode_ai_wait: slow
+  - command: close_tab
+  file_test: initial_generated.png
+  retries_until_complete: 0
+oomlout_ai_roboclick_2:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      depth: '5'
+      directory: parts\hardware_bearing_6800_series_6800_size_10_mm_id_19_mm_od_5_mm_depth
+      id: '10'
+      name: hardware_bearing_6800_series_6800_size_10_mm_id_19_mm_od_5_mm_depth
+      name_proper: Hardware Bearing 6800 Series 6800 Size 10 Mm Id 19 Mm Od 5 Mm Depth
+      name_space: hardware bearing 6800 series 6800 size 10 mm id 19 mm od 5 mm depth
+      name_upper: HARDWARE BEARING 6800 SERIES 6800 SIZE 10 MM ID 19 MM OD 5 MM DEPTH
+      od: '19'
+      oomlout_ai_roboclick_1:
+        actions:
+        - command: new_chat
+          description: step_1_create_icon
+        - command: ai_query
+          delay: '240'
+          mode_ai_wait: slow
+          text: '## READ THIS FIRST — no theme is coming in this message, and that
+            is correct
+
+
+            This is **step 1 of 2**. It is deliberately theme-free. You are building
+            a reusable house style, not designing a specific logo.
+
+
+            The theme arrives in step 2. Do **not** ask what the theme is. Do **not**
+            ask any clarifying questions. Do **not** write a final image-generation
+            prompt yet — you cannot, and attempting one is a failure of this step.
+            Do **not** invent a placeholder theme and design for it. If you feel information
+            is missing, that is expected: the missing information is the theme, it
+            is coming next, and nothing in this step requires it.
+
+
+            Your entire output for this step is a **house style guide** that will
+            be applied to whatever theme arrives next.
+
+
+            ---
+
+
+            ## The product this style serves
+
+
+            **Intended use:** a square, single-colour, pure-black-on-pure-white mascot
+            logo, generated as a raster image, then **auto-traced to vector and cut/engraved
+            on a laser cutter**. The trace step is unforgiving — it is the hardest
+            constraint in this brief and should shape most of your recommendations.
+
+
+            **Target feel:** charming, original, cute, polished, instantly readable
+            at ~20 mm. A designed branded icon, not a doodle page and not generic
+            kawaii clip art.
+
+
+            ---
+
+
+            ## What to produce
+
+
+            Write these six sections. **Budget: about 900 words total, 1,100 hard
+            ceiling.** That is roughly 100–150 words per section, with section 6 allowed
+            the most. This is a working reference, not an essay — every line should
+            be a rule someone could check a drawing against. Prefer tight bullets
+            over prose paragraphs, and cut any sentence that only restates the brief
+            back at me.
+
+
+            **1. Line language menu**
+
+            Exactly three distinct black-on-white line-art approaches (e.g. uniform
+            monoline, weight-varied outline with sparse interior, chunky sticker-outline,
+            geometric constructed line). One or two lines each: what it does for charm,
+            how it survives auto-tracing, what it costs.
+
+
+            **2. Cuteness that isn''t generic**
+
+            The handful of levers that make a line mascot lovable — eye shape and
+            spacing, head-to-body ratio, pose energy, mouth simplicity, restraint
+            on blush marks — each as a one-line rule with a number where a number
+            applies. Then a short do-not list of the clichés that make an AI mascot
+            look stock (dead-centre symmetrical stare, sparkle confetti, floating
+            hearts, blob bodies), each with its one-line replacement.
+
+
+            **3. Trace-safety rules**
+
+            A flat list of concrete, checkable rules for the auto-trace-to-cut pipeline
+            — one line each, no explanatory paragraphs:
+
+            - minimum stroke thickness relative to the square''s width, stated as
+            a fraction (so it scales)
+
+            - minimum gap between two adjacent strokes before they blur into one traced
+            blob
+
+            - why every shape should read as a closed path, and how to spot one that
+            won''t
+
+            - island/floating-part handling and where to add connective bridges
+
+            - what to do about interior detail that a tracer will turn into noise
+            (crosshatching, stippling, tapering hairlines, single stray dots)
+
+            - why large solid black fills are avoided here, and the acceptable exceptions
+            (small eyes, pupils, a tiny accent shape)
+
+
+            **4. Composition and hierarchy**
+
+            Bulleted rules only: square framing, margin as a fraction of the square,
+            centre of visual mass, minimum negative space, the mascot-leads / props-support
+            / text-reinforces hierarchy, and the shared traits that make it read as
+            one illustrator''s hand (same stroke weight, same corner radius, same
+            eye style, same spacing rhythm).
+
+
+            **5. Text and badge treatments**
+
+            Text is allowed and okay to include. Briefly: when a word helps versus
+            clutters, a maximum letter count that stays cuttable, how to specify literal
+            text so it renders verbatim (quotes, exact casing), the letterform to
+            ask for, and when a badge ring earns its place versus just boxing the
+            mark in. Six bullets is plenty.
+
+
+            **6. Prompt architecture for step 2**
+
+            The most important section, so spend your words here. Specify the exact
+            template the step-2 final prompt must follow — and state that the finished
+            prompt should land at **180–250 words**, long enough to carry the spec,
+            short enough that no single instruction gets diluted. Order it to match
+            how the image model weights a prompt:
+
+
+            1. **Medium and style up front** — the first sentence states it is a square
+            black-and-white line-art mascot logo, because opening words set the mode
+            for everything after.
+
+            2. **Subject** — the mascot, its identity, expression, pose.
+
+            3. **Key details** — props, supporting motifs, any literal text in quotes.
+
+            4. **Layout** — centring, margins, hierarchy, where each element sits.
+
+            5. **Line and manufacturing spec** — stroke weight, closed paths, interior-detail
+            limits.
+
+            6. **Exclusions last** — negatives go at the very end, after every positive
+            descriptor, because a model reading them early tends to treat them as
+            things to compose rather than things to omit.
+
+
+            Give the canonical exclusion list to close with (no grey, no shading,
+            no gradients, no halftone, no dithering, no texture, no colour, no transparency,
+            no background scene, no drop shadow, no outer glow, no frame border unless
+            specified, no watermark, no signature, no extra text beyond what is quoted).
+
+
+            Also state the two facts the prompt must say in plain words no matter
+            what: the image is **square**, and it is **pure black on a pure white
+            background**.
+
+
+            ---
+
+
+            ## Response style and length
+
+
+            **About 900 words, 1,100 absolute maximum.** Bullets over prose. Concrete
+            and checkable over abstract and aspirational — "stroke no thinner than
+            1/100 of the square''s width" beats "confident lines". No preamble, no
+            restating this brief back at me, no summary of what you are about to do.
+            Skip the caveats and the reasoning behind each rule; just state the rule.
+
+
+            Close with a checklist of the rules, 12 lines at most, so step 2 can be
+            graded against it.
+
+
+            Then stop. No final image prompt, no questions, no theme.
+
+            '
+        - command: ai_query
+          delay: '240'
+          mode_ai_wait: slow
+          text: '## Step 2 of 2 — the theme
+
+
+            The theme is: **an image of hardware bearing 6800 series 6800 size 10
+            mm id 19 mm od 5 mm depth make Hardware Bearing 6800 Series 6800 Size
+            10 Mm Id 19 Mm Od 5 Mm Depth cute, bearing size 6800 10x19x5 mm, code
+            hardware_bearing_6800_series_6800_size_10_mm_id_19_mm_od_5_mm_depth, text
+            is okay to include**
+
+
+            Apply the house style you just wrote to this theme. Everything you need
+            is now in hand. Generate the image during this step without asking questions
+            or waiting for another message.
+
+
+            ---
+
+
+            ## Part A — private exploration
+
+
+            Work through these choices privately before calling the image generation
+            tool. Do not send the exploration as a text response. Push past the theme''s
+            first obvious reading, but do it briskly.
+
+
+            - **Angles:** exactly four mascot interpretations, **one or two sentences
+            each**. Include at least one that anthropomorphises an object or concept
+            from the theme rather than reaching for the obvious animal, and at least
+            one built on a visual pun. Then name your pick in a single sentence saying
+            why it beats the other three — no full comparison table.
+
+            - **The chosen design:** one short paragraph fixing the pose, expression,
+            props, and line strategy. Prefer gesture or a moment of character over
+            a static front-on stare. Cut any prop that is decoration rather than signal.
+
+            - **Text:** one line — the exact string in quotes with exact casing, or
+            "no text". Text is allowed and okay to include when it improves identification.
+
+            - **Trace and small-size check:** a short bullet list of fixes only —
+            every stroke to thicken, gap to widen, island to bridge, detail to delete.
+            Just the fixes, not the reasoning, and not a description of what the design
+            looks like at size.
+
+
+            Skip anything not on that list: no tradeoff essays, no runner-up post-mortems,
+            no notes on your own process.
+
+
+            ## Part B — generate the image now
+
+
+            Write the final image-generation prompt for the chosen direction and pass
+            it directly to the image generation tool in this step. Invoke the tool
+            exactly once. Do not return a text-only prompt, a fenced code block, or
+            a plan to generate later. Finish with the generated image so it can be
+            saved immediately from the generation window.
+
+
+            Follow the six-part architecture from step 1 exactly, in order: medium
+            and style → subject → key details → layout → line and manufacturing spec
+            → exclusions last.
+
+
+            **Length: 180–250 words.** Long enough to carry the full spec, short enough
+            that no single instruction gets diluted. If you are over, cut adjectives
+            and repeated style words before you cut any manufacturing rule.
+
+
+            Hard requirements for that prompt:
+
+
+            - It opens by stating it is a **square black-and-white line-art mascot
+            logo**.
+
+            - It says in plain words that the image is **square** and **pure black
+            on a pure white background**.
+
+            - It states stroke weight as a fraction of the image width, and requires
+            every shape to be a **closed path** with **no floating disconnected islands**.
+
+            - It caps interior detail explicitly and forbids crosshatching, stippling,
+            and hairline tapers.
+
+            - Any literal text appears in quotes with exact casing, spelled out character
+            by character if it is unusual.
+
+            - The exclusion list comes **last**, after every positive descriptor.
+
+            - It is self-contained: someone pasting it cold, with no memory of this
+            conversation, gets the same image. No "as discussed above", no "the mascot
+            from earlier".
+
+            - One image-generation call only. No variants, no alternates, and no extra
+            text response after the image.
+
+            '
+        - command: save_image_generated
+          file_name: initial_generated.png
+          mode_ai_wait: slow
+        - command: close_tab
+        file_test: initial_generated.png
+        retries_until_complete: 0
+      series: '6800'
+      size: '6800'
+      svg_details:
+        filename: working_mechanical_drawing
+        hardware_type: bearing
+        id_mm: 10.0
+        od_mm: 19.0
+        part_category: HARDWARE / BEARING
+        part_code: ISO 15 / DIN 625
+        part_name: hardware_bearing_6800_series_6800_size_10_mm_id_19_mm_od_5_mm_depth
+        part_series: 6800 SERIES BALL BEARING
+        part_title: '6800'
+        svg_name: oomp_mech_drawing_hardware
+        width_mm: 5.0
+      taxonomy_1: hardware
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: bearing
+      taxonomy_3: 6800_series
+      taxonomy_4: 6800_size
+      taxonomy_5: 10_mm_id
+      taxonomy_6: 19_mm_od
+      taxonomy_7: 5_mm_depth
+      taxonomy_8: ''
+      taxonomy_9: ''
+      url_chat: https://chatgpt.com/c/6abc46ba-654c-83eb-ae77-695e71120873
+      weight: '5'
+      width: '5'
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_oomp.svg
+    file_template: C:\od\OneDrive\docs\oomp_bearing\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_oomp.pdf
+  retries_until_complete: 0
+oomlout_ai_roboclick_3:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    description: Bold bearing label 3x2
+    dict_data_yaml_files:
+      label_manual: C:\od\OneDrive\docs\oomp_bearing\parts\hardware_bearing_6800_series_6800_size_10_mm_id_19_mm_od_5_mm_depth\working_manual.yaml
+      label_source: C:\od\OneDrive\docs\oomp_bearing\parts_source\hardware_bearing_6800_series_6800_size_10_mm_id_19_mm_od_5_mm_depth\working.yaml
+    file_output: label_bearing_bold_3x2.svg
+    file_template: C:\od\OneDrive\docs\oomp_bearing\source_file\template_jinja\label_bearing_bold\3x2.svg.j2
+  file_test: ''
+oomlout_ai_roboclick_4:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    description: Bold bearing label 1_5x1
+    dict_data_yaml_files:
+      label_manual: C:\od\OneDrive\docs\oomp_bearing\parts\hardware_bearing_6800_series_6800_size_10_mm_id_19_mm_od_5_mm_depth\working_manual.yaml
+      label_source: C:\od\OneDrive\docs\oomp_bearing\parts_source\hardware_bearing_6800_series_6800_size_10_mm_id_19_mm_od_5_mm_depth\working.yaml
+    file_output: label_bearing_bold_1_5x1.svg
+    file_template: C:\od\OneDrive\docs\oomp_bearing\source_file\template_jinja\label_bearing_bold\1_5x1.svg.j2
+  file_test: ''
+oomp_key: oomp_hardware_bearing_6800_series_6800_size_10_mm_id_19_mm_od_5_mm_depth
+run_action: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: false
+series: '6800'
+size: '6800'
+svg_details:
+  svg_name: bearing_dimension
+  title: 6800 / OPEN BEARING
+  family: SINGLE ROW DEEP GROOVE
+  dimensions_mm:
+    bore: 10.0
+    outside: 19.0
+    width: 5.0
+  sheet_width_mm: 297
+  sheet_height_mm: 210
+  ink: '#183336'
+  accent: '#147d83'
+  muted: '#61767a'
+  paper: '#ffffff'
+  race_face_fill: '#edf3f3'
+  inner_race_face_outside_mm: 12.9376
+  outer_race_face_inside_mm: 16.0624
+  line_width_mm: 0.45
+  font_family: Helvetica
+  dimension_font_mm: 4
+  title_font_mm: 9
+  front_centre_mm:
+  - 79
+  - 103
+  side_centre_mm:
+  - 211
+  - 103
+  max_view_width_mm: 78
+  max_side_width_mm: 55
+  dimension_offset_mm: 12
+  arrow_size_mm: 2
+  note: Nominal dimensions in mm. Illustration only; no tolerances or fit allowances.
+  authority: local catalogue only
+  internal_note: Open presentation; internal races and balls are illustrative. Retainers
+    omitted.
+  layout:
+    left_margin_mm: 14
+    right_margin_mm: 283
+    title_y_mm: 22
+    family_y_mm: 33
+    family_font_mm: 3.5
+    brand: OOMP / BEARINGS
+    brand_font_mm: 3.5
+    header_rule_y_mm: 40
+    view_caption_y_mm: 173
+    view_caption_font_mm: 3
+    front_caption: FRONT VIEW
+    side_caption: SIDE VIEW
+    footer_rule_y_mm: 180
+    note_y_mm: 187
+    internal_note_y_mm: 194
+    note_font_mm: 3.2
+    source_y_mm: 202
+    source_font_mm: 3
+    source_prefix: 'SOURCE: '
+    scale_prefix: A4 / scale
+  dimension_style:
+    line_width_mm: 0.25
+    arrow_half_width_ratio: 0.3
+    text_gap_mm: 2
+    extension_mm: 2
+    width_extension_mm: 3
+    centre_extension_mm: 5
+    dash_pattern_mm:
+    - 2
+    - 1
+    flange_leader_offset_mm:
+    - -13
+    - 11
+    flange_text_offset_mm:
+    - -13
+    - 16
+    flange_font_mm: 3.5
+  outline:
+    ink: black
+    line_width_mm: 0.1
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_2: bearing
+taxonomy_2_capital: Bearing
+taxonomy_2_first_letter: b
+taxonomy_2_first_letter_upper: B
+taxonomy_2_length_1: b
+taxonomy_2_length_2: be
+taxonomy_2_length_3: bea
+taxonomy_2_length_4: bear
+taxonomy_2_length_5: beari
+taxonomy_2_upper: BEARING
+taxonomy_2_upper_length_1: B
+taxonomy_2_upper_length_2: BE
+taxonomy_2_upper_length_3: BEA
+taxonomy_2_upper_length_4: BEAR
+taxonomy_2_upper_length_5: BEARI
+taxonomy_3: 6800_series
+taxonomy_3_capital: 6800 Series
+taxonomy_3_first_letter: '6'
+taxonomy_3_first_letter_upper: '6'
+taxonomy_3_length_1: '6'
+taxonomy_3_length_2: '68'
+taxonomy_3_length_3: '680'
+taxonomy_3_length_4: '6800'
+taxonomy_3_length_5: '6800_'
+taxonomy_3_upper: 6800_SERIES
+taxonomy_3_upper_length_1: '6'
+taxonomy_3_upper_length_2: '68'
+taxonomy_3_upper_length_3: '680'
+taxonomy_3_upper_length_4: '6800'
+taxonomy_3_upper_length_5: '6800_'
+taxonomy_4: 6800_size
+taxonomy_4_capital: 6800 Size
+taxonomy_4_first_letter: '6'
+taxonomy_4_first_letter_upper: '6'
+taxonomy_4_length_1: '6'
+taxonomy_4_length_2: '68'
+taxonomy_4_length_3: '680'
+taxonomy_4_length_4: '6800'
+taxonomy_4_length_5: '6800_'
+taxonomy_4_upper: 6800_SIZE
+taxonomy_4_upper_length_1: '6'
+taxonomy_4_upper_length_2: '68'
+taxonomy_4_upper_length_3: '680'
+taxonomy_4_upper_length_4: '6800'
+taxonomy_4_upper_length_5: '6800_'
+taxonomy_5: 10_mm_id
+taxonomy_5_capital: 10 mm Id
+taxonomy_5_first_letter: '1'
+taxonomy_5_first_letter_upper: '1'
+taxonomy_5_length_1: '1'
+taxonomy_5_length_2: '10'
+taxonomy_5_length_3: '10_'
+taxonomy_5_length_4: 10_m
+taxonomy_5_length_5: 10_mm
+taxonomy_5_upper: 10_MM_ID
+taxonomy_5_upper_length_1: '1'
+taxonomy_5_upper_length_2: '10'
+taxonomy_5_upper_length_3: '10_'
+taxonomy_5_upper_length_4: 10_M
+taxonomy_5_upper_length_5: 10_MM
+taxonomy_6: 19_mm_od
+taxonomy_6_capital: 19 mm Od
+taxonomy_6_first_letter: '1'
+taxonomy_6_first_letter_upper: '1'
+taxonomy_6_length_1: '1'
+taxonomy_6_length_2: '19'
+taxonomy_6_length_3: '19_'
+taxonomy_6_length_4: 19_m
+taxonomy_6_length_5: 19_mm
+taxonomy_6_upper: 19_MM_OD
+taxonomy_6_upper_length_1: '1'
+taxonomy_6_upper_length_2: '19'
+taxonomy_6_upper_length_3: '19_'
+taxonomy_6_upper_length_4: 19_M
+taxonomy_6_upper_length_5: 19_MM
+taxonomy_7: 5_mm_depth
+taxonomy_7_capital: 5 mm Depth
+taxonomy_7_first_letter: '5'
+taxonomy_7_first_letter_upper: '5'
+taxonomy_7_length_1: '5'
+taxonomy_7_length_2: '5_'
+taxonomy_7_length_3: 5_m
+taxonomy_7_length_4: 5_mm
+taxonomy_7_length_5: 5_mm_
+taxonomy_7_upper: 5_MM_DEPTH
+taxonomy_7_upper_length_1: '5'
+taxonomy_7_upper_length_2: '5_'
+taxonomy_7_upper_length_3: 5_M
+taxonomy_7_upper_length_4: 5_MM
+taxonomy_7_upper_length_5: 5_MM_
+taxonomy_8: ''
+taxonomy_9: ''
+url_chat: https://chatgpt.com/c/6abc46ba-654c-83eb-ae77-695e71120873
+weight: '5'
+width: 5.0
+catalogue_schema: oomp_bearing_v5
+oomp_id: hardware_bearing_6800_series_6800_size_10_mm_id_19_mm_od_5_mm_depth
+family: single_row_deep_groove
+dimensions_mm:
+  bore: 10.0
+  outside: 19.0
+  width: 5.0
+bore: 10.0
+dimension_authority: local_catalogue_only
+source_checked: '2026-10-27'
+sources:
+- source_file/dimension/oomp_bearing_sizes.csv
+model_note: Nominal presentation model. Raceways, pitch circle, chamfers and retainer
+  geometry are illustrative; ball count/diameter are illustrative unless individually
+  sourced. Not a manufacturer reconstruction, load-rating model or manufacturing/tolerance
+  certification. Unspecified closure is presented open. The mesh shows open races
+  and balls; retainers, seals and exact contact surfaces are omitted.
+closure: open
+three_d_model_details:
+  schema_version: 1
+  generator: bearing_open
+  output_folder: three_d_model
+  parameters:
+    bore: 10.0
+    outside: 19.0
+    width: 5.0
+    edge: 0.27
+    pitch_radius: 7.25
+    ball_radius: 1.2600000000000002
+    groove_radius: 1.2915000000000003
+    inner_shoulder: 6.4688
+    outer_shoulder: 8.0312
+    cage_half_width: 0.6930000000000002
+    cage_low: 1.197
+    cage_high: 1.449
+    window_radius: 0.6048000000000001
+    identity: hardware_bearing_6800_series_6800_size_10_mm_id_19_mm_od_5_mm_depth
+    specification: 6800 / 10 x 19 x 5 mm
+    characteristic_dimension_mm: 19.0
+    characteristic_dimension_basis: maximum nominal envelope dimension
+    ball_count: 13
+    balls_per_row: 13
+    row_count: 1
+    ball_specification: illustrative
+    contact_angle_authority: not_applicable
+    row_centres_z:
+    - 2.5
+    components:
+    - name: outer_race
+      shape: revolved_profile
+      profile_mm:
+      - - 9.23
+        - 0
+      - - 9.5
+        - 0.27
+      - - 9.5
+        - 4.73
+      - - 9.23
+        - 5.0
+      - - 8.0312
+        - 5.0
+      - - 8.0312
+        - 4.73
+      - - 8.0312
+        - 3.7915
+      - - 8.0312
+        - 3.7269250000000005
+      - - 8.0312
+        - 3.66235
+      - - 8.0312
+        - 3.5977750000000004
+      - - 8.0312
+        - 3.533200000000001
+      - - 8.10424695455998
+        - 3.4686250000000003
+      - - 8.17231548154631
+        - 3.40405
+      - - 8.231455029216825
+        - 3.339475
+      - - 8.2832
+        - 3.2749000000000006
+      - - 8.328615151189247
+        - 3.210325
+      - - 8.368471808987602
+        - 3.1457500000000005
+      - - 8.40334637874968
+        - 3.081175
+      - - 8.433679302007095
+        - 3.0166
+      - - 8.45981223723973
+        - 2.952025
+      - - 8.482012478629986
+        - 2.8874500000000003
+      - - 8.50048949790672
+        - 2.822875
+      - - 8.51540640112179
+        - 2.7583
+      - - 8.526887964691891
+        - 2.6937249999999997
+      - - 8.535026275023199
+        - 2.62915
+      - - 8.53988461475242
+        - 2.564575
+      - - 8.541500000000001
+        - 2.5
+      - - 8.53988461475242
+        - 2.435425
+      - - 8.535026275023199
+        - 2.37085
+      - - 8.526887964691891
+        - 2.306275
+      - - 8.51540640112179
+        - 2.2417
+      - - 8.50048949790672
+        - 2.177125
+      - - 8.482012478629986
+        - 2.1125499999999997
+      - - 8.45981223723973
+        - 2.047975
+      - - 8.433679302007095
+        - 1.9834
+      - - 8.40334637874968
+        - 1.918825
+      - - 8.368471808987604
+        - 1.85425
+      - - 8.328615151189247
+        - 1.789675
+      - - 8.2832
+        - 1.7250999999999999
+      - - 8.231455029216825
+        - 1.6605249999999998
+      - - 8.17231548154631
+        - 1.5959499999999998
+      - - 8.10424695455998
+        - 1.5313749999999997
+      - - 8.0312
+        - 1.4667999999999997
+      - - 8.0312
+        - 1.4022249999999998
+      - - 8.0312
+        - 1.3376499999999998
+      - - 8.0312
+        - 1.2730749999999997
+      - - 8.0312
+        - 1.2084999999999997
+      - - 8.0312
+        - 0.27
+      - - 8.0312
+        - 0.0
+      - - 9.23
+        - 0
+    - name: inner_race
+      shape: revolved_profile
+      profile_mm:
+      - - 6.4688
+        - 0.0
+      - - 6.4688
+        - 0.27
+      - - 6.4688
+        - 1.2084999999999997
+      - - 6.4688
+        - 1.2730749999999997
+      - - 6.4688
+        - 1.3376499999999998
+      - - 6.4688
+        - 1.4022249999999998
+      - - 6.4688
+        - 1.4667999999999997
+      - - 6.395753045440021
+        - 1.5313749999999997
+      - - 6.32768451845369
+        - 1.5959499999999998
+      - - 6.268544970783174
+        - 1.6605249999999998
+      - - 6.216799999999999
+        - 1.7250999999999999
+      - - 6.171384848810754
+        - 1.789675
+      - - 6.131528191012397
+        - 1.85425
+      - - 6.0966536212503195
+        - 1.918825
+      - - 6.066320697992906
+        - 1.9834
+      - - 6.0401877627602705
+        - 2.047975
+      - - 6.0179875213700145
+        - 2.1125499999999997
+      - - 5.99951050209328
+        - 2.177125
+      - - 5.9845935988782095
+        - 2.2417
+      - - 5.973112035308109
+        - 2.306275
+      - - 5.9649737249768
+        - 2.37085
+      - - 5.96011538524758
+        - 2.435425
+      - - 5.9585
+        - 2.5
+      - - 5.96011538524758
+        - 2.564575
+      - - 5.9649737249768
+        - 2.62915
+      - - 5.973112035308109
+        - 2.6937249999999997
+      - - 5.9845935988782095
+        - 2.7583
+      - - 5.99951050209328
+        - 2.822875
+      - - 6.0179875213700145
+        - 2.8874500000000003
+      - - 6.0401877627602705
+        - 2.952025
+      - - 6.066320697992906
+        - 3.0166
+      - - 6.0966536212503195
+        - 3.081175
+      - - 6.131528191012397
+        - 3.1457500000000005
+      - - 6.171384848810754
+        - 3.210325
+      - - 6.2168
+        - 3.2749000000000006
+      - - 6.268544970783174
+        - 3.339475
+      - - 6.32768451845369
+        - 3.40405
+      - - 6.395753045440021
+        - 3.4686250000000003
+      - - 6.4688
+        - 3.533200000000001
+      - - 6.4688
+        - 3.5977750000000004
+      - - 6.4688
+        - 3.66235
+      - - 6.4688
+        - 3.7269250000000005
+      - - 6.4688
+        - 3.7915
+      - - 6.4688
+        - 4.73
+      - - 6.4688
+        - 5.0
+      - - 5.27
+        - 5.0
+      - - 5.0
+        - 4.73
+      - - 5.0
+        - 0.27
+      - - 5.27
+        - 0
+      - - 6.4688
+        - 0.0
+    - name: ball_row_1_1
+      shape: sphere
+      radius_mm: 1.2600000000000002
+      centre_mm:
+      - 7.25
+      - 0.0
+      - 2.5
+    - name: ball_row_1_2
+      shape: sphere
+      radius_mm: 1.2600000000000002
+      centre_mm:
+      - 6.419556185985772
+      - 3.3692429973173215
+      - 2.5
+    - name: ball_row_1_3
+      shape: sphere
+      radius_mm: 1.2600000000000002
+      centre_mm:
+      - 4.118469413800881
+      - 5.966633027729008
+      - 2.5
+    - name: ball_row_1_4
+      shape: sphere
+      radius_mm: 1.2600000000000002
+      centre_mm:
+      - 0.8738909318510918
+      - 7.197139337210891
+      - 2.5
+    - name: ball_row_1_5
+      shape: sphere
+      radius_mm: 1.2600000000000002
+      centre_mm:
+      - -2.570885431058382
+      - 6.778867759469257
+      - 2.5
+    - name: ball_row_1_6
+      shape: sphere
+      radius_mm: 1.2600000000000002
+      centre_mm:
+      - -5.426702924240484
+      - 4.8076392722457655
+      - 2.5
+    - name: ball_row_1_7
+      shape: sphere
+      radius_mm: 1.2600000000000002
+      centre_mm:
+      - -7.039328176338877
+      - 1.7350385660847931
+      - 2.5
+    - name: ball_row_1_8
+      shape: sphere
+      radius_mm: 1.2600000000000002
+      centre_mm:
+      - -7.039328176338878
+      - -1.7350385660847913
+      - 2.5
+    - name: ball_row_1_9
+      shape: sphere
+      radius_mm: 1.2600000000000002
+      centre_mm:
+      - -5.426702924240485
+      - -4.807639272245764
+      - 2.5
+    - name: ball_row_1_10
+      shape: sphere
+      radius_mm: 1.2600000000000002
+      centre_mm:
+      - -2.570885431058385
+      - -6.778867759469256
+      - 2.5
+    - name: ball_row_1_11
+      shape: sphere
+      radius_mm: 1.2600000000000002
+      centre_mm:
+      - 0.8738909318510932
+      - -7.197139337210891
+      - 2.5
+    - name: ball_row_1_12
+      shape: sphere
+      radius_mm: 1.2600000000000002
+      centre_mm:
+      - 4.118469413800872
+      - -5.966633027729014
+      - 2.5
+    - name: ball_row_1_13
+      shape: sphere
+      radius_mm: 1.2600000000000002
+      centre_mm:
+      - 6.419556185985773
+      - -3.369242997317321
+      - 2.5
+  modelling_note: Nominal presentation model. Raceways, pitch circle, chamfers and
+    retainer geometry are illustrative; ball count/diameter are illustrative unless
+    individually sourced. Not a manufacturer reconstruction, load-rating model or
+    manufacturing/tolerance certification. Unspecified closure is presented open.
+    The mesh shows open races and balls; retainers, seals and exact contact surfaces
+    are omitted.
+  dimension_authority: local_catalogue_only
+  model_formats:
+  - glb
+  variants:
+    full:
+      angular_segments: 128
+      sphere_subdivisions: 3
+    display:
+      angular_segments: 32
+      sphere_subdivisions: 2
+  views:
+  - isometric
+  - front
+  - back
+  - left
+  - right
+  - top
+  - bottom
+  material:
+    name: Illustrative polished bearing steel
+    base_colour_srgb:
+    - 0.62
+    - 0.65
+    - 0.69
+    metallic: 1.0
+    roughness: 0.22
+    roughness_variation: 0.045
+    coat_weight: 0.02
+    coat_roughness: 0.28
+    microtexture_spacing_mm: 0.025
+    microtexture_height_um: 0.8
+    note: Illustrative bearing steel; material grade and finish are not specified.
+  studio:
+    engine: cycles
+    device: auto
+    seed: 7991
+    low_samples: 24
+    high_samples: 48
+    adaptive_threshold: 0.015
+    denoise: true
+    view_transform: AgX
+    look: AgX - Medium High Contrast
+    exposure: 0.0
+    world_colour:
+    - 0.78
+    - 0.82
+    - 0.9
+    world_strength: 0.35
+    floor_colour_srgb:
+    - 0.93
+    - 0.935
+    - 0.94
+    floor_roughness: 0.55
+    framing_margin: 0.13
+    lights:
+    - name: Key softbox
+      position:
+      - -3
+      - -4
+      - 6
+      power: 650.0
+      width: 4.0
+      height: 5.0
+      colour:
+      - 1.0
+      - 0.96
+      - 0.9
+    - name: Fill softbox
+      position:
+      - 4
+      - -1
+      - 3
+      power: 330.0
+      width: 3.0
+      height: 4.0
+      colour:
+      - 0.9
+      - 0.95
+      - 1.0
+    - name: Rim strip
+      position:
+      - 1
+      - 4
+      - 4
+      power: 850.0
+      width: 1.2
+      height: 5.0
+      colour:
+      - 1.0
+      - 1.0
+      - 1.0
+    poses:
+      isometric:
+        camera_eye:
+        - 1
+        - -1
+        - 1
+        projection: orthographic
+        orientation: principal axis Z up
+      product:
+        camera_eye:
+        - -6
+        - -10
+        - 6
+        projection: orthographic
+        orientation: resting on lower face
+        yaw_degrees: -12.0
+        support: Stable convex-hull support using actual mesh centre of mass.
+        resting_axis: face
+  renders:
+    low:
+      file: render_low.png
+      variant: display
+      pixels: 512
+      view: isometric
+    high:
+      file: render_high.png
+      variant: full
+      pixels: 2048
+      view: isometric
+    product_low:
+      file: render_product_low.png
+      variant: display
+      pixels: 512
+      view: product
+    product_high:
+      file: render_product_high.png
+      variant: full
+      pixels: 2048
+      view: product
+oobb_type: bearing_open
+oobb_details:
+  oobb_type: bearing_open
+  run_scad: true
+  run_solidcraft: false
+  angular_segments: 128
+  components:
+  - name: outer_race
+    shape: revolved_profile
+    profile_mm:
+    - - 9.23
+      - 0
+    - - 9.5
+      - 0.27
+    - - 9.5
+      - 4.73
+    - - 9.23
+      - 5.0
+    - - 8.0312
+      - 5.0
+    - - 8.0312
+      - 4.73
+    - - 8.0312
+      - 3.7915
+    - - 8.0312
+      - 3.7269250000000005
+    - - 8.0312
+      - 3.66235
+    - - 8.0312
+      - 3.5977750000000004
+    - - 8.0312
+      - 3.533200000000001
+    - - 8.10424695455998
+      - 3.4686250000000003
+    - - 8.17231548154631
+      - 3.40405
+    - - 8.231455029216825
+      - 3.339475
+    - - 8.2832
+      - 3.2749000000000006
+    - - 8.328615151189247
+      - 3.210325
+    - - 8.368471808987602
+      - 3.1457500000000005
+    - - 8.40334637874968
+      - 3.081175
+    - - 8.433679302007095
+      - 3.0166
+    - - 8.45981223723973
+      - 2.952025
+    - - 8.482012478629986
+      - 2.8874500000000003
+    - - 8.50048949790672
+      - 2.822875
+    - - 8.51540640112179
+      - 2.7583
+    - - 8.526887964691891
+      - 2.6937249999999997
+    - - 8.535026275023199
+      - 2.62915
+    - - 8.53988461475242
+      - 2.564575
+    - - 8.541500000000001
+      - 2.5
+    - - 8.53988461475242
+      - 2.435425
+    - - 8.535026275023199
+      - 2.37085
+    - - 8.526887964691891
+      - 2.306275
+    - - 8.51540640112179
+      - 2.2417
+    - - 8.50048949790672
+      - 2.177125
+    - - 8.482012478629986
+      - 2.1125499999999997
+    - - 8.45981223723973
+      - 2.047975
+    - - 8.433679302007095
+      - 1.9834
+    - - 8.40334637874968
+      - 1.918825
+    - - 8.368471808987604
+      - 1.85425
+    - - 8.328615151189247
+      - 1.789675
+    - - 8.2832
+      - 1.7250999999999999
+    - - 8.231455029216825
+      - 1.6605249999999998
+    - - 8.17231548154631
+      - 1.5959499999999998
+    - - 8.10424695455998
+      - 1.5313749999999997
+    - - 8.0312
+      - 1.4667999999999997
+    - - 8.0312
+      - 1.4022249999999998
+    - - 8.0312
+      - 1.3376499999999998
+    - - 8.0312
+      - 1.2730749999999997
+    - - 8.0312
+      - 1.2084999999999997
+    - - 8.0312
+      - 0.27
+    - - 8.0312
+      - 0.0
+    - - 9.23
+      - 0
+  - name: inner_race
+    shape: revolved_profile
+    profile_mm:
+    - - 6.4688
+      - 0.0
+    - - 6.4688
+      - 0.27
+    - - 6.4688
+      - 1.2084999999999997
+    - - 6.4688
+      - 1.2730749999999997
+    - - 6.4688
+      - 1.3376499999999998
+    - - 6.4688
+      - 1.4022249999999998
+    - - 6.4688
+      - 1.4667999999999997
+    - - 6.395753045440021
+      - 1.5313749999999997
+    - - 6.32768451845369
+      - 1.5959499999999998
+    - - 6.268544970783174
+      - 1.6605249999999998
+    - - 6.216799999999999
+      - 1.7250999999999999
+    - - 6.171384848810754
+      - 1.789675
+    - - 6.131528191012397
+      - 1.85425
+    - - 6.0966536212503195
+      - 1.918825
+    - - 6.066320697992906
+      - 1.9834
+    - - 6.0401877627602705
+      - 2.047975
+    - - 6.0179875213700145
+      - 2.1125499999999997
+    - - 5.99951050209328
+      - 2.177125
+    - - 5.9845935988782095
+      - 2.2417
+    - - 5.973112035308109
+      - 2.306275
+    - - 5.9649737249768
+      - 2.37085
+    - - 5.96011538524758
+      - 2.435425
+    - - 5.9585
+      - 2.5
+    - - 5.96011538524758
+      - 2.564575
+    - - 5.9649737249768
+      - 2.62915
+    - - 5.973112035308109
+      - 2.6937249999999997
+    - - 5.9845935988782095
+      - 2.7583
+    - - 5.99951050209328
+      - 2.822875
+    - - 6.0179875213700145
+      - 2.8874500000000003
+    - - 6.0401877627602705
+      - 2.952025
+    - - 6.066320697992906
+      - 3.0166
+    - - 6.0966536212503195
+      - 3.081175
+    - - 6.131528191012397
+      - 3.1457500000000005
+    - - 6.171384848810754
+      - 3.210325
+    - - 6.2168
+      - 3.2749000000000006
+    - - 6.268544970783174
+      - 3.339475
+    - - 6.32768451845369
+      - 3.40405
+    - - 6.395753045440021
+      - 3.4686250000000003
+    - - 6.4688
+      - 3.533200000000001
+    - - 6.4688
+      - 3.5977750000000004
+    - - 6.4688
+      - 3.66235
+    - - 6.4688
+      - 3.7269250000000005
+    - - 6.4688
+      - 3.7915
+    - - 6.4688
+      - 4.73
+    - - 6.4688
+      - 5.0
+    - - 5.27
+      - 5.0
+    - - 5.0
+      - 4.73
+    - - 5.0
+      - 0.27
+    - - 5.27
+      - 0
+    - - 6.4688
+      - 0.0
+  - name: ball_row_1_1
+    shape: sphere
+    radius_mm: 1.2600000000000002
+    centre_mm:
+    - 7.25
+    - 0.0
+    - 2.5
+  - name: ball_row_1_2
+    shape: sphere
+    radius_mm: 1.2600000000000002
+    centre_mm:
+    - 6.419556185985772
+    - 3.3692429973173215
+    - 2.5
+  - name: ball_row_1_3
+    shape: sphere
+    radius_mm: 1.2600000000000002
+    centre_mm:
+    - 4.118469413800881
+    - 5.966633027729008
+    - 2.5
+  - name: ball_row_1_4
+    shape: sphere
+    radius_mm: 1.2600000000000002
+    centre_mm:
+    - 0.8738909318510918
+    - 7.197139337210891
+    - 2.5
+  - name: ball_row_1_5
+    shape: sphere
+    radius_mm: 1.2600000000000002
+    centre_mm:
+    - -2.570885431058382
+    - 6.778867759469257
+    - 2.5
+  - name: ball_row_1_6
+    shape: sphere
+    radius_mm: 1.2600000000000002
+    centre_mm:
+    - -5.426702924240484
+    - 4.8076392722457655
+    - 2.5
+  - name: ball_row_1_7
+    shape: sphere
+    radius_mm: 1.2600000000000002
+    centre_mm:
+    - -7.039328176338877
+    - 1.7350385660847931
+    - 2.5
+  - name: ball_row_1_8
+    shape: sphere
+    radius_mm: 1.2600000000000002
+    centre_mm:
+    - -7.039328176338878
+    - -1.7350385660847913
+    - 2.5
+  - name: ball_row_1_9
+    shape: sphere
+    radius_mm: 1.2600000000000002
+    centre_mm:
+    - -5.426702924240485
+    - -4.807639272245764
+    - 2.5
+  - name: ball_row_1_10
+    shape: sphere
+    radius_mm: 1.2600000000000002
+    centre_mm:
+    - -2.570885431058385
+    - -6.778867759469256
+    - 2.5
+  - name: ball_row_1_11
+    shape: sphere
+    radius_mm: 1.2600000000000002
+    centre_mm:
+    - 0.8738909318510932
+    - -7.197139337210891
+    - 2.5
+  - name: ball_row_1_12
+    shape: sphere
+    radius_mm: 1.2600000000000002
+    centre_mm:
+    - 4.118469413800872
+    - -5.966633027729014
+    - 2.5
+  - name: ball_row_1_13
+    shape: sphere
+    radius_mm: 1.2600000000000002
+    centre_mm:
+    - 6.419556185985773
+    - -3.369242997317321
+    - 2.5
+label_details:
+  size: '6800'
+  dimensions: 10 x 19 x 5 mm
+  formats_mm:
+  - - 76.2
+    - 50.8
+  - - 38.1
+    - 25.4
+  ink: '#183336'
+  accent: '#147d83'
+  paper: '#ffffff'
+  font_family: Helvetica
+  view_box_mm:
+  - 0
+  - 0
+  - 76.2
+  - 50.8
+  file_stems:
+  - label_bearing_3x2
+  - label_bearing_1_5x1
+  brand: OOMP / BEARING
+  brand_position_mm:
+  - 5
+  - 10
+  brand_font_mm: 3
+  size_position_mm:
+  - 5
+  - 29
+  size_font_mm: 14
+  dimensions_position_mm:
+  - 5
+  - 42
+  dimensions_font_mm: 4
+readme_details:
+  title: 6800 bearing - 10 x 19 x 5 mm
+  description: 'Single row deep groove bearing: 10 mm bore, 19 mm outside diameter
+    and 5 mm width.'
+```
+
+</details>
+<!-- bearing-catalogue:end -->

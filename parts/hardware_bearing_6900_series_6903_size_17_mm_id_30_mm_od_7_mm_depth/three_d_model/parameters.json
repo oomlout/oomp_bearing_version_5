@@ -1,0 +1,750 @@
+{
+  "schema_version": 1,
+  "generator": "bearing_open",
+  "output_folder": "three_d_model",
+  "parameters": {
+    "bore": 17.0,
+    "outside": 30.0,
+    "width": 7.0,
+    "edge": 0.39,
+    "pitch_radius": 11.75,
+    "ball_radius": 1.8200000000000003,
+    "groove_radius": 1.8655000000000004,
+    "inner_shoulder": 10.6216,
+    "outer_shoulder": 12.8784,
+    "cage_half_width": 1.0010000000000003,
+    "cage_low": 1.729,
+    "cage_high": 2.093,
+    "window_radius": 0.8736000000000002,
+    "identity": "hardware_bearing_6900_series_6903_size_17_mm_id_30_mm_od_7_mm_depth",
+    "specification": "6903 / 17 x 30 x 7 mm",
+    "characteristic_dimension_mm": 30.0,
+    "characteristic_dimension_basis": "maximum nominal envelope dimension",
+    "ball_count": 14,
+    "balls_per_row": 14,
+    "row_count": 1,
+    "ball_specification": "illustrative",
+    "contact_angle_authority": "not_applicable",
+    "row_centres_z": [
+      3.5
+    ],
+    "components": [
+      {
+        "name": "outer_race",
+        "shape": "revolved_profile",
+        "profile_mm": [
+          [
+            14.61,
+            0
+          ],
+          [
+            15.0,
+            0.39
+          ],
+          [
+            15.0,
+            6.61
+          ],
+          [
+            14.61,
+            7.0
+          ],
+          [
+            12.8784,
+            7.0
+          ],
+          [
+            12.8784,
+            6.61
+          ],
+          [
+            12.8784,
+            5.365500000000001
+          ],
+          [
+            12.8784,
+            5.272225000000001
+          ],
+          [
+            12.8784,
+            5.17895
+          ],
+          [
+            12.8784,
+            5.085675
+          ],
+          [
+            12.8784,
+            4.9924
+          ],
+          [
+            12.983912267697749,
+            4.899125000000001
+          ],
+          [
+            13.082233473344669,
+            4.80585
+          ],
+          [
+            13.167657264424303,
+            4.712575
+          ],
+          [
+            13.2424,
+            4.619300000000001
+          ],
+          [
+            13.30799966282891,
+            4.526025000000001
+          ],
+          [
+            13.36557039075987,
+            4.43275
+          ],
+          [
+            13.415944769305094,
+            4.339475
+          ],
+          [
+            13.459758991788025,
+            4.2462
+          ],
+          [
+            13.497506564901832,
+            4.152925
+          ],
+          [
+            13.529573580243312,
+            4.0596499999999995
+          ],
+          [
+            13.556262608087485,
+            3.966375
+          ],
+          [
+            13.577809246064808,
+            3.8731
+          ],
+          [
+            13.594393726777176,
+            3.779825
+          ],
+          [
+            13.6061490639224,
+            3.68655
+          ],
+          [
+            13.613166665753496,
+            3.593275
+          ],
+          [
+            13.6155,
+            3.5
+          ],
+          [
+            13.613166665753496,
+            3.406725
+          ],
+          [
+            13.6061490639224,
+            3.31345
+          ],
+          [
+            13.594393726777177,
+            3.2201750000000002
+          ],
+          [
+            13.577809246064808,
+            3.1269
+          ],
+          [
+            13.556262608087485,
+            3.033625
+          ],
+          [
+            13.529573580243312,
+            2.9403499999999996
+          ],
+          [
+            13.497506564901832,
+            2.847075
+          ],
+          [
+            13.459758991788025,
+            2.7538
+          ],
+          [
+            13.415944769305094,
+            2.660525
+          ],
+          [
+            13.36557039075987,
+            2.5672499999999996
+          ],
+          [
+            13.30799966282891,
+            2.473975
+          ],
+          [
+            13.2424,
+            2.3807
+          ],
+          [
+            13.167657264424303,
+            2.287425
+          ],
+          [
+            13.082233473344669,
+            2.1941499999999996
+          ],
+          [
+            12.983912267697749,
+            2.100875
+          ],
+          [
+            12.8784,
+            2.0075999999999996
+          ],
+          [
+            12.8784,
+            1.9143249999999996
+          ],
+          [
+            12.8784,
+            1.8210499999999996
+          ],
+          [
+            12.8784,
+            1.7277749999999996
+          ],
+          [
+            12.8784,
+            1.6344999999999996
+          ],
+          [
+            12.8784,
+            0.39
+          ],
+          [
+            12.8784,
+            0.0
+          ],
+          [
+            14.61,
+            0
+          ]
+        ]
+      },
+      {
+        "name": "inner_race",
+        "shape": "revolved_profile",
+        "profile_mm": [
+          [
+            10.6216,
+            0.0
+          ],
+          [
+            10.6216,
+            0.39
+          ],
+          [
+            10.6216,
+            1.6344999999999996
+          ],
+          [
+            10.6216,
+            1.7277749999999996
+          ],
+          [
+            10.6216,
+            1.8210499999999996
+          ],
+          [
+            10.6216,
+            1.9143249999999996
+          ],
+          [
+            10.6216,
+            2.0075999999999996
+          ],
+          [
+            10.516087732302251,
+            2.100875
+          ],
+          [
+            10.417766526655331,
+            2.1941499999999996
+          ],
+          [
+            10.332342735575697,
+            2.287425
+          ],
+          [
+            10.2576,
+            2.3807
+          ],
+          [
+            10.19200033717109,
+            2.473975
+          ],
+          [
+            10.13442960924013,
+            2.5672499999999996
+          ],
+          [
+            10.084055230694906,
+            2.660525
+          ],
+          [
+            10.040241008211975,
+            2.7538
+          ],
+          [
+            10.002493435098168,
+            2.847075
+          ],
+          [
+            9.970426419756688,
+            2.9403499999999996
+          ],
+          [
+            9.943737391912515,
+            3.033625
+          ],
+          [
+            9.922190753935192,
+            3.1269
+          ],
+          [
+            9.905606273222823,
+            3.2201750000000002
+          ],
+          [
+            9.8938509360776,
+            3.31345
+          ],
+          [
+            9.886833334246504,
+            3.406725
+          ],
+          [
+            9.8845,
+            3.5
+          ],
+          [
+            9.886833334246504,
+            3.593275
+          ],
+          [
+            9.8938509360776,
+            3.68655
+          ],
+          [
+            9.905606273222824,
+            3.779825
+          ],
+          [
+            9.922190753935192,
+            3.8731
+          ],
+          [
+            9.943737391912515,
+            3.966375
+          ],
+          [
+            9.970426419756688,
+            4.0596499999999995
+          ],
+          [
+            10.002493435098168,
+            4.152925
+          ],
+          [
+            10.040241008211975,
+            4.2462
+          ],
+          [
+            10.084055230694906,
+            4.339475
+          ],
+          [
+            10.13442960924013,
+            4.43275
+          ],
+          [
+            10.19200033717109,
+            4.526025000000001
+          ],
+          [
+            10.2576,
+            4.619300000000001
+          ],
+          [
+            10.332342735575697,
+            4.712575
+          ],
+          [
+            10.417766526655331,
+            4.80585
+          ],
+          [
+            10.516087732302251,
+            4.899125000000001
+          ],
+          [
+            10.6216,
+            4.9924
+          ],
+          [
+            10.6216,
+            5.085675
+          ],
+          [
+            10.6216,
+            5.17895
+          ],
+          [
+            10.6216,
+            5.272225000000001
+          ],
+          [
+            10.6216,
+            5.365500000000001
+          ],
+          [
+            10.6216,
+            6.61
+          ],
+          [
+            10.6216,
+            7.0
+          ],
+          [
+            8.89,
+            7.0
+          ],
+          [
+            8.5,
+            6.61
+          ],
+          [
+            8.5,
+            0.39
+          ],
+          [
+            8.89,
+            0
+          ],
+          [
+            10.6216,
+            0.0
+          ]
+        ]
+      },
+      {
+        "name": "ball_row_1_1",
+        "shape": "sphere",
+        "radius_mm": 1.8200000000000003,
+        "centre_mm": [
+          11.75,
+          0.0,
+          3.5
+        ]
+      },
+      {
+        "name": "ball_row_1_2",
+        "shape": "sphere",
+        "radius_mm": 1.8200000000000003,
+        "centre_mm": [
+          10.586384197853425,
+          5.098133934631308,
+          3.5
+        ]
+      },
+      {
+        "name": "ball_row_1_3",
+        "shape": "sphere",
+        "radius_mm": 1.8200000000000003,
+        "centre_mm": [
+          7.326005171840119,
+          9.18651991899935,
+          3.5
+        ]
+      },
+      {
+        "name": "ball_row_1_4",
+        "shape": "sphere",
+        "radius_mm": 1.8200000000000003,
+        "centre_mm": [
+          2.614620973986695,
+          11.455402968136427,
+          3.5
+        ]
+      },
+      {
+        "name": "ball_row_1_5",
+        "shape": "sphere",
+        "radius_mm": 1.8200000000000003,
+        "centre_mm": [
+          -2.6146209739866935,
+          11.455402968136427,
+          3.5
+        ]
+      },
+      {
+        "name": "ball_row_1_6",
+        "shape": "sphere",
+        "radius_mm": 1.8200000000000003,
+        "centre_mm": [
+          -7.3260051718401185,
+          9.186519918999352,
+          3.5
+        ]
+      },
+      {
+        "name": "ball_row_1_7",
+        "shape": "sphere",
+        "radius_mm": 1.8200000000000003,
+        "centre_mm": [
+          -10.586384197853423,
+          5.098133934631309,
+          3.5
+        ]
+      },
+      {
+        "name": "ball_row_1_8",
+        "shape": "sphere",
+        "radius_mm": 1.8200000000000003,
+        "centre_mm": [
+          -11.75,
+          1.43895998899814e-15,
+          3.5
+        ]
+      },
+      {
+        "name": "ball_row_1_9",
+        "shape": "sphere",
+        "radius_mm": 1.8200000000000003,
+        "centre_mm": [
+          -10.586384197853425,
+          -5.098133934631306,
+          3.5
+        ]
+      },
+      {
+        "name": "ball_row_1_10",
+        "shape": "sphere",
+        "radius_mm": 1.8200000000000003,
+        "centre_mm": [
+          -7.326005171840121,
+          -9.186519918999348,
+          3.5
+        ]
+      },
+      {
+        "name": "ball_row_1_11",
+        "shape": "sphere",
+        "radius_mm": 1.8200000000000003,
+        "centre_mm": [
+          -2.6146209739866966,
+          -11.455402968136427,
+          3.5
+        ]
+      },
+      {
+        "name": "ball_row_1_12",
+        "shape": "sphere",
+        "radius_mm": 1.8200000000000003,
+        "centre_mm": [
+          2.614620973986682,
+          -11.45540296813643,
+          3.5
+        ]
+      },
+      {
+        "name": "ball_row_1_13",
+        "shape": "sphere",
+        "radius_mm": 1.8200000000000003,
+        "centre_mm": [
+          7.326005171840118,
+          -9.186519918999352,
+          3.5
+        ]
+      },
+      {
+        "name": "ball_row_1_14",
+        "shape": "sphere",
+        "radius_mm": 1.8200000000000003,
+        "centre_mm": [
+          10.586384197853427,
+          -5.098133934631301,
+          3.5
+        ]
+      }
+    ]
+  },
+  "modelling_note": "Nominal presentation model. Raceways, pitch circle, chamfers and retainer geometry are illustrative; ball count/diameter are illustrative unless individually sourced. Not a manufacturer reconstruction, load-rating model or manufacturing/tolerance certification. Unspecified closure is presented open. The mesh shows open races and balls; retainers, seals and exact contact surfaces are omitted.",
+  "dimension_authority": "local_catalogue_only",
+  "model_formats": [
+    "glb"
+  ],
+  "variants": {
+    "full": {
+      "angular_segments": 128,
+      "sphere_subdivisions": 3
+    },
+    "display": {
+      "angular_segments": 32,
+      "sphere_subdivisions": 2
+    }
+  },
+  "views": [
+    "isometric",
+    "front",
+    "back",
+    "left",
+    "right",
+    "top",
+    "bottom"
+  ],
+  "material": {
+    "name": "Illustrative polished bearing steel",
+    "base_colour_srgb": [
+      0.62,
+      0.65,
+      0.69
+    ],
+    "metallic": 1.0,
+    "roughness": 0.22,
+    "roughness_variation": 0.045,
+    "coat_weight": 0.02,
+    "coat_roughness": 0.28,
+    "microtexture_spacing_mm": 0.025,
+    "microtexture_height_um": 0.8,
+    "note": "Illustrative bearing steel; material grade and finish are not specified."
+  },
+  "studio": {
+    "engine": "cycles",
+    "device": "auto",
+    "seed": 7991,
+    "low_samples": 24,
+    "high_samples": 48,
+    "adaptive_threshold": 0.015,
+    "denoise": true,
+    "view_transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "exposure": 0.0,
+    "world_colour": [
+      0.78,
+      0.82,
+      0.9
+    ],
+    "world_strength": 0.35,
+    "floor_colour_srgb": [
+      0.93,
+      0.935,
+      0.94
+    ],
+    "floor_roughness": 0.55,
+    "framing_margin": 0.13,
+    "lights": [
+      {
+        "name": "Key softbox",
+        "position": [
+          -3,
+          -4,
+          6
+        ],
+        "power": 650.0,
+        "width": 4.0,
+        "height": 5.0,
+        "colour": [
+          1.0,
+          0.96,
+          0.9
+        ]
+      },
+      {
+        "name": "Fill softbox",
+        "position": [
+          4,
+          -1,
+          3
+        ],
+        "power": 330.0,
+        "width": 3.0,
+        "height": 4.0,
+        "colour": [
+          0.9,
+          0.95,
+          1.0
+        ]
+      },
+      {
+        "name": "Rim strip",
+        "position": [
+          1,
+          4,
+          4
+        ],
+        "power": 850.0,
+        "width": 1.2,
+        "height": 5.0,
+        "colour": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    ],
+    "poses": {
+      "isometric": {
+        "camera_eye": [
+          1,
+          -1,
+          1
+        ],
+        "projection": "orthographic",
+        "orientation": "principal axis Z up"
+      },
+      "product": {
+        "camera_eye": [
+          -6,
+          -10,
+          6
+        ],
+        "projection": "orthographic",
+        "orientation": "resting on lower face",
+        "yaw_degrees": -12.0,
+        "support": "Stable convex-hull support using actual mesh centre of mass.",
+        "resting_axis": "face"
+      }
+    }
+  },
+  "renders": {
+    "low": {
+      "file": "render_low.png",
+      "variant": "display",
+      "pixels": 512,
+      "view": "isometric"
+    },
+    "high": {
+      "file": "render_high.png",
+      "variant": "full",
+      "pixels": 2048,
+      "view": "isometric"
+    },
+    "product_low": {
+      "file": "render_product_low.png",
+      "variant": "display",
+      "pixels": 512,
+      "view": "product"
+    },
+    "product_high": {
+      "file": "render_product_high.png",
+      "variant": "full",
+      "pixels": 2048,
+      "view": "product"
+    }
+  }
+}

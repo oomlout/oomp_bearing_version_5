@@ -1,0 +1,25 @@
+Traceback (most recent call last):
+  File "C:\od\OneDrive\docs\software_cad_mcp_helper\components\bearing_catalogue\batch.py", line 203, in main
+    else: result = build_item(root, entry, generator, version)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\od\OneDrive\docs\software_cad_mcp_helper\components\bearing_catalogue\batch.py", line 127, in build_item
+    template, master_manifest = master(root, entry, generator, version)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\od\OneDrive\docs\software_cad_mcp_helper\components\bearing_catalogue\batch.py", line 99, in master
+    author(client, spec)
+  File "C:\od\OneDrive\docs\software_cad_mcp_helper\components\bearing_catalogue\native.py", line 21, in author
+    revolve('inner_race', [['bore/2+edge', '-width/2'], ['inner_shoulder-edge', '-width/2'],
+  File "C:\od\OneDrive\docs\software_cad_mcp_helper\components\bearing_catalogue\native.py", line 16, in revolve
+    run('solid.revolve', sketch=name+'_section', axis='Z', angle='360 deg', operation='new',
+  File "C:\od\OneDrive\docs\software_cad_mcp_helper\components\bearing_catalogue\native.py", line 8, in run
+    def run(command, **params): return require_ok(client.execute(command, **params))
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\od\OneDrive\docs\software_cad_mcp_helper\components\mcp\working.py", line 156, in execute
+    return self.call("execute", {
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\od\OneDrive\docs\software_cad_mcp_helper\components\mcp\working.py", line 139, in call
+    result = self.request("tools/call", {
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\od\OneDrive\docs\software_cad_mcp_helper\components\mcp\working.py", line 125, in request
+    raise ConnectionError("MCP process disconnected; do not replay mutations")
+ConnectionError: MCP process disconnected; do not replay mutations

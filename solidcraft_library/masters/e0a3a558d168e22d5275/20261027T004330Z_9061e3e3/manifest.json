@@ -1,0 +1,87 @@
+{
+  "status": "passed",
+  "fingerprint": "e0a3a558d168e22d527561248dcdce88345716d4e74c09ec2274d326acff4a4d",
+  "spec": {
+    "family": "single_row_deep_groove",
+    "closure": "open",
+    "ball_count": 15,
+    "parameters": {
+      "bore": 55.0,
+      "outside": 100.0,
+      "width": 21.0,
+      "edge": 1.26,
+      "pitch_radius": 38.75,
+      "ball_radius": 5.880000000000001,
+      "groove_radius": 6.027000000000001,
+      "inner_shoulder": 35.1044,
+      "outer_shoulder": 42.3956,
+      "cage_half_width": 3.234000000000001,
+      "cage_low": 5.586,
+      "cage_high": 6.7620000000000005,
+      "window_radius": 2.8224000000000005
+    },
+    "ball_specification": "illustrative"
+  },
+  "validation": {
+    "original": {
+      "status": "passed",
+      "scope": "native SolidCraft B-rep",
+      "body_count": 19,
+      "ball_count": 15,
+      "bounds_mm": {
+        "outside": 100.0,
+        "width": 21.0
+      },
+      "bore_mm": 55.0,
+      "ball_diameter_mm": 11.760000000000002,
+      "pitch_radius_mm": 38.75,
+      "volume_mm3": 84032.87992691784,
+      "checks": [
+        "healthy timeline and constrained sketches",
+        "separate positive-volume closed bodies",
+        "bearing envelope and width",
+        "bore and outside cylindrical surfaces",
+        "ball sizes, pitch circle and angular spacing",
+        "retainer separation and width"
+      ]
+    },
+    "width_edit": {
+      "before_mm": 21.0,
+      "after_mm": 21.21,
+      "saved_and_reopened": true,
+      "measurements": {
+        "status": "passed",
+        "scope": "native SolidCraft B-rep",
+        "body_count": 19,
+        "ball_count": 15,
+        "bounds_mm": {
+          "outside": 100.0,
+          "width": 21.21
+        },
+        "bore_mm": 55.0,
+        "ball_diameter_mm": 11.760000000000002,
+        "pitch_radius_mm": 38.75,
+        "volume_mm3": 84810.46631924667,
+        "checks": [
+          "healthy timeline and constrained sketches",
+          "separate positive-volume closed bodies",
+          "bearing envelope and width",
+          "bore and outside cylindrical surfaces",
+          "ball sizes, pitch circle and angular spacing",
+          "retainer separation and width"
+        ]
+      }
+    }
+  },
+  "backend": "solidcraft-cli 0.22.0",
+  "generator": {
+    "working.py": "baba87babd5b5ab6dcdd1db9c1c16c3ae2f74eb48874004713e9868fa6eb8c70",
+    "catalogue.py": "422e0584636bf4992d2905013cb43a87c75ac3d659e8ad929341652264e00935",
+    "native.py": "c1ce30f13a77d47dd3e5bb88b909093334bee251f6ba6c72e83e8df781167d7a",
+    "batch.py": "20f0c083809448e6042cce27bc4b38263be607966110af060e0b757caee66489"
+  },
+  "artifacts": {
+    "parametric.solidcraft": "aa54d2a717ae808c40f197bfd44861c292801747884c02e37b2f3838aad8e206",
+    "edited.solidcraft": "612ec9bd49753afa09db3f819b4c0252969b7763860bd199050a302d413d59cf"
+  }
+}

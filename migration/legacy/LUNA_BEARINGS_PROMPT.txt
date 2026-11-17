@@ -1,0 +1,35 @@
+Continue the high-quality bearing catalogue generation in:
+C:\od\OneDrive\docs\oomp_bearing
+
+Work directly in this chat, without spawning other agents, so I can monitor progress. Use the existing implementation and execute the batch; do not redesign working code unnecessarily.
+
+First read:
+1. C:\od\OneDrive\docs\oomp_bearing\SOLIDCRAFT_BEARINGS.md
+2. C:\od\OneDrive\docs\software_cad_mcp_helper\components\bearing_catalogue\notes.md
+3. Applicable repository instructions and the helper ARCHITECTURE.md if code changes are necessary.
+
+The base has already been tested on bearing 6700: an open 10 x 15 x 3 mm bearing with eleven sourced 1.588 mm balls, separate races and retainers, validated native/STL output, native reopening and a saved/reopened 3.00 -> 3.03 mm width edit. A repeat build reused its verified files. Do not rebuild it without a changed input or failed hash check.
+
+Use this Python:
+C:\od\OneDrive\docs\software_cad_mcp_helper\.venv\Scripts\python.exe
+
+The project-local launcher is:
+C:\od\OneDrive\docs\oomp_bearing\action_make_solidcraft_bearings.py
+
+Start by running the launcher without flags to refresh the plan, then inspect solidcraft_plan.json and solidcraft_progress.json. Summarize counts briefly. Read existing success pointers/checkpoints before generating. Run --build --size 6700 --manufacturer-only to confirm the installed pilot can be reused. Next test a few representative catalogue candidates through the existing CLI, including a miniature, a large thin bearing and a standard deep-groove bearing; inspect their previews and validation. Then run --build to process all supported remaining catalogue entries serially and resumably. Use --size, --filter or --limit to bound diagnostic runs. Do not regard passing preflight as a successful native build.
+
+At setup there were 339 identities: 277 candidates, 61 unsupported shapes and one known dimension conflict. Only the 6700 has been natively tested. Existing CSV/YAML dimensions may be used for nominal presentation models, but manifests must keep the local_catalogue_only label unless independently verified against a primary manufacturer source. Preserve the explicit distinction between catalogue dimensions, sourced ball specifications and illustrative internal geometry.
+
+6208 is deliberately blocked: existing CSV/YAML and part ID say width 15 mm; NSK specifies 18 mm. Investigate and document this discrepancy. Do not generate a 15 mm wide model labelled manufacturer-verified, silently place an 18 mm wide model under a 15 mm ID, or bypass the gate. Keep existing assets safe; if a proper metadata/ID migration is beyond this generation run, leave this one explicitly needs_review and continue the rest.
+
+Do not substitute single-row models for flanged F600 or double-row/angular-contact 5200/5300 bearings. Non-open closures are also outside this author's validated scope. Report them as unsupported, with reasons. Do not silently invent missing flange, row, contact-angle, seal or shield dimensions. This task is to finish supported entries using the robust base, not to invent new bearing families.
+
+The output for each item is parts/<part_id>/solidcraft/generations/<fingerprint>_<run>/, containing its named .solidcraft model, STL, preview and manifest. parts/<part_id>/solidcraft/latest_success.json points to the current verified generation. Reusable masters are under solidcraft_library/masters/. These are self-contained native assets from saved parametric masters. Keep ordinary project hardware defaults unchanged. No STEP is qualified by this workflow.
+
+Keep checkpoints and show regular concise progress: completed/total, succeeded/reused, failed, review-needed, current item and concrete blockers. Read solidcraft_progress.json while a long command runs; console progress and detailed logs are also available. A nonzero exit may mean the known needs_review row, so inspect per-item results rather than repeating the whole run blindly. Correct recoverable implementation failures, add meaningful regression tests if code changes, and rerun only what needs it. Never weaken geometry checks simply to pass a difficult item.
+
+Preserve user metadata, source files, labels, SCAD and Blender assets. Do not run legacy make-all, action/label/delete pipelines. Do not delete previous generations or commit/push. Before removing a stale build.lock, inspect its PID and any child CAD processes; never interrupt unrelated work. No further confirmation is needed for ordinary reversible generation within this scope.
+
+Known pre-existing test limitation: the label suite has 5 passes and 1 failure because source-only 6700 has no materialized parts/<id>/working.yaml. This existed before the native pilot. Do not misdiagnose it as a CAD failure or run the legacy materialization/label pipeline just to hide it. The helper's 105-test suite, including 11 new bearing tests, passed.
+
+Continue until all supported candidates are either verified successes or have concrete retained failure evidence after reasonable diagnosis. Finish with totals and locations, clearly separating CAD failures, dimension conflicts and unsupported families. Include the exact resume command and a few representative preview links. Do not claim that unsupported families or unbuilt candidates are complete.

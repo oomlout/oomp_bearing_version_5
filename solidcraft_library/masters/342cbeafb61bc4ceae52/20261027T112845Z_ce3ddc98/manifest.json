@@ -1,0 +1,96 @@
+{
+  "status": "passed",
+  "fingerprint": "342cbeafb61bc4ceae52563cbb1d39160a0ee4819b1319f44a4251b3ccff8e91",
+  "spec": {
+    "family": "double_row_angular_contact",
+    "closure": "open",
+    "ball_count": 34,
+    "balls_per_row": 17,
+    "row_count": 2,
+    "parameters": {
+      "bore": 60.0,
+      "outside": 110.0,
+      "width": 36.5,
+      "edge": 1.5,
+      "pitch_radius": 42.5,
+      "ball_radius": 5.475,
+      "groove_radius": 5.74875,
+      "inner_shoulder": 39.1055,
+      "outer_shoulder": 45.8945,
+      "cage_half_width": 3.01125,
+      "cage_low": 5.201249999999999,
+      "cage_high": 6.296249999999999,
+      "window_radius": 2.6279999999999997,
+      "contact_angle_deg": 25.0,
+      "contact_offset": 0.136875
+    },
+    "contact_angle_authority": "manufacturer_family",
+    "ball_specification": "illustrative"
+  },
+  "validation": {
+    "original": {
+      "status": "passed",
+      "scope": "native SolidCraft B-rep",
+      "body_count": 40,
+      "ball_count": 34,
+      "row_count": 2,
+      "bounds_mm": {
+        "outside": 110.0,
+        "envelope": 110.0,
+        "width": 36.5
+      },
+      "bore_mm": 60.0,
+      "ball_diameter_mm": 10.95,
+      "pitch_radius_mm": 42.5,
+      "volume_mm3": 188785.6173460817,
+      "checks": [
+        "healthy timeline and constrained sketches",
+        "separate positive-volume closed bodies",
+        "bearing envelope and width",
+        "bore and outside cylindrical surfaces",
+        "ball sizes, pitch circle and angular spacing",
+        "retainer separation and width"
+      ]
+    },
+    "width_edit": {
+      "before_mm": 36.5,
+      "after_mm": 36.865,
+      "saved_and_reopened": true,
+      "measurements": {
+        "status": "passed",
+        "scope": "native SolidCraft B-rep",
+        "body_count": 40,
+        "ball_count": 34,
+        "row_count": 2,
+        "bounds_mm": {
+          "outside": 110.0,
+          "envelope": 110.0,
+          "width": 36.865
+        },
+        "bore_mm": 60.0,
+        "ball_diameter_mm": 10.95,
+        "pitch_radius_mm": 42.5,
+        "volume_mm3": 190560.62354583823,
+        "checks": [
+          "healthy timeline and constrained sketches",
+          "separate positive-volume closed bodies",
+          "bearing envelope and width",
+          "bore and outside cylindrical surfaces",
+          "ball sizes, pitch circle and angular spacing",
+          "retainer separation and width"
+        ]
+      }
+    }
+  },
+  "backend": "solidcraft-cli 0.22.0",
+  "generator": {
+    "working.py": "baba87babd5b5ab6dcdd1db9c1c16c3ae2f74eb48874004713e9868fa6eb8c70",
+    "catalogue.py": "a13d5ce416b24256b7a25a573bd1e89585fd6f639ba249e189e36e8e43cbba6a",
+    "native.py": "fdac81b535f7aa45313fb52743269616ba230eb7d01fd69fab142f636894d933",
+    "batch.py": "b7a110c0a8500f7d87fb5cf5878aa94dea2969a79c8a255e671d4e88831043eb"
+  },
+  "artifacts": {
+    "parametric.solidcraft": "6d46f60be6fa67f62426fbf322c00c11c3885431cff11c1738a5fadc135fe47a",
+    "edited.solidcraft": "1462ef4f33eebd548c9c414399307d446a4368d8c2fa94a581312a936d52e366"
+  }
+}

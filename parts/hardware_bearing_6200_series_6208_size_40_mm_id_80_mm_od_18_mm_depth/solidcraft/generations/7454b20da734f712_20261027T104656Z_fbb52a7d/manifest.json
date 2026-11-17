@@ -1,0 +1,161 @@
+{
+  "status": "passed",
+  "schema_version": 1,
+  "fingerprint": "7454b20da734f71220216e4ce14e2109c8a1fa5cbdd34408c88e0a608c1c7123",
+  "part_id": "hardware_bearing_6200_series_6208_size_40_mm_id_80_mm_od_18_mm_depth",
+  "spec": {
+    "family": "single_row_deep_groove",
+    "closure": "open",
+    "ball_count": 9,
+    "balls_per_row": 9,
+    "row_count": 1,
+    "parameters": {
+      "bore": 40.0,
+      "outside": 80.0,
+      "width": 18.0,
+      "edge": 1.08,
+      "pitch_radius": 30.0,
+      "ball_radius": 5.953,
+      "groove_radius": 6.101825000000001,
+      "inner_shoulder": 26.30914,
+      "outer_shoulder": 33.69086,
+      "cage_half_width": 3.2741500000000006,
+      "cage_low": 5.65535,
+      "cage_high": 6.84595,
+      "window_radius": 2.85744
+    },
+    "contact_angle_authority": "not_applicable",
+    "ball_specification": "manufacturer_sourced"
+  },
+  "units": "mm",
+  "anchor": "axis Z, center at origin",
+  "sources": [
+    "https://www.nsk.com/in-en/engineering/6208-dgbb-sr.html"
+  ],
+  "dimension_authority": "manufacturer_checked",
+  "limitation": "Nominal presentation model. Raceways, pitch circle, chamfers and retainer geometry are illustrative; ball count/diameter are illustrative unless individually sourced. Not a manufacturer reconstruction, load-rating model or manufacturing/tolerance certification. Unspecified closure is presented open.",
+  "backend": "solidcraft-cli 0.22.0",
+  "generator": {
+    "working.py": "baba87babd5b5ab6dcdd1db9c1c16c3ae2f74eb48874004713e9868fa6eb8c70",
+    "catalogue.py": "a13d5ce416b24256b7a25a573bd1e89585fd6f639ba249e189e36e8e43cbba6a",
+    "native.py": "fdac81b535f7aa45313fb52743269616ba230eb7d01fd69fab142f636894d933",
+    "batch.py": "b7a110c0a8500f7d87fb5cf5878aa94dea2969a79c8a255e671d4e88831043eb"
+  },
+  "input_hashes": {
+    "parts_source\\hardware_bearing_6200_series_6208_size_40_mm_id_80_mm_od_18_mm_depth\\working.yaml": "5ece9030c133670f17daae3934c08382a8ad08a8680ce5c8e3dcfe94c35eba77",
+    "parts\\hardware_bearing_6200_series_6208_size_40_mm_id_80_mm_od_18_mm_depth\\working.yaml": "3988b2d6afc1f1b2a1a5a8517a055402286baca2ccbe8ef5204fd708c94b4920",
+    "source_file\\dimension\\oomp_bearing_sizes.csv": "c9c084d7b6e869f912770cbdebd232eb92f43813e80344152dfd366067ccf767",
+    "source_file\\solidcraft\\bearing_facts.json": "231259bb30e68adf6c82d1ed7928695ec22dcbff2795607a3406ecc8be13f061"
+  },
+  "delivery_format": "SolidCraft native",
+  "template": "solidcraft_library\\masters\\22decafca7feb3f55f64\\20261027T104629Z_748a45ff\\parametric.solidcraft",
+  "template_sha256": "c100abe80107f55205fe675db84e377bdb3d229ef565ae31b625feea1ab6fe06",
+  "master_validation": {
+    "original": {
+      "status": "passed",
+      "scope": "native SolidCraft B-rep",
+      "body_count": 13,
+      "ball_count": 9,
+      "row_count": 1,
+      "bounds_mm": {
+        "outside": 80.0,
+        "envelope": 80.0,
+        "width": 18.0
+      },
+      "bore_mm": 40.0,
+      "ball_diameter_mm": 11.906,
+      "pitch_radius_mm": 30.0,
+      "volume_mm3": 46105.34606993342,
+      "checks": [
+        "healthy timeline and constrained sketches",
+        "separate positive-volume closed bodies",
+        "bearing envelope and width",
+        "bore and outside cylindrical surfaces",
+        "ball sizes, pitch circle and angular spacing",
+        "retainer separation and width"
+      ]
+    },
+    "width_edit": {
+      "before_mm": 18.0,
+      "after_mm": 18.18,
+      "saved_and_reopened": true,
+      "measurements": {
+        "status": "passed",
+        "scope": "native SolidCraft B-rep",
+        "body_count": 13,
+        "ball_count": 9,
+        "row_count": 1,
+        "bounds_mm": {
+          "outside": 80.0,
+          "envelope": 80.0,
+          "width": 18.18
+        },
+        "bore_mm": 40.0,
+        "ball_diameter_mm": 11.906,
+        "pitch_radius_mm": 30.0,
+        "volume_mm3": 46533.454951342064,
+        "checks": [
+          "healthy timeline and constrained sketches",
+          "separate positive-volume closed bodies",
+          "bearing envelope and width",
+          "bore and outside cylindrical surfaces",
+          "ball sizes, pitch circle and angular spacing",
+          "retainer separation and width"
+        ]
+      }
+    }
+  },
+  "validation": {
+    "generated": {
+      "status": "passed",
+      "scope": "native SolidCraft B-rep",
+      "body_count": 13,
+      "ball_count": 9,
+      "row_count": 1,
+      "bounds_mm": {
+        "outside": 80.0,
+        "envelope": 80.0,
+        "width": 18.0
+      },
+      "bore_mm": 40.0,
+      "ball_diameter_mm": 11.906,
+      "pitch_radius_mm": 30.0,
+      "volume_mm3": 46105.34606993342,
+      "checks": [
+        "healthy timeline and constrained sketches",
+        "separate positive-volume closed bodies",
+        "bearing envelope and width",
+        "bore and outside cylindrical surfaces",
+        "ball sizes, pitch circle and angular spacing",
+        "retainer separation and width"
+      ]
+    },
+    "reopened": {
+      "status": "passed",
+      "scope": "native SolidCraft B-rep",
+      "body_count": 13,
+      "ball_count": 9,
+      "row_count": 1,
+      "bounds_mm": {
+        "outside": 80.0,
+        "envelope": 80.0,
+        "width": 18.0
+      },
+      "bore_mm": 40.0,
+      "ball_diameter_mm": 11.906,
+      "pitch_radius_mm": 30.0,
+      "volume_mm3": 46105.34606993342,
+      "checks": [
+        "healthy timeline and constrained sketches",
+        "separate positive-volume closed bodies",
+        "bearing envelope and width",
+        "bore and outside cylindrical surfaces",
+        "ball sizes, pitch circle and angular spacing",
+        "retainer separation and width"
+      ]
+    }
+  },
+  "artifacts": {
+    "bearing_6208_open.solidcraft": "62ceb24fc02cde8686495f875c2945fa742541ed60c0041a4b629507919f93ad"
+  }
+}

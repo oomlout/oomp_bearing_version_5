@@ -1,0 +1,73 @@
+{
+  "filter": "_608_size_",
+  "parts": 1,
+  "passed": 1,
+  "failures": [],
+  "checks": [
+    "source/part recipe equality",
+    "recipe/artifact equality",
+    "artifact hashes",
+    "STL topology, bore and envelope",
+    "GLB metre/Y-up dimensions",
+    "seven SVG views per quality",
+    "four nonblank renders at declared resolution",
+    "A4 and label PDF sizes/text",
+    "SCAD/STL compatibility",
+    "generated Markdown links"
+  ],
+  "results": [
+    {
+      "id": "hardware_bearing_600_series_608_size_8_mm_id_22_mm_od_7_mm_depth",
+      "status": "passed",
+      "family": "single_row_deep_groove",
+      "models": {
+        "full": {
+          "triangles": 35328,
+          "watertight": true,
+          "connected_solids": 10,
+          "volume_mm3": 1573.29003702518,
+          "bounds_mm": [
+            [
+              -11.0,
+              -11.0,
+              0.0
+            ],
+            [
+              11.0,
+              11.0,
+              7.0
+            ]
+          ],
+          "dimensions_mm": [
+            22.0,
+            22.0,
+            7.0
+          ]
+        },
+        "display": {
+          "triangles": 8832,
+          "watertight": true,
+          "connected_solids": 10,
+          "volume_mm3": 1558.965881596566,
+          "bounds_mm": [
+            [
+              -11.0,
+              -11.0,
+              0.0
+            ],
+            [
+              11.0,
+              11.0,
+              7.0
+            ]
+          ],
+          "dimensions_mm": [
+            22.0,
+            22.0,
+            7.0
+          ]
+        }
+      }
+    }
+  ]
+}
